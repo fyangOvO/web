@@ -1,0 +1,22 @@
+{
+  "name": "personal-site-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "个人网站 Node.js 后端：Express + JSON 文件存储",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "multer": "^2.3.0",
+    "nodemailer": "^10.0.0",
+    "undici": "^7.29.1"
+  }
+}

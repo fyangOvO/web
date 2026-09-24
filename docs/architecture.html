@@ -1,0 +1,111 @@
+<html style="margin:0;padding:0;">
+<div style="background-color:transparent;box-sizing:border-box;font-family:'Roboto','PingFang SC','Segoe UI',Arial,sans-serif;--accent:#8BC8EA;--text-color:#1A1B1C;--text-secondary:#6B7280;--card-color:#FFFFFF;--border-color:#E4E3DD;padding:4px;box-sizing:border-box;">
+
+  <!-- 标题 -->
+  <div style="display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin:8px 0 4px;">
+    <span style="font-size:17px;font-weight:600;color:var(--text-color);">个人网站全栈架构</span>
+    <span style="font-size:12px;color:var(--text-secondary);">Vue 3 前端 · Node.js 后端 · JSON 存储 · 隐藏后台管理</span>
+  </div>
+  <div style="height:3px;width:64px;background:linear-gradient(90deg,#8BC8EA,#A3D5E8);border-radius:2px;margin-bottom:18px;"></div>
+
+  <!-- ============ 第一层：前端 ============ -->
+  <div style="border:1px solid var(--border-color);border-radius:14px;background:#FFFFFF;padding:14px;box-sizing:border-box;">
+    <div style="display:flex;align-items:center;gap:8px;margin-bottom:10px;">
+      <span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#8BC8EA;"></span>
+      <span style="font-size:13px;font-weight:600;color:var(--text-color);">前端层 · Vue 3.5 + Vite 6（端口 5173）</span>
+    </div>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;">
+      <div style="flex:1 1 180px;min-width:0;border:1px solid var(--border-color);border-radius:10px;background:#FBFBFA;padding:10px;box-sizing:border-box;">
+        <div style="font-size:12px;font-weight:600;color:#3B82F6;margin-bottom:6px;">页面层 views/</div>
+        <div style="font-size:11.5px;color:var(--text-secondary);line-height:1.6;">首页 / 关于 / 项目 / 博客 / 文章详情 / 留言板 / 联系 / 隐私政策 / 后台管理</div>
+      </div>
+      <div style="flex:1 1 180px;min-width:0;border:1px solid var(--border-color);border-radius:10px;background:#FBFBFA;padding:10px;box-sizing:border-box;">
+        <div style="font-size:12px;font-weight:600;color:#3B82F6;margin-bottom:6px;">组件层 components/</div>
+        <div style="font-size:11.5px;color:var(--text-secondary);line-height:1.6;">ui 炫酷组件（极光背景 / Spotlight 卡片 / 渐变流光文字 / 打字机 / Bento）/ layout / admin 编辑器</div>
+      </div>
+      <div style="flex:1 1 180px;min-width:0;border:1px solid var(--border-color);border-radius:10px;background:#FBFBFA;padding:10px;box-sizing:border-box;">
+        <div style="font-size:12px;font-weight:600;color:#3B82F6;margin-bottom:6px;">基础设施</div>
+        <div style="font-size:11.5px;color:var(--text-secondary);line-height:1.6;">Vue Router（懒加载+SEO title）· axios 封装 · 暗亮主题 · 滚动渐入指令</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 箭头：浏览器 → 前端 → /api 代理 -->
+  <div style="display:flex;flex-direction:column;align-items:center;margin:6px 0;">
+    <div style="font-size:11px;color:var(--text-secondary);margin-bottom:2px;">浏览器访问 localhost:5173 → Vite 代理 /api → Node 3001</div>
+    <svg width="24" height="14" viewBox="0 0 24 14" aria-hidden="true">
+      <line x1="2" y1="4" x2="18" y2="4" stroke="#8BC8EA" stroke-width="2" stroke-linecap="round"/>
+      <polyline points="13,0 19,4 13,8" fill="none" stroke="#8BC8EA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </div>
+
+  <!-- ============ 第二层：后端 ============ -->
+  <div style="border:1px solid var(--border-color);border-radius:14px;background:#FFFFFF;padding:14px;box-sizing:border-box;">
+    <div style="display:flex;align-items:center;gap:8px;margin-bottom:10px;">
+      <span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#94D8C3;"></span>
+      <span style="font-size:13px;font-weight:600;color:var(--text-color);">后端层 · Node.js + Express 4（端口 3001）</span>
+    </div>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;">
+      <div style="flex:1 1 160px;min-width:0;border:1px solid var(--border-color);border-radius:10px;background:#FBFBFA;padding:10px;box-sizing:border-box;">
+        <div style="font-size:12px;font-weight:600;color:#0E9F6E;margin-bottom:6px;">公开 API</div>
+        <div style="font-size:11.5px;color:var(--text-secondary);line-height:1.6;">GET 资料/技能/项目/文章/留言 · POST 留言/联系</div>
+      </div>
+      <div style="flex:1 1 160px;min-width:0;border:1px solid var(--border-color);border-radius:10px;background:#FBFBFA;padding:10px;box-sizing:border-box;">
+        <div style="font-size:12px;font-weight:600;color:#0E9F6E;margin-bottom:6px;">后台管理 API（/admin）</div>
+        <div style="font-size:11.5px;color:var(--text-secondary);line-height:1.6;">登录（token 24h）· 文章/项目增删改 · 留言隐藏删除 · 联系已读 · 资料回写</div>
+      </div>
+      <div style="flex:1 1 160px;min-width:0;border:1px solid var(--border-color);border-radius:10px;background:#FBFBFA;padding:10px;box-sizing:border-box;">
+        <div style="font-size:12px;font-weight:600;color:#0E9F6E;margin-bottom:6px;">安全与校验 validate.js</div>
+        <div style="font-size:11.5px;color:var(--text-secondary);line-height:1.6;">字段校验 · 敏感词过滤 · honeypot 反垃圾 · 常量时间密码比较 · 错误分类 400/404/401</div>
+      </div>
+      <div style="flex:1 1 160px;min-width:0;border:1px solid var(--border-color);border-radius:10px;background:#FBFBFA;padding:10px;box-sizing:border-box;">
+        <div style="font-size:12px;font-weight:600;color:#0E9F6E;margin-bottom:6px;">存储层 store.js</div>
+        <div style="font-size:11.5px;color:var(--text-secondary);line-height:1.6;">读写 db.json（profile/skills/projects/posts/timeline/messages）· 修改即时生效</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 箭头：后端 → 存储 -->
+  <div style="display:flex;flex-direction:column;align-items:center;margin:6px 0;">
+    <svg width="24" height="14" viewBox="0 0 24 14" aria-hidden="true">
+      <line x1="2" y1="4" x2="18" y2="4" stroke="#94D8C3" stroke-width="2" stroke-linecap="round"/>
+      <polyline points="13,0 19,4 13,8" fill="none" stroke="#94D8C3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <div style="font-size:11px;color:var(--text-secondary);margin-top:2px;">Express 路由 → store.js → server/data/db.json（所有修改实时落盘）</div>
+  </div>
+
+  <!-- ============ 第三层：合规与体验 ============ -->
+  <div style="border:1px solid var(--border-color);border-radius:14px;background:#FFFFFF;padding:14px;box-sizing:border-box;">
+    <div style="display:flex;align-items:center;gap:8px;margin-bottom:10px;">
+      <span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#E1B98F;"></span>
+      <span style="font-size:13px;font-weight:600;color:var(--text-color);">合规与体验（对照《个人网页搭建事项与条例清单》）</span>
+    </div>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;">
+      <div style="flex:1 1 130px;min-width:0;border:1px solid var(--border-color);border-radius:10px;background:#FBFBFA;padding:10px;text-align:center;box-sizing:border-box;">
+        <div style="font-size:12px;font-weight:600;color:#B45309;">隐私政策页</div>
+        <div style="font-size:11px;color:var(--text-secondary);margin-top:4px;">7 段合规正文 + 页脚链接</div>
+      </div>
+      <div style="flex:1 1 130px;min-width:0;border:1px solid var(--border-color);border-radius:10px;background:#FBFBFA;padding:10px;text-align:center;box-sizing:border-box;">
+        <div style="font-size:12px;font-weight:600;color:#B45309;">SEO</div>
+        <div style="font-size:11px;color:var(--text-secondary);margin-top:4px;">每页 title + description + 语义化标签</div>
+      </div>
+      <div style="flex:1 1 130px;min-width:0;border:1px solid var(--border-color);border-radius:10px;background:#FBFBFA;padding:10px;text-align:center;box-sizing:border-box;">
+        <div style="font-size:12px;font-weight:600;color:#B45309;">暗亮双主题</div>
+        <div style="font-size:11px;color:var(--text-secondary);margin-top:4px;">localStorage 记忆 · 默认暗色 · 一键切换</div>
+      </div>
+      <div style="flex:1 1 130px;min-width:0;border:1px solid var(--border-color);border-radius:10px;background:#FBFBFA;padding:10px;text-align:center;box-sizing:border-box;">
+        <div style="font-size:12px;font-weight:600;color:#B45309;">响应式</div>
+        <div style="font-size:11px;color:var(--text-secondary);margin-top:4px;">三档断点 · 移动端菜单 · 弹性换行</div>
+      </div>
+      <div style="flex:1 1 130px;min-width:0;border:1px solid var(--border-color);border-radius:10px;background:#FBFBFA;padding:10px;text-align:center;box-sizing:border-box;">
+        <div style="font-size:12px;font-weight:600;color:#B45309;">ICP 备案占位</div>
+        <div style="font-size:11px;color:var(--text-secondary);margin-top:4px;">页脚占位，上线前替换真实备案号</div>
+      </div>
+    </div>
+  </div>
+
+  <div style="margin-top:14px;font-size:11px;color:var(--text-secondary);line-height:1.6;">
+    说明：图示为项目静态架构示意；后台管理入口 /admin 不在导航栏显示，直接输入 URL 访问，默认密码 admin123（建议以环境变量 ADMIN_PASSWORD 覆盖）。
+  </div>
+</div>
+</html>

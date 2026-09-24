@@ -1,0 +1,6431 @@
+{
+  "profile": {
+    "name": "柳絮",
+    "title": "前端开发工程师",
+    "location": "江苏 · 南京",
+    "email": "1126546831@qq.com",
+    "avatarText": "序",
+    "avatar": "/avatars/avatar.jpg",
+    "tagline": [
+      "用代码构建更美好的互联网",
+      "Vue 3 / TypeScript 深度实践者",
+      "热爱开源、写作与分享"
+    ],
+    "bio": [
+      "你好，我是柳絮，一名拥有 5 年经验的前端开发工程师，现居南京，专注 Vue 生态、前端工程化与高性能 Web 应用。",
+      "我喜欢把复杂的问题拆解成优雅的代码，也乐于通过博客和开源分享技术思考。这个站点是我的作品集、技术笔记与生活记录，欢迎交流。"
+    ],
+    "socials": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/yourname"
+      },
+      {
+        "name": "Gitee",
+        "url": "https://gitee.com/yourname"
+      },
+      {
+        "name": "掘金",
+        "url": "https://juejin.cn/user/yourname"
+      },
+      {
+        "name": "知乎",
+        "url": "https://www.zhihu.com/people/yourname"
+      }
+    ],
+    "stats": [
+      {
+        "label": "年开发经验",
+        "value": "5+"
+      },
+      {
+        "label": "完成项目",
+        "value": "30+"
+      },
+      {
+        "label": "技术文章",
+        "value": "20+"
+      }
+    ],
+    "hobbies": [
+      "搖滾音樂🤘"
+    ],
+    "info": [
+      {
+        "label": "姓名",
+        "value": "林一舟"
+      },
+      {
+        "label": "现居",
+        "value": "江苏 · 南京"
+      },
+      {
+        "label": "技术方向",
+        "value": "前端工程化 / 全栈"
+      },
+      {
+        "label": "邮箱",
+        "value": "hello@example.com"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "id": "fe",
+      "category": "前端开发",
+      "icon": "code",
+      "desc": "构建高性能、可维护的现代 Web 应用",
+      "items": [
+        "Vue 3",
+        "TypeScript",
+        "Vite",
+        "Tailwind CSS",
+        "Pinia",
+        "Nuxt 3"
+      ]
+    },
+    {
+      "id": "eng",
+      "category": "工程化与协作",
+      "icon": "layers",
+      "desc": "保障代码质量与交付效率",
+      "items": [
+        "Git Flow",
+        "ESLint",
+        "CI/CD",
+        "Docker",
+        "Jest",
+        "Monorepo"
+      ]
+    },
+    {
+      "id": "be",
+      "category": "后端与数据",
+      "icon": "server",
+      "desc": "全栈能力，打通前后端链路",
+      "items": [
+        "Node.js",
+        "Express",
+        "NestJS",
+        "MySQL",
+        "MongoDB",
+        "Redis"
+      ]
+    },
+    {
+      "id": "design",
+      "category": "设计工具",
+      "icon": "pen",
+      "desc": "从设计稿到像素级还原",
+      "items": [
+        "Figma",
+        "Sketch",
+        "蓝湖",
+        "Photoshop",
+        "Illustrator"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "vue-admin",
+      "title": "Vue3 企业级后台管理系统",
+      "desc": "基于 Vue 3 + TypeScript 的中后台解决方案，内置动态路由、RBAC 权限、主题换肤与数据表格，已支撑多个业务系统稳定落地。",
+      "tech": [
+        "Vue 3",
+        "TypeScript",
+        "Pinia",
+        "Element Plus",
+        "Vite"
+      ],
+      "tags": [
+        "全栈",
+        "中后台"
+      ],
+      "repo": "https://github.com/yourname/vue-admin",
+      "demo": "#",
+      "featured": true,
+      "gradient": "linear-gradient(135deg,#22c55e,#0ea5e9)",
+      "icon": "server"
+    },
+    {
+      "id": "blog-engine",
+      "title": "全栈博客引擎",
+      "desc": "前后端分离的个人博客系统：Node 提供 REST API，前端渲染结构化内容，支持标签检索、留言互动与暗色主题，也就是你正在看的这个站点。",
+      "tech": [
+        "Vue 3",
+        "Node.js",
+        "Express",
+        "Tailwind CSS"
+      ],
+      "tags": [
+        "全栈",
+        "博客"
+      ],
+      "repo": "https://github.com/yourname/blog-engine",
+      "demo": "#",
+      "featured": true,
+      "gradient": "linear-gradient(135deg,#06b6d4,#0ea5e9)",
+      "icon": "book"
+    },
+    {
+      "id": "ui-kit",
+      "title": "轻量 UI 组件库",
+      "desc": "自研 Vue 3 组件库，30+ 高频组件，Tree-shaking 友好、按需引入，配套 VitePress 文档站与 Vitest 单元测试，已发布至 npm。",
+      "tech": [
+        "Vue 3",
+        "TypeScript",
+        "Vitest",
+        "VitePress"
+      ],
+      "tags": [
+        "开源",
+        "组件库"
+      ],
+      "repo": "https://github.com/yourname/ui-kit",
+      "demo": "#",
+      "featured": true,
+      "gradient": "linear-gradient(135deg,#22c55e,#0ea5e9)",
+      "icon": "box"
+    },
+    {
+      "id": "data-screen",
+      "title": "数据可视化大屏",
+      "desc": "面向运营场景的实时数据大屏，基于 ECharts 实现 20+ 图表联动、WebSocket 轮询刷新与多端自适应缩放。",
+      "tech": [
+        "Vue 3",
+        "ECharts",
+        "WebSocket"
+      ],
+      "tags": [
+        "可视化"
+      ],
+      "repo": "https://github.com/yourname/data-screen",
+      "demo": "#",
+      "featured": false,
+      "gradient": "linear-gradient(135deg,#f59e0b,#ef4444)",
+      "icon": "chart"
+    },
+    {
+      "id": "lowcode-form",
+      "title": "低代码表单平台",
+      "desc": "拖拽式表单搭建工具，JSON Schema 驱动渲染，支持复杂校验、字段联动与自定义组件扩展，降低业务表单开发成本。",
+      "tech": [
+        "Vue 3",
+        "JSON Schema",
+        "Node.js"
+      ],
+      "tags": [
+        "低代码"
+      ],
+      "repo": "https://github.com/yourname/lowcode-form",
+      "demo": "#",
+      "featured": false,
+      "gradient": "linear-gradient(135deg,#14b8a6,#0ea5e9)",
+      "icon": "grid"
+    },
+    {
+      "id": "scaffold-cli",
+      "title": "前端脚手架 CLI",
+      "desc": "一键生成项目模板的命令行工具，内置多套技术栈模板与交互式配置，支持自动安装依赖并启动开发服务，发布至 npm 供团队使用。",
+      "tech": [
+        "Node.js",
+        "Commander",
+        "Inquirer"
+      ],
+      "tags": [
+        "开源",
+        "工具"
+      ],
+      "repo": "https://github.com/yourname/scaffold-cli",
+      "demo": "#",
+      "featured": false,
+      "gradient": "linear-gradient(135deg,#8b5cf6,#3b82f6)",
+      "icon": "terminal"
+    }
+  ],
+  "posts": [
+    {
+      "id": "p1",
+      "title": "从 0 到 1：用 Vue 3 + Vite 搭建个人网站",
+      "date": "2026-08-18",
+      "tags": [
+        "Vue 3",
+        "工程化",
+        "教程"
+      ],
+      "summary": "完整记录基于 Vue 3 + Vite + TypeScript 搭建个人网站的过程，覆盖工程初始化、路由组织、主题方案与常见坑点。",
+      "readMinutes": 8,
+      "blocks": [
+        {
+          "type": "p",
+          "content": "个人网站是技术从业者最好的线上名片。这篇文章记录我用 Vue 3 + Vite + TypeScript 从零搭建本站的过程，希望能给同样想建站的你一些参考。"
+        },
+        {
+          "type": "h2",
+          "content": "为什么选 Vue 3 + Vite"
+        },
+        {
+          "type": "p",
+          "content": "Vue 3 的 Composition API 让逻辑复用变得干净；Vite 基于原生 ESM 的开发服务器冷启动极快，配合 esbuild 构建，体验远优于旧式打包工具。对个人站点这种中小型项目，Vue 3 + Vite 是性价比很高的组合。"
+        },
+        {
+          "type": "h2",
+          "content": "初始化项目"
+        },
+        {
+          "type": "code",
+          "lang": "bash",
+          "content": "npm create vite@latest my-site -- --template vue-ts\ncd my-site\nnpm install\nnpm run dev"
+        },
+        {
+          "type": "p",
+          "content": "模板自带 TypeScript 支持与严格模式，开箱即用。接下来我补充了三件事：路径别名、开发代理与按路由拆分的懒加载。"
+        },
+        {
+          "type": "h2",
+          "content": "关键工程配置"
+        },
+        {
+          "type": "list",
+          "items": [
+            "vite.config.ts 配置 @ 别名与 /api 开发代理，前端请求直接透传到本地 Node 服务",
+            "路由全部懒加载，首屏只加载首页需要的代码",
+            "用 Tailwind CSS v4 的 @theme 统一设计令牌，暗色/亮色双主题只需切换一个 class"
+          ]
+        },
+        {
+          "type": "h2",
+          "content": "小结"
+        },
+        {
+          "type": "p",
+          "content": "搭建一个个人网站并不复杂，真正花时间的是内容与设计细节。工程化带来的收益在于：后续加页面、加接口、换主题，都能保持有条不紊。"
+        },
+        {
+          "type": "tip",
+          "content": "建议把站点代码托管到 GitHub/Gitee 并开启自动部署，这样每次 push 代码，线上站点就会自动更新。"
+        }
+      ],
+      "category": "blog"
+    },
+    {
+      "id": "p2",
+      "title": "写一个轻量的 Node 后端：从 Express 到 JSON 存储",
+      "date": "2026-08-25",
+      "tags": [
+        "Node.js",
+        "后端",
+        "教程"
+      ],
+      "summary": "个人站点的后端不需要很重：Express 提供 REST API，JSON 文件做持久化，加上校验与敏感词过滤，就能支撑博客、留言板与联系表单。",
+      "readMinutes": 7,
+      "blocks": [
+        {
+          "type": "p",
+          "content": "很多个人网站的『后端』其实只需要做一件事：稳定地存数据、给数据。本文用一个最小可用的方案，讲清楚 Node 后端该有的骨架。"
+        },
+        {
+          "type": "h2",
+          "content": "目录与职责"
+        },
+        {
+          "type": "code",
+          "lang": "text",
+          "content": "server/\n├── src/\n│   ├── index.js      # Express 入口与路由\n│   ├── store.js      # JSON 文件读写\n│   └── validate.js   # 字段校验 + 敏感词过滤\n└── data/\n    └── db.json       # 数据文件"
+        },
+        {
+          "type": "h2",
+          "content": "读写分离的存储层"
+        },
+        {
+          "type": "p",
+          "content": "store.js 只暴露 readDb / saveDb 两个函数，路由层不直接操作文件系统。将来想换 SQLite 或 MySQL，只需要替换这一层，接口签名保持不变。"
+        },
+        {
+          "type": "h2",
+          "content": "UGC 必须过三道闸"
+        },
+        {
+          "type": "list",
+          "items": [
+            "字段校验：昵称长度、邮箱格式、内容长度，不合法直接 400",
+            "敏感词过滤：命中词库的词替换为 *，演示级词库放在 validate.js",
+            "honeypot：表单里藏一个人类不会填的隐藏字段，被填了就当机器人，静默拒绝"
+          ]
+        },
+        {
+          "type": "h2",
+          "content": "小结"
+        },
+        {
+          "type": "p",
+          "content": "Node 后端没有想象中复杂。先把『能存、能查、能拦垃圾』跑通，再按需引入数据库、邮件服务、登录鉴权，每一步都有清晰的演进路径。"
+        },
+        {
+          "type": "tip",
+          "content": "上线前记得把 API 密钥这类敏感信息放到环境变量里，绝不写进源码仓库。"
+        }
+      ],
+      "category": "blog"
+    },
+    {
+      "id": "p3",
+      "title": "个人网站部署避坑指南：备案、HTTPS 与域名",
+      "date": "2026-09-01",
+      "tags": [
+        "部署",
+        "运维",
+        "合规"
+      ],
+      "summary": "从选部署平台、决定是否备案，到配置 HTTPS 与监控，一篇讲清个人网站从本地到上线的完整路径与常见坑。",
+      "readMinutes": 9,
+      "blocks": [
+        {
+          "type": "p",
+          "content": "代码写完了，上线才是开始。部署环节的坑往往不在技术，而在『规则』：域名、备案、证书、隐私政策，每一项都可能让站点卡住。"
+        },
+        {
+          "type": "h2",
+          "content": "先定部署形态"
+        },
+        {
+          "type": "list",
+          "items": [
+            "纯静态（无后端）：GitHub Pages / Gitee Pages / Cloudflare Pages，免费且免备案",
+            "有后端（本站方案）：前端部署到静态平台，Node 服务部署到 Render / Fly.io / 云服务器",
+            "国内服务器：必须完成 ICP 备案，否则域名无法解析"
+          ]
+        },
+        {
+          "type": "h2",
+          "content": "备案的边界"
+        },
+        {
+          "type": "p",
+          "content": "这是最容易踩的坑：域名解析到国内主机（阿里云、腾讯云等）就必须 ICP 备案；如果站点托管在境外平台，目前不需要备案。公安备案在 ICP 备案完成后 30 天内办理，网站底部要展示备案号。"
+        },
+        {
+          "type": "h2",
+          "content": "HTTPS 与安全头"
+        },
+        {
+          "type": "code",
+          "lang": "text",
+          "content": "# Nginx 推荐配置要点\nlisten 443 ssl http2;\nssl_certificate     /etc/letsencrypt/live/example.com/fullchain.pem;\nssl_certificate_key /etc/letsencrypt/live/example.com/privkey.pem;\nadd_header Strict-Transport-Security \"max-age=31536000\";"
+        },
+        {
+          "type": "p",
+          "content": "Let's Encrypt 证书免费且可自动续期；HTTP 全部 301 跳转到 HTTPS，并开启 HSTS 防止降级攻击。表单类页面建议再加 CSP 与 CSRF 防护。"
+        },
+        {
+          "type": "h2",
+          "content": "上线前最后检查"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Lighthouse 性能与 SEO 均达到 90 分以上",
+            "移动端真机实测，不只是 DevTools 缩放",
+            "隐私政策与 Cookie 横幅已上线",
+            "所有字体、图片、图标均有合法授权",
+            "源码已推送到 Git 仓库，监控告警与备份就位"
+          ]
+        },
+        {
+          "type": "tip",
+          "content": "域名提前注册 3-5 年并开启自动续费，避免到期忘记续费被抢注。"
+        }
+      ],
+      "category": "blog"
+    },
+    {
+      "id": "p4",
+      "title": "把 UI 做得炫酷的 5 个 CSS 技巧",
+      "date": "2026-09-05",
+      "tags": [
+        "CSS",
+        "设计",
+        "前端"
+      ],
+      "summary": "渐变文字、毛玻璃、极光背景、Spotlight 悬停、打字机效果——5 个低成本高回报的 CSS 技巧，让页面立刻高级起来。",
+      "readMinutes": 6,
+      "blocks": [
+        {
+          "type": "p",
+          "content": "『大气、有章法』不等于堆砌特效。下面 5 个技巧成本极低、效果立竿见影，本站首页全部用到了。"
+        },
+        {
+          "type": "h2",
+          "content": "1. 渐变文字"
+        },
+        {
+          "type": "code",
+          "lang": "css",
+          "content": ".text-gradient {\n  background: linear-gradient(92deg, #06b6d4, #3b82f6);\n  -webkit-background-clip: text;\n  background-clip: text;\n  color: transparent;\n}"
+        },
+        {
+          "type": "h2",
+          "content": "2. 毛玻璃（Glassmorphism）"
+        },
+        {
+          "type": "p",
+          "content": "backdrop-filter 加上半透明背景与细边框，导航栏、卡片立刻有层次感。注意在低端设备上 blur 有性能开销，不要大范围使用。"
+        },
+        {
+          "type": "h2",
+          "content": "3. 极光背景"
+        },
+        {
+          "type": "p",
+          "content": "两三团高模糊度、低透明度的渐变色块，加上缓慢的位移动画，就是很自然的『呼吸感』背景。性能上比视频背景好太多。"
+        },
+        {
+          "type": "h2",
+          "content": "4. Spotlight 悬停光晕"
+        },
+        {
+          "type": "p",
+          "content": "监听 mousemove，把光标位置写入 CSS 变量，再渲染一个跟随光标的径向渐变。一个小函数就能让整组卡片『活』起来。"
+        },
+        {
+          "type": "h2",
+          "content": "5. 打字机效果"
+        },
+        {
+          "type": "p",
+          "content": "循环播放几句话的『打字 - 删除』动画，适合放在 Hero 区作为副标题。核心就是一个 setInterval 控制字符下标，注意在组件卸载时清理定时器。"
+        },
+        {
+          "type": "tip",
+          "content": "动效的克制比动效本身更重要：同一屏最多一两个重点动效，其余保持安静，页面才『有章法』。"
+        }
+      ],
+      "category": "blog"
+    },
+    {
+      "id": "p5",
+      "category": "essay",
+      "title": "南京的秋天，从一杯手冲开始",
+      "date": "2026-09-03",
+      "tags": [
+        "随笔",
+        "南京",
+        "咖啡"
+      ],
+      "summary": "九月一到，南京的风就有了秋天的味道。坐在窗边喝完一杯手冲，是我秋天仪式感的开始。",
+      "readMinutes": 4,
+      "blocks": [
+        {
+          "type": "p",
+          "content": "九月一到，南京的风就有了秋天的味道。不再是黏腻的湿热，而是干爽的、带着梧桐叶气息的风。"
+        },
+        {
+          "type": "p",
+          "content": "周六下午，我照例冲了一杯耶加雪菲。热水注入的瞬间，房间里弥漫开柑橘调的香气，那一刻觉得，秋天的仪式感真的可以从一杯咖啡开始。"
+        },
+        {
+          "type": "h2",
+          "content": "关于咖啡的一些执念"
+        },
+        {
+          "type": "p",
+          "content": "有人说手冲是玄学，我倒觉得它更像一种慢下来的训练：称豆、磨粉、控温、注水，每一步都有章法，急躁不得。写代码久了，反而需要这种「急不来」的时刻。"
+        },
+        {
+          "type": "quote",
+          "content": "咖啡教会我的不是冲泡技巧，而是等待——等水烧开，等香气出来，等自己静下来。"
+        },
+        {
+          "type": "tip",
+          "content": "南京适合喝咖啡的季节很短，秋天刚好。挑个下午去颐和路附近的小店坐坐，人少、风轻、梧桐好看。"
+        }
+      ]
+    },
+    {
+      "id": "p6",
+      "category": "essay",
+      "title": "写代码十年，我反而更爱写代码了",
+      "date": "2026-08-27",
+      "tags": [
+        "随笔",
+        "思考"
+      ],
+      "summary": "很多人说程序员会倦怠，但我刚好相反。这篇随笔聊聊为什么写了十年，热情反而更多了。",
+      "readMinutes": 5,
+      "blocks": [
+        {
+          "type": "p",
+          "content": "前两天整理旧电脑，翻到大学时候写的第一段 PHP 留言板代码。语法粗糙，注释中二，但那种「做出一个能跑的东西」的快乐，隔着屏幕都能感受到。"
+        },
+        {
+          "type": "p",
+          "content": "十年过去，我反而更爱写代码了。原因大概有三个："
+        },
+        {
+          "type": "list",
+          "items": [
+            "终于理解了「少即是多」——删代码比写代码更需要功力",
+            "从「完成任务」变成「设计系统」，视角完全不同",
+            "工具越来越好，Vue 3 + Vite 的开发体验是十年前的我不敢想的"
+          ]
+        },
+        {
+          "type": "p",
+          "content": "当然也有倦怠的时刻。但每次觉得累，我就去做点「小而美」的东西：一个小组件、一个小脚本、一篇博客。创造带来的正反馈，是最好的解药。"
+        },
+        {
+          "type": "quote",
+          "content": "写代码的快乐从来不是「写」本身，而是「做出来、跑起来、被人用上」的瞬间。"
+        }
+      ]
+    },
+    {
+      "id": "p7",
+      "category": "essay",
+      "title": "深夜的南京西站",
+      "date": "2026-08-15",
+      "tags": [
+        "随笔",
+        "生活"
+      ],
+      "summary": "一个加班后的深夜，我骑车路过已经停运多年的南京西站，铁轨在路灯下发着光。",
+      "readMinutes": 3,
+      "blocks": [
+        {
+          "type": "p",
+          "content": "加完班已经十一点多，南京的夏夜还是闷热。我骑车沿着中山北路往家走，鬼使神差拐进了南京西站那片旧铁轨。"
+        },
+        {
+          "type": "p",
+          "content": "站房早已停运，铁轨在路灯下发着细碎的光。风从长江边吹过来，带着一点水汽，把一天的疲惫吹散了大半。"
+        },
+        {
+          "type": "h2",
+          "content": "城市的记忆"
+        },
+        {
+          "type": "p",
+          "content": "这座城市每天都在变：新的地铁开通、新的商场开业、新的楼盘拔地而起。但总有些角落，固执地保留着旧时光的痕迹，像一个个坐标，提醒我们走过的路。"
+        },
+        {
+          "type": "p",
+          "content": "我在铁轨边站了一会儿，拍了张照，然后骑车回家。第二天醒来，又是新的一天。"
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "period": "2021 - 至今",
+      "role": "高级前端开发工程师",
+      "org": "某互联网科技公司",
+      "desc": "负责核心业务前端架构与工程化建设，主导 Vue 2 到 Vue 3 的迁移，带领 4 人前端小组，沉淀中后台组件库与代码规范。"
+    },
+    {
+      "period": "2019 - 2021",
+      "role": "前端开发工程师",
+      "org": "某创业公司",
+      "desc": "从 0 搭建电商中台系统与运营活动页，支撑日活 10w+ 的活动页面，积累了大量的性能优化与可视化实践。"
+    },
+    {
+      "period": "2015 - 2019",
+      "role": "本科 · 计算机科学与技术",
+      "org": "某大学",
+      "desc": "系统学习数据结构、操作系统与计算机网络，连续两年获得校奖学金，毕业设计获院级优秀。"
+    }
+  ],
+  "messages": [
+    {
+      "id": "m-seed-3",
+      "name": "Jane",
+      "content": "页面很好看，暗色模式很舒服，动效克制不花哨，加油！",
+      "date": "2026-09-01",
+      "visible": true
+    },
+    {
+      "id": "m-seed-2",
+      "name": "阿哲",
+      "content": "同是 Vue 开发者，学习了！期待更多工程化实践的文章。",
+      "date": "2026-08-25",
+      "visible": true
+    },
+    {
+      "id": "m-seed-1",
+      "name": "小明",
+      "content": "博主你好，留言板这个功能很赞，请问用的什么方案？",
+      "date": "2026-08-20",
+      "visible": true
+    }
+  ],
+  "contactMessages": [],
+  "notes": [
+    {
+      "id": "n1",
+      "title": "用 Vue 3 打造个人网站的 8 个细节",
+      "content": "从极光背景到 Bento 网格，从打字机到 Spotlight 卡片——这些细节让个人网站真正「大气有章法」。附完整实现思路和踩坑记录。",
+      "images": [
+        "/uploads/note-1.svg"
+      ],
+      "tags": [
+        "前端",
+        "Vue3"
+      ],
+      "author": "林一舟",
+      "likes": 12,
+      "date": "2026-09-06",
+      "visible": true
+    },
+    {
+      "id": "n2",
+      "title": "南京秋日 · 梧桐大道散步指南",
+      "content": "秋天到了，梧桐叶子开始泛黄。推荐几条南京适合散步的路：颐和路、陵园路、北京西路……下午四点光线最好。",
+      "images": [
+        "/uploads/note-2.svg"
+      ],
+      "tags": [
+        "生活",
+        "南京"
+      ],
+      "author": "林一舟",
+      "likes": 23,
+      "date": "2026-09-04",
+      "visible": true
+    },
+    {
+      "id": "n3",
+      "title": "手冲咖啡入门装备清单",
+      "content": "从 V60 滤杯到手冲壶，从磨豆机到电子秤，500 元内能配齐一套不错的入门装备。新手避坑指南看这篇就够了。",
+      "images": [
+        "/uploads/note-3.svg"
+      ],
+      "tags": [
+        "生活",
+        "咖啡"
+      ],
+      "author": "林一舟",
+      "likes": 9,
+      "date": "2026-09-02",
+      "visible": true
+    },
+    {
+      "id": "n4",
+      "title": "深夜写代码的一些小习惯",
+      "content": "睡前 review 今天的 diff、写一条明日 TODO、把临时调试代码清理干净。坚持三个月，代码质量和睡眠质量一起变好。",
+      "images": [
+        "/uploads/note-4.svg"
+      ],
+      "tags": [
+        "随笔",
+        "效率"
+      ],
+      "author": "林一舟",
+      "likes": 17,
+      "date": "2026-08-30",
+      "visible": true
+    },
+    {
+      "id": "nmtwqcsi2gp6o",
+      "title": "殺",
+      "content": "測試",
+      "images": [
+        "/api/uploads/mtwqcsgj-zs4wry.png"
+      ],
+      "tags": [],
+      "author": "林一舟",
+      "likes": 0,
+      "date": "2026-09-11",
+      "visible": true
+    },
+    {
+      "id": "nmtwr9f5qaevp",
+      "title": "測2",
+      "content": "",
+      "images": [
+        "/api/uploads/mtwr9f41-2fhj7u.png"
+      ],
+      "tags": [],
+      "author": "林一舟",
+      "likes": 0,
+      "date": "2026-09-11",
+      "visible": true
+    }
+  ],
+  "comments": [
+    {
+      "id": "cm1",
+      "noteId": "n2",
+      "name": "小鹿",
+      "content": "秋天去颐和路散步真的很治愈，感谢分享！",
+      "date": "2026-09-05T10:20:00.000Z",
+      "visible": true
+    },
+    {
+      "id": "cm2",
+      "noteId": "n2",
+      "name": "阿哲",
+      "content": "下午四点光线最好，记住了，周末就去。",
+      "date": "2026-09-06T08:15:00.000Z",
+      "visible": true
+    },
+    {
+      "id": "cm3",
+      "noteId": "n1",
+      "name": "Cindy",
+      "content": "Bento 网格那段讲得清楚，收藏了。",
+      "date": "2026-09-06T14:40:00.000Z",
+      "visible": true
+    },
+    {
+      "id": "cmmtqvuyjo0pfp",
+      "noteId": "n1",
+      "name": "測",
+      "content": "尺短寸長",
+      "date": "2026-09-07T06:52:10.980Z",
+      "visible": true
+    },
+    {
+      "id": "cmmtqvv6854pmo",
+      "noteId": "n2",
+      "name": "測定",
+      "content": "吃吃吃",
+      "date": "2026-09-07T06:52:20.933Z",
+      "visible": true
+    },
+    {
+      "id": "cmmtqvv8h8cm7h",
+      "noteId": "n2",
+      "name": "測定",
+      "content": "存儲",
+      "date": "2026-09-07T06:52:23.852Z",
+      "visible": true
+    }
+  ],
+  "friendLinks": [
+    {
+      "name": "十年之约",
+      "url": "https://www.foreverblog.cn",
+      "desc": "博客互访联盟",
+      "visible": true,
+      "id": "flseed1000"
+    },
+    {
+      "name": "开往-友链接力",
+      "url": "https://www.travellings.cn",
+      "desc": "博客链接接力",
+      "visible": true,
+      "id": "flseed1001"
+    },
+    {
+      "name": "更多",
+      "url": "https://www.foreverblog.cn/apply",
+      "desc": "友链申请入口",
+      "visible": true,
+      "id": "flseed1002"
+    }
+  ],
+  "siteStartDate": "2026-01-01",
+  "mailer": null,
+  "adminTokens": [
+    {
+      "token": "6e0565b41d8cc25f8298ef568ed8e75a0f27a188ae2e7f05",
+      "exp": 1790040000451
+    },
+    {
+      "token": "9dbfd2cfc5a2cbe1b68b820d3c33917a2e7e92dca6a04111",
+      "exp": 1790055909677
+    },
+    {
+      "token": "b54ddfa37cf8943c678c848c6b1129fa2a8ab0693f27a054",
+      "exp": 1790056023951
+    },
+    {
+      "token": "79ad4293bae54226d303d4316147fc841fad0a1d546c1363",
+      "exp": 1790056036724
+    },
+    {
+      "token": "34fb33e0d611e5e083f8368b3582ca341477e30fe6aeec56",
+      "exp": 1790056039428
+    },
+    {
+      "token": "e45613cd2ffc02a8b64fc27ef229d68bd5dac08f60fc992c",
+      "exp": 1790056042503
+    },
+    {
+      "token": "e0219e935113d5e999b228fbad63db28dae21a9fb5b0404f",
+      "exp": 1790056121528
+    },
+    {
+      "token": "fd63a66ef4e70036977cb89e26617fe35747cbc67872777d",
+      "exp": 1790056124004
+    },
+    {
+      "token": "7a0f6f8147bb5aceceb050710687261a3d59c303d16f8ff7",
+      "exp": 1790056126350
+    },
+    {
+      "token": "3b05cbe703be374249604ce35848e89aa4474ecff8fa7554",
+      "exp": 1790056245572
+    },
+    {
+      "token": "385236aa48bea1860c3c50bf5b52e2f9178ddf3ebf13dfc2",
+      "exp": 1790056248200
+    },
+    {
+      "token": "0516477f8a485698187fc86a63fec567b274d81e7e6b3959",
+      "exp": 1790056250670
+    },
+    {
+      "token": "855d5b61ec21d997752a444103d90f4ab085d16474133e2b",
+      "exp": 1790056340529
+    },
+    {
+      "token": "957dfbf8966533c027cb9c4b7ff643bfaef1f70aec4a8372",
+      "exp": 1790056385258
+    },
+    {
+      "token": "ee7ea04d73e2d17edbfb7505b5df3271f8ced41b9cae8ec9",
+      "exp": 1790057294495
+    },
+    {
+      "token": "283ddc4fc366c09efb9d13660f29283110597788de36e74a",
+      "exp": 1790057295123
+    }
+  ],
+  "navCategories": [
+    "前端开发",
+    "设计灵感",
+    "代码社区",
+    "效率工具",
+    "学习资源",
+    "视频娱乐",
+    "游戏"
+  ],
+  "navLinks": [
+    {
+      "category": "前端开发",
+      "name": "Vue.js",
+      "url": "https://cn.vuejs.org",
+      "desc": "渐进式 JavaScript 框架",
+      "id": "NLmttw8d7f_0",
+      "sort": 0,
+      "icon": "/uploads/mttxmhwc-baexco.png"
+    },
+    {
+      "category": "前端开发",
+      "name": "React",
+      "url": "https://react.dev",
+      "desc": "用于构建用户界面的库",
+      "id": "NLmttw8d7f_1",
+      "sort": 1
+    },
+    {
+      "category": "前端开发",
+      "name": "TypeScript",
+      "url": "https://www.typescriptlang.org",
+      "desc": "JavaScript 的超集",
+      "id": "NLmttw8d7f_2",
+      "sort": 2
+    },
+    {
+      "category": "前端开发",
+      "name": "MDN Web Docs",
+      "url": "https://developer.mozilla.org/zh-CN",
+      "desc": "Web 开发权威文档",
+      "id": "NLmttw8d7f_3",
+      "sort": 3
+    },
+    {
+      "category": "前端开发",
+      "name": "Can I Use",
+      "url": "https://caniuse.com",
+      "desc": "浏览器兼容性查询",
+      "id": "NLmttw8d7f_4",
+      "sort": 4
+    },
+    {
+      "category": "前端开发",
+      "name": "Tailwind CSS",
+      "url": "https://tailwindcss.com",
+      "desc": "原子化 CSS 框架",
+      "id": "NLmttw8d7f_5",
+      "sort": 5
+    },
+    {
+      "category": "设计灵感",
+      "name": "Dribbble",
+      "url": "https://dribbble.com",
+      "desc": "全球设计师作品集",
+      "id": "NLmttw8d7f_6",
+      "sort": 0
+    },
+    {
+      "category": "设计灵感",
+      "name": "Behance",
+      "url": "https://www.behance.net",
+      "desc": "Adobe 创意作品平台",
+      "id": "NLmttw8d7f_7",
+      "sort": 1
+    },
+    {
+      "category": "设计灵感",
+      "name": "站酷",
+      "url": "https://www.zcool.com.cn",
+      "desc": "中国设计师互动平台",
+      "id": "NLmttw8d7f_8",
+      "sort": 2
+    },
+    {
+      "category": "设计灵感",
+      "name": "花瓣网",
+      "url": "https://huaban.com",
+      "desc": "灵感采集与收藏",
+      "id": "NLmttw8d7f_9",
+      "sort": 3
+    },
+    {
+      "category": "设计灵感",
+      "name": "Awwwards",
+      "url": "https://www.awwwards.com",
+      "desc": "网站设计评选",
+      "id": "NLmttw8d7f_10",
+      "sort": 4
+    },
+    {
+      "category": "代码社区",
+      "name": "GitHub",
+      "url": "https://github.com",
+      "desc": "全球最大的代码托管平台",
+      "id": "NLmttw8d7f_11",
+      "sort": 0
+    },
+    {
+      "category": "代码社区",
+      "name": "Gitee",
+      "url": "https://gitee.com",
+      "desc": "国内代码托管与协作",
+      "id": "NLmttw8d7f_12",
+      "sort": 1
+    },
+    {
+      "category": "代码社区",
+      "name": "掘金",
+      "url": "https://juejin.cn",
+      "desc": "中文技术社区",
+      "id": "NLmttw8d7f_13",
+      "sort": 2
+    },
+    {
+      "category": "代码社区",
+      "name": "CSDN",
+      "url": "https://www.csdn.net",
+      "desc": "中文 IT 技术社区",
+      "id": "NLmttw8d7f_14",
+      "sort": 3
+    },
+    {
+      "category": "代码社区",
+      "name": "Stack Overflow",
+      "url": "https://stackoverflow.com",
+      "desc": "程序员问答社区",
+      "id": "NLmttw8d7f_15",
+      "sort": 4
+    },
+    {
+      "category": "代码社区",
+      "name": "V2EX",
+      "url": "https://www.v2ex.com",
+      "desc": "创意工作者社区",
+      "id": "NLmttw8d7f_16",
+      "sort": 5
+    },
+    {
+      "category": "效率工具",
+      "name": "语雀",
+      "url": "https://www.yuque.com",
+      "desc": "云端知识库",
+      "id": "NLmttw8d7f_17",
+      "sort": 0
+    },
+    {
+      "category": "效率工具",
+      "name": "Notion",
+      "url": "https://www.notion.so",
+      "desc": "一体化工作空间",
+      "id": "NLmttw8d7f_18",
+      "sort": 1
+    },
+    {
+      "category": "效率工具",
+      "name": "ProcessOn",
+      "url": "https://www.processon.com",
+      "desc": "在线流程图与思维导图",
+      "id": "NLmttw8d7f_19",
+      "sort": 2
+    },
+    {
+      "category": "效率工具",
+      "name": "Excalidraw",
+      "url": "https://excalidraw.com",
+      "desc": "手绘风白板协作",
+      "id": "NLmttw8d7f_20",
+      "sort": 3
+    },
+    {
+      "category": "学习资源",
+      "name": "菜鸟教程",
+      "url": "https://www.runoob.com",
+      "desc": "编程入门教程",
+      "id": "NLmttw8d7f_21",
+      "sort": 0
+    },
+    {
+      "category": "学习资源",
+      "name": "W3School",
+      "url": "https://www.w3school.com.cn",
+      "desc": "Web 基础教程",
+      "id": "NLmttw8d7f_22",
+      "sort": 1
+    },
+    {
+      "category": "学习资源",
+      "name": "freeCodeCamp",
+      "url": "https://www.freecodecamp.org",
+      "desc": "免费编程学习平台",
+      "id": "NLmttw8d7f_23",
+      "sort": 2
+    },
+    {
+      "category": "学习资源",
+      "name": "LeetCode",
+      "url": "https://leetcode.cn",
+      "desc": "算法刷题平台",
+      "id": "NLmttw8d7f_24",
+      "sort": 3
+    },
+    {
+      "category": "代码社区",
+      "name": "Home / Twitter",
+      "url": "https://twitter.com/home",
+      "desc": "Home / Twitter",
+      "id": "NLmttw8d7f_25",
+      "sort": 6
+    },
+    {
+      "category": "代码社区",
+      "name": "TapTap | 发现好游戏",
+      "url": "https://www.taptap.com/",
+      "desc": "TapTap",
+      "id": "NLmttw8d7f_26",
+      "sort": 7
+    },
+    {
+      "category": "代码社区",
+      "name": "首页 - 知乎",
+      "url": "https://www.zhihu.com/",
+      "desc": "(4 封私信 / 55 条消息) 首页",
+      "id": "NLmttw8d7f_27",
+      "sort": 8
+    },
+    {
+      "category": "代码社区",
+      "name": "我的首页 微博-随时随地发现新鲜事",
+      "url": "https://weibo.com/u/5652733365/home?wvr=5",
+      "desc": "我的首页 微博",
+      "id": "NLmttw8d7f_28",
+      "sort": 9
+    },
+    {
+      "category": "代码社区",
+      "name": "CSDN - 专业开发者社区",
+      "url": "https://www.csdn.net/",
+      "desc": "(3条消息) CSDN",
+      "id": "NLmttw8d7f_29",
+      "sort": 10
+    },
+    {
+      "category": "代码社区",
+      "name": "网易邮箱6.0版",
+      "url": "https://mail.163.com/js6/main.jsp?sid=cBmWTOFGXRngmKyDNTGGEXSbdAhXsZTG&df=unknow#module=mbox.ListModule%7C%7B%22filter%22%3A%7B%22flags%22%3A%7B%22read%22%3Afalse%7D%7D%2C%22order%22%3A%22date%22%2C%22desc%22%3Atrue%2C%22fids%22%3A%5B1%2C3%5D%7D",
+      "desc": "(1封未读) 网易邮箱6.0版",
+      "id": "NLmttw8d7f_30",
+      "sort": 11
+    },
+    {
+      "category": "代码社区",
+      "name": "掘金 - 代码不止，掘金不停",
+      "url": "https://juejin.cn/",
+      "desc": "掘金",
+      "id": "NLmttw8d7f_31",
+      "sort": 12
+    },
+    {
+      "category": "代码社区",
+      "name": "编程导航 - 发现优质编程资源",
+      "url": "https://www.code-nav.cn/",
+      "desc": "编程导航",
+      "id": "NLmttw8d7f_32",
+      "sort": 13
+    },
+    {
+      "category": "代码社区",
+      "name": "步行街论坛-虎扑社区",
+      "url": "https://bbs.hupu.com/all-gambia",
+      "desc": "步行街论坛",
+      "id": "NLmttw8d7f_33",
+      "sort": 14
+    },
+    {
+      "category": "代码社区",
+      "name": "工作台 · 语雀",
+      "url": "https://www.yuque.com/dashboard",
+      "desc": "工作台",
+      "id": "NLmttw8d7f_34",
+      "sort": 15
+    },
+    {
+      "category": "代码社区",
+      "name": "Projects · Dashboard · GitLab",
+      "url": "http://g.oho168.com:88/",
+      "desc": "Projects",
+      "id": "NLmttw8d7f_35",
+      "sort": 16
+    },
+    {
+      "category": "代码社区",
+      "name": "摸鱼派",
+      "url": "https://fishpi.cn/",
+      "desc": "摸鱼派",
+      "id": "NLmttw8d7f_36",
+      "sort": 17
+    },
+    {
+      "category": "代码社区",
+      "name": "天涯论坛_全球华人网上家园_天涯社区",
+      "url": "https://bbs.tianya.cn/",
+      "desc": "天涯论坛",
+      "id": "NLmttw8d7f_37",
+      "sort": 18
+    },
+    {
+      "category": "代码社区",
+      "name": "乌猴导航 - 干净清爽的上网主页",
+      "url": "https://so.wuhou.fun/",
+      "desc": "乌猴导航",
+      "id": "NLmttw8d7f_38",
+      "sort": 19
+    },
+    {
+      "category": "代码社区",
+      "name": "尚硅谷React教程（2022加更，B站超火react教程）_哔哩哔哩_bili",
+      "url": "https://www.bilibili.com/video/BV1wy4y1D7JT?p=7&vd_source=20e8e4eba890ccd89c72abeb75fd7a95",
+      "desc": "尚硅谷React教程（2022加更，B站超火react教程）",
+      "id": "NLmttw8d7f_39",
+      "sort": 20
+    },
+    {
+      "category": "代码社区",
+      "name": "小红书 - 你的生活兴趣社区",
+      "url": "https://www.xiaohongshu.com/explore?channel_id=homefeed_recommend&channel_type=web_note_detail_r10",
+      "desc": "小红书",
+      "id": "NLmttw8d7f_40",
+      "sort": 21
+    },
+    {
+      "category": "代码社区",
+      "name": "Vue Icon Library - PrimeVue",
+      "url": "https://primevue.org/icons/#list",
+      "desc": "Vue Icon Library",
+      "id": "NLmttw8d7f_41",
+      "sort": 22
+    },
+    {
+      "category": "代码社区",
+      "name": "开发 - Agent Skills | SkillsMP",
+      "url": "https://skillsmp.com/zh/categories/development",
+      "desc": "开发",
+      "id": "NLmttw8d7f_42",
+      "sort": 23
+    },
+    {
+      "category": "代码社区",
+      "name": "【AI学习笔记】Coze工作流写入飞书多维表格（即：多维表格飞书官方插件使用教程",
+      "url": "https://blog.csdn.net/bailichen800/article/details/148317777?ops_request_misc=&request_id=&biz_id=102&utm_term=coze%E5%B7%A5%E4%BD%9C%E6%B5%81&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-9-148317777.142%5Ev102%5Epc_search_result_base2&spm=1018.2226.3001.4187",
+      "desc": "【AI学习笔记】Coze工作流写入飞书多维表格（即：多维表格…",
+      "id": "NLmttw8d7f_43",
+      "sort": 24
+    },
+    {
+      "category": "代码社区",
+      "name": "硅基流动 SiliconFlow - 致力于成为全球领先的 AI 能力提供商",
+      "url": "https://cloud.siliconflow.cn/me/models",
+      "desc": "硅基流动 SiliconFlow",
+      "id": "NLmttw8d7f_44",
+      "sort": 25
+    },
+    {
+      "category": "代码社区",
+      "name": "Marscode",
+      "url": "https://www.marscode.cn/home?goInstall=true&utm_source=doubao&_enter_from=new_home_page",
+      "desc": "Marscode",
+      "id": "NLmttw8d7f_45",
+      "sort": 26
+    },
+    {
+      "category": "视频娱乐",
+      "name": "哔哩哔哩つロ 干杯~-bilibili",
+      "url": "https://www.bilibili.com/?spm_id_from=333.967.b_696e7465726e6174696f6e616c486561646572.1",
+      "desc": "哔哩哔哩 (゜",
+      "id": "NLmttw8d7f_46",
+      "sort": 0
+    },
+    {
+      "category": "视频娱乐",
+      "name": "腾讯视频 - 中国领先的在线视频媒体平台,海量高清视频在线观看",
+      "url": "https://v.qq.com/",
+      "desc": "腾讯视频",
+      "id": "NLmttw8d7f_47",
+      "sort": 1
+    },
+    {
+      "category": "视频娱乐",
+      "name": "爱奇艺-在线视频网站-海量正版高清视频在线观看",
+      "url": "https://www.iqiyi.com/",
+      "desc": "爱奇艺",
+      "id": "NLmttw8d7f_48",
+      "sort": 2
+    },
+    {
+      "category": "视频娱乐",
+      "name": "芒果TV-天生青春",
+      "url": "https://www.mgtv.com/",
+      "desc": "芒果TV",
+      "id": "NLmttw8d7f_49",
+      "sort": 3
+    },
+    {
+      "category": "视频娱乐",
+      "name": "综艺频道 - 优酷",
+      "url": "https://zy.youku.com/?spm=a2ha1.14919748_WEBHOME_GRAY.drawer3.4",
+      "desc": "综艺频道",
+      "id": "NLmttw8d7f_50",
+      "sort": 4
+    },
+    {
+      "category": "视频娱乐",
+      "name": "电影先生 - 聚合全网高清影视在线观看、下载",
+      "url": "http://dyxs14.com/",
+      "desc": "电影先生",
+      "id": "NLmttw8d7f_51",
+      "sort": 5
+    },
+    {
+      "category": "视频娱乐",
+      "name": "钉子电影 - 电影-高清完整版在线观看-百度云网盘资源-迅雷种子下载 钉子电影官",
+      "url": "http://www.dingzi77.com/m/index.html",
+      "desc": "钉子电影",
+      "id": "NLmttw8d7f_52",
+      "sort": 6
+    },
+    {
+      "category": "视频娱乐",
+      "name": "电影先生网_电影先生官方APP下载地址",
+      "url": "https://dianying.bitbucket.io/?dyxs14.com",
+      "desc": "电影先生网",
+      "id": "NLmttw8d7f_53",
+      "sort": 7
+    },
+    {
+      "category": "视频娱乐",
+      "name": "乐玩游戏平台 - 找游戏、玩游戏、来乐玩！",
+      "url": "https://lewan.baidu.com/lewanqapage?gameId=129556370223661056&questionId=315813566278414336&idfrom=5015&answerId=315813566279221249",
+      "desc": "乐玩游戏平台",
+      "id": "NLmttw8d7f_54",
+      "sort": 8
+    },
+    {
+      "category": "视频娱乐",
+      "name": "CMDW-游戏仓库-全球最大的游戏下载中心-游戏交流",
+      "url": "https://www.cmdw.vip/",
+      "desc": "CMDW",
+      "id": "NLmttw8d7f_55",
+      "sort": 9
+    },
+    {
+      "category": "视频娱乐",
+      "name": "魔幻/科幻-第1页-最新最热好看的欧美剧 - 美剧星球",
+      "url": "https://www.meijuxq.tv/meiju/17.html",
+      "desc": "魔幻/科幻",
+      "id": "NLmttw8d7f_56",
+      "sort": 10
+    },
+    {
+      "category": "视频娱乐",
+      "name": "YouTube",
+      "url": "https://www.youtube.com/",
+      "desc": "YouTube",
+      "id": "NLmttw8d7f_57",
+      "sort": 11
+    },
+    {
+      "category": "视频娱乐",
+      "name": "真不卡影院_我不卡影院 - 真正不卡的超清电影网站",
+      "url": "http://www.zhenbuka3.com/",
+      "desc": "真不卡影院",
+      "id": "NLmttw8d7f_58",
+      "sort": 12
+    },
+    {
+      "category": "视频娱乐",
+      "name": "《假面骑士亚极陀》第45集高清版在线观看-正片-动漫-歪片星球",
+      "url": "http://waipian1.com/play/10991-2-45/",
+      "desc": "《假面骑士亚极陀》第45集高清版在线观看",
+      "id": "NLmttw8d7f_59",
+      "sort": 13
+    },
+    {
+      "category": "视频娱乐",
+      "name": "电影先生 - 聚合全网高清影视在线观看、下载",
+      "url": "http://dyxs6.xyz/",
+      "desc": "电影先生",
+      "id": "NLmttw8d7f_60",
+      "sort": 14
+    },
+    {
+      "category": "视频娱乐",
+      "name": "凌云影视 - 全网最近好看的影视聚合下载",
+      "url": "https://www.lingyun.tv/",
+      "desc": "凌云影视",
+      "id": "NLmttw8d7f_61",
+      "sort": 15
+    },
+    {
+      "category": "视频娱乐",
+      "name": "AcFun弹幕视频网 - 认真你就输啦ノ-つロ",
+      "url": "https://www.acfun.cn/",
+      "desc": "AcFun弹幕视频网",
+      "id": "NLmttw8d7f_62",
+      "sort": 16
+    },
+    {
+      "category": "视频娱乐",
+      "name": "煎蛋 - 地球上没有新鲜事",
+      "url": "http://jandan.net/",
+      "desc": "煎蛋",
+      "id": "NLmttw8d7f_63",
+      "sort": 17
+    },
+    {
+      "category": "视频娱乐",
+      "name": "夸克网盘分享",
+      "url": "https://pan.quark.cn/s/7183fc564228#/list/share",
+      "desc": "夸克网盘分享",
+      "id": "NLmttw8d7f_64",
+      "sort": 18
+    },
+    {
+      "category": "视频娱乐",
+      "name": "《快乐再出发》全网资源在线观看-迅雷下载-综艺-歪片星球.com",
+      "url": "https://waipian28.com/video/145967/&utm_source=soupian.pro",
+      "desc": "《快乐再出发》全网资源在线观看",
+      "id": "NLmttw8d7f_65",
+      "sort": 19
+    },
+    {
+      "category": "视频娱乐",
+      "name": "歪片星球.com - 聚合全网高清影视在线观看、下载",
+      "url": "https://waipian28.com/",
+      "desc": "歪片星球.com",
+      "id": "NLmttw8d7f_66",
+      "sort": 20
+    },
+    {
+      "category": "视频娱乐",
+      "name": "最后纪元 LAST EPOCH",
+      "url": "https://www.gamer520.com/60139.html",
+      "desc": "最后纪元 LAST EPOCH",
+      "id": "NLmttw8d7f_67",
+      "sort": 21
+    },
+    {
+      "category": "视频娱乐",
+      "name": "可可影视_最新Netflix新剧_韩国电影免费在线观看",
+      "url": "https://www.kkys01.com/",
+      "desc": "可可影视",
+      "id": "NLmttw8d7f_68",
+      "sort": 22
+    },
+    {
+      "category": "视频娱乐",
+      "name": "知乎",
+      "url": "https://www.zhihu.com/?_enter_from=new_home_page",
+      "desc": "知乎",
+      "id": "NLmttw8d7f_69",
+      "sort": 23
+    },
+    {
+      "category": "视频娱乐",
+      "name": "微信对话生成器2021版小工具在线使用_免安装下载 - 工具123",
+      "url": "http://www.gjw123.com/tools-weixinduihua2019",
+      "desc": "微信对话生成器2021版小工具在线使用",
+      "id": "NLmttw8d7f_70",
+      "sort": 24
+    },
+    {
+      "category": "视频娱乐",
+      "name": "文案狗 | 给文案狗一点灵感!",
+      "url": "http://www.wenangou.com/",
+      "desc": "文案狗",
+      "id": "NLmttw8d7f_71",
+      "sort": 25
+    },
+    {
+      "category": "视频娱乐",
+      "name": "钉子电影 - 电影-高清完整版在线观看-百度云网盘资源-迅雷种子下载 钉子电影官",
+      "url": "http://www.dingzi77.com/",
+      "desc": "钉子电影",
+      "id": "NLmttw8d7f_72",
+      "sort": 26
+    },
+    {
+      "category": "视频娱乐",
+      "name": "Watch Free Movies and TV Shows Online | ",
+      "url": "https://tubitv.com/home",
+      "desc": "Watch Free Movies and TV Shows…",
+      "id": "NLmttw8d7f_73",
+      "sort": 27
+    },
+    {
+      "category": "视频娱乐",
+      "name": "電腦版《藍燈VPN》for Mac/Windows v5.8.3 幫你連上自由的",
+      "url": "https://chtlife.com/5691",
+      "desc": "電腦版《藍燈VPN》for Mac/Windows v5.8…",
+      "id": "NLmttw8d7f_74",
+      "sort": 28
+    },
+    {
+      "category": "视频娱乐",
+      "name": "小霸王，其乐无穷 。红白机，FC在线游戏，街机游戏，街机在线，NES games",
+      "url": "https://www.yikm.net/",
+      "desc": "小霸王，其乐无穷 。红白机，FC在线游戏，街机游戏，街机在线…",
+      "id": "NLmttw8d7f_75",
+      "sort": 29
+    },
+    {
+      "category": "视频娱乐",
+      "name": "心晴网_心理学入门书籍_心理学学习_行为心理学书籍",
+      "url": "http://www.ixinqing.com/",
+      "desc": "心晴网",
+      "id": "NLmttw8d7f_76",
+      "sort": 30
+    },
+    {
+      "category": "视频娱乐",
+      "name": "FOSSHUB",
+      "url": "https://www.fosshub.com/",
+      "desc": "FOSSHUB",
+      "id": "NLmttw8d7f_77",
+      "sort": 31
+    },
+    {
+      "category": "视频娱乐",
+      "name": "Windows | Pclicious",
+      "url": "https://pclicious.net/category/windows/",
+      "desc": "Windows",
+      "id": "NLmttw8d7f_78",
+      "sort": 32
+    },
+    {
+      "category": "视频娱乐",
+      "name": "夜勤人物品获得区域及价格清单_3DM单机",
+      "url": "https://www.3dmgame.com/gl/3735066.html",
+      "desc": "夜勤人物品获得区域及价格清单",
+      "id": "NLmttw8d7f_79",
+      "sort": 33
+    },
+    {
+      "category": "视频娱乐",
+      "name": "金豆游戏厅",
+      "url": "http://jindouyxt.com/Default/index?cid=0&page=5",
+      "desc": "金豆游戏厅",
+      "id": "NLmttw8d7f_80",
+      "sort": 34
+    },
+    {
+      "category": "视频娱乐",
+      "name": "Gmail",
+      "url": "https://accounts.google.com/b/0/AddMailService",
+      "desc": "Gmail",
+      "id": "NLmttw8d7f_81",
+      "sort": 35
+    },
+    {
+      "category": "视频娱乐",
+      "name": "flysheep资源避难所",
+      "url": "http://www.flysheep6.com/",
+      "desc": "flysheep资源避难所",
+      "id": "NLmttw8d7f_82",
+      "sort": 36
+    },
+    {
+      "category": "视频娱乐",
+      "name": "地图",
+      "url": "https://maps.google.com/",
+      "desc": "地图",
+      "id": "NLmttw8d7f_83",
+      "sort": 37
+    },
+    {
+      "category": "视频娱乐",
+      "name": "SGAMES-专注于精品游戏，各类可联机精品资源",
+      "url": "https://www.s-sgames.com/",
+      "desc": "SGAMES",
+      "id": "NLmttw8d7f_84",
+      "sort": 38
+    },
+    {
+      "category": "视频娱乐",
+      "name": "可爱资源网-pc游戏-各种资源-安卓游戏",
+      "url": "https://itsucai.net/",
+      "desc": "可爱资源网",
+      "id": "NLmttw8d7f_85",
+      "sort": 39
+    },
+    {
+      "category": "视频娱乐",
+      "name": "油猴插件必备的网站 – 零度解说",
+      "url": "https://www.freedidi.com/123.html",
+      "desc": "油猴插件必备的网站 – 零度解说",
+      "id": "NLmttw8d7f_86",
+      "sort": 40
+    },
+    {
+      "category": "视频娱乐",
+      "name": "Switch520",
+      "url": "https://xxxxx520.com/",
+      "desc": "Switch520",
+      "id": "NLmttw8d7f_87",
+      "sort": 41
+    },
+    {
+      "category": "视频娱乐",
+      "name": "The Useless Web",
+      "url": "https://theuselessweb.com/",
+      "desc": "The Useless Web",
+      "id": "NLmttw8d7f_88",
+      "sort": 42
+    },
+    {
+      "category": "视频娱乐",
+      "name": "Coding Games and Programming Challenges ",
+      "url": "https://www.codingame.com/start",
+      "desc": "Coding Games and Programming C…",
+      "id": "NLmttw8d7f_89",
+      "sort": 43
+    },
+    {
+      "category": "视频娱乐",
+      "name": "茶杯狐官方-努力让找电影变得简单",
+      "url": "https://www.cbportal.org/",
+      "desc": "茶杯狐官方",
+      "id": "NLmttw8d7f_90",
+      "sort": 44
+    },
+    {
+      "category": "视频娱乐",
+      "name": "色花堂-98堂 - Powered by Discuz!",
+      "url": "https://www.sehuatang.net/",
+      "desc": "色花堂",
+      "id": "NLmttw8d7f_91",
+      "sort": 45
+    },
+    {
+      "category": "视频娱乐",
+      "name": "日本动漫_最新日本动漫_日本动漫排行榜_第1页-樱花动漫",
+      "url": "https://www.sdhysyzb.com/list/2.html",
+      "desc": "日本动漫",
+      "id": "NLmttw8d7f_92",
+      "sort": 46
+    },
+    {
+      "category": "视频娱乐",
+      "name": "永久防迷路",
+      "url": "https://sway.cloud.microsoft/1ESaLEE3x47BTgZC",
+      "desc": "永久防迷路",
+      "id": "NLmttw8d7f_93",
+      "sort": 47
+    },
+    {
+      "category": "视频娱乐",
+      "name": "邓瑞编程",
+      "url": "https://www.dengruicode.com/",
+      "desc": "邓瑞编程",
+      "id": "NLmttw8d7f_94",
+      "sort": 48
+    },
+    {
+      "category": "视频娱乐",
+      "name": "抖音",
+      "url": "https://www.douyin.com/?_enter_from=new_home_page",
+      "desc": "抖音",
+      "id": "NLmttw8d7f_95",
+      "sort": 49
+    },
+    {
+      "category": "前端开发",
+      "name": "打字 js学习",
+      "url": "https://ui.zdean.cn/react-code-game/",
+      "desc": "打字 js学习",
+      "id": "NLmttw8d7f_96",
+      "sort": 6
+    },
+    {
+      "category": "前端开发",
+      "name": "优站导航",
+      "url": "http://bufanui.com/nav",
+      "desc": "优站导航",
+      "id": "NLmttw8d7f_97",
+      "sort": 7
+    },
+    {
+      "category": "前端开发",
+      "name": "w3school 在线教程",
+      "url": "https://www.w3school.com.cn/",
+      "desc": "w3school 在线教程",
+      "id": "NLmttw8d7f_98",
+      "sort": 8
+    },
+    {
+      "category": "前端开发",
+      "name": "史上最简单的 GitHub 教程_CG国斌的博客-CSDN博客_github",
+      "url": "https://blog.csdn.net/qq_35246620/article/details/66973794",
+      "desc": "史上最简单的 GitHub 教程",
+      "id": "NLmttw8d7f_99",
+      "sort": 9
+    },
+    {
+      "category": "前端开发",
+      "name": "JavaScript教程 - 廖雪峰的官方网站",
+      "url": "https://www.liaoxuefeng.com/wiki/1022910821149312",
+      "desc": "JavaScript教程",
+      "id": "NLmttw8d7f_100",
+      "sort": 10
+    },
+    {
+      "category": "前端开发",
+      "name": "道客巴巴-在线文档分享平台",
+      "url": "https://www.doc88.com/tag/JS%E5%9F%BA%E7%A1%80%E6%B5%8B%E8%AF%95%E9%A2%98",
+      "desc": "道客巴巴",
+      "id": "NLmttw8d7f_101",
+      "sort": 11
+    },
+    {
+      "category": "前端开发",
+      "name": "JS基础-Math数组Date - it610.com",
+      "url": "https://www.it610.com/article/1229191380677529600.htm",
+      "desc": "JS基础",
+      "id": "NLmttw8d7f_102",
+      "sort": 12
+    },
+    {
+      "category": "前端开发",
+      "name": "JS编程题_weixin_30871701的博客-CSDN博客",
+      "url": "https://blog.csdn.net/weixin_30871701/article/details/97853081",
+      "desc": "JS编程题",
+      "id": "NLmttw8d7f_103",
+      "sort": 13
+    },
+    {
+      "category": "前端开发",
+      "name": "Vue.js",
+      "url": "https://cn.vuejs.org/",
+      "desc": "渐进式 JavaScript 框架",
+      "id": "NLmttw8d7f_104",
+      "sort": 14
+    },
+    {
+      "category": "前端开发",
+      "name": "事件参考 | MDN",
+      "url": "https://developer.mozilla.org/zh-CN/docs/Web/Events",
+      "desc": "事件参考",
+      "id": "NLmttw8d7f_105",
+      "sort": 15
+    },
+    {
+      "category": "前端开发",
+      "name": "豆瓣电影等 - 浏览模式 - apizza",
+      "url": "https://www.apizza.net/project/219bd7da9f36824337b05a33e9e08c51/browse?pass=a511db3cf920386c952dd6bdfbcf42fd",
+      "desc": "豆瓣电影等",
+      "id": "NLmttw8d7f_106",
+      "sort": 16
+    },
+    {
+      "category": "前端开发",
+      "name": "权限验证 | vue-element-admin",
+      "url": "https://panjiachen.github.io/vue-element-admin-site/zh/guide/essentials/permission.html#%E9%80%BB%E8%BE%91%E4%BF%AE%E6%94%B9",
+      "desc": "权限验证",
+      "id": "NLmttw8d7f_107",
+      "sort": 17
+    },
+    {
+      "category": "前端开发",
+      "name": "前端网 - 专注前端人成长的博客",
+      "url": "https://wuhou.fun/",
+      "desc": "前端网",
+      "id": "NLmttw8d7f_108",
+      "sort": 18
+    },
+    {
+      "category": "前端开发",
+      "name": "不凡学院文档管理系统",
+      "url": "http://doc.bufanui.com/",
+      "desc": "不凡学院文档管理系统",
+      "id": "NLmttw8d7f_109",
+      "sort": 19
+    },
+    {
+      "category": "前端开发",
+      "name": "2021年我的前端面试准备 - 掘金",
+      "url": "https://juejin.cn/post/6989422484722286600",
+      "desc": "2021年我的前端面试准备",
+      "id": "NLmttw8d7f_110",
+      "sort": 20
+    },
+    {
+      "category": "前端开发",
+      "name": "高频面试题汇总 - 搜索 - 掘金",
+      "url": "https://juejin.cn/search?query=%E9%AB%98%E9%A2%91%E9%9D%A2%E8%AF%95%E9%A2%98%E6%B1%87%E6%80%BB",
+      "desc": "高频面试题汇总",
+      "id": "NLmttw8d7f_111",
+      "sort": 21
+    },
+    {
+      "category": "前端开发",
+      "name": "es6",
+      "url": "https://es6.ruanyifeng.com/#docs/intro",
+      "desc": "es6",
+      "id": "NLmttw8d7f_112",
+      "sort": 22
+    },
+    {
+      "category": "前端开发",
+      "name": "前端 - SegmentFault 思否",
+      "url": "https://segmentfault.com/channel/frontend",
+      "desc": "前端",
+      "id": "NLmttw8d7f_113",
+      "sort": 23
+    },
+    {
+      "category": "前端开发",
+      "name": "剑指Offer：名企面试官精讲典型编程题（第2版）",
+      "url": "https://book.douban.com/subject/27008702/",
+      "desc": "剑指Offer：名企面试官精讲典型编程题（第2版） (豆瓣)",
+      "id": "NLmttw8d7f_114",
+      "sort": 24
+    },
+    {
+      "category": "前端开发",
+      "name": "分类：JavaScript - 阮一峰的网络日志",
+      "url": "https://www.ruanyifeng.com/blog/javascript/",
+      "desc": "分类：JavaScript",
+      "id": "NLmttw8d7f_115",
+      "sort": 25
+    },
+    {
+      "category": "前端开发",
+      "name": "前端实现预览ppt，word，xls，pdf文件 - 走看看",
+      "url": "http://t.zoukankan.com/zwp06-p-10944095.html",
+      "desc": "前端实现预览ppt，word，xls，pdf文件",
+      "id": "NLmttw8d7f_116",
+      "sort": 26
+    },
+    {
+      "category": "前端开发",
+      "name": "YApi-高效、易用、功能强大的可视化接口管理平台",
+      "url": "http://42.236.91.131:3000/",
+      "desc": "YApi",
+      "id": "NLmttw8d7f_117",
+      "sort": 27
+    },
+    {
+      "category": "前端开发",
+      "name": "React 技术栈系列教程 - 阮一峰的网络日志",
+      "url": "https://www.ruanyifeng.com/blog/2016/09/react-technology-stack.html",
+      "desc": "React 技术栈系列教程",
+      "id": "NLmttw8d7f_118",
+      "sort": 28
+    },
+    {
+      "category": "前端开发",
+      "name": "番茄小说",
+      "url": "https://fanqienovel.com/?_enter_from=new_home_page",
+      "desc": "番茄小说",
+      "id": "NLmttw8d7f_119",
+      "sort": 29
+    },
+    {
+      "category": "前端开发",
+      "name": "即梦 AI绘画",
+      "url": "https://jimeng.jianying.com/?_enter_from=new_home_page",
+      "desc": "即梦 AI绘画",
+      "id": "NLmttw8d7f_120",
+      "sort": 30
+    },
+    {
+      "category": "前端开发",
+      "name": "组件 | Element",
+      "url": "https://element.eleme.cn/#/zh-CN/component/quickstart",
+      "desc": "组件",
+      "id": "NLmttw8d7f_121",
+      "sort": 31
+    },
+    {
+      "category": "前端开发",
+      "name": "微信开放文档",
+      "url": "https://developers.weixin.qq.com/miniprogram/dev/framework/",
+      "desc": "微信开放文档",
+      "id": "NLmttw8d7f_122",
+      "sort": 32
+    },
+    {
+      "category": "前端开发",
+      "name": "uni-app官网",
+      "url": "https://uniapp.dcloud.io/",
+      "desc": "uni",
+      "id": "NLmttw8d7f_123",
+      "sort": 33
+    },
+    {
+      "category": "前端开发",
+      "name": "接口大全-免费API,收集所有免费的API",
+      "url": "https://www.free-api.com/",
+      "desc": "接口大全",
+      "id": "NLmttw8d7f_124",
+      "sort": 34
+    },
+    {
+      "category": "前端开发",
+      "name": "windows如何把已安装的nodejs高版本降级为低版本 - helloliy",
+      "url": "https://www.cnblogs.com/liyhbk/p/14913799.html",
+      "desc": "windows如何把已安装的nodejs高版本降级为低版本",
+      "id": "NLmttw8d7f_125",
+      "sort": 35
+    },
+    {
+      "category": "前端开发",
+      "name": "字节跳动静态资源公共库",
+      "url": "http://cdn.bytedance.com/?query=vant&version=4.0.0-alpha.0",
+      "desc": "字节跳动静态资源公共库",
+      "id": "NLmttw8d7f_126",
+      "sort": 36
+    },
+    {
+      "category": "前端开发",
+      "name": "Animate.css | A cross-browser library of",
+      "url": "https://animate.style/",
+      "desc": "Animate.css",
+      "id": "NLmttw8d7f_127",
+      "sort": 37
+    },
+    {
+      "category": "前端开发",
+      "name": "Swiper CDN - Swiper中文网",
+      "url": "https://www.swiper.com.cn/cdn/index.html",
+      "desc": "Swiper CDN",
+      "id": "NLmttw8d7f_128",
+      "sort": 38
+    },
+    {
+      "category": "前端开发",
+      "name": "iconfont-阿里巴巴矢量图标库",
+      "url": "https://www.iconfont.cn/",
+      "desc": "iconfont",
+      "id": "NLmttw8d7f_129",
+      "sort": 39
+    },
+    {
+      "category": "前端开发",
+      "name": "懒人图库 - 矢量图,JS代码,网页素材 - 学会偷懒，懒出境界！",
+      "url": "https://www.lanrentuku.com/",
+      "desc": "懒人图库",
+      "id": "NLmttw8d7f_130",
+      "sort": 40
+    },
+    {
+      "category": "前端开发",
+      "name": "静态资源托管库",
+      "url": "https://cdn.baomitu.com/",
+      "desc": "静态资源托管库",
+      "id": "NLmttw8d7f_131",
+      "sort": 41
+    },
+    {
+      "category": "前端开发",
+      "name": "wow.js — Reveal Animations When Scrollin",
+      "url": "https://wowjs.uk/",
+      "desc": "wow.js",
+      "id": "NLmttw8d7f_132",
+      "sort": 42
+    },
+    {
+      "category": "前端开发",
+      "name": "标记 | Quasar Framework 中文网",
+      "url": "http://www.quasarchs.com/vue-components/badge",
+      "desc": "标记",
+      "id": "NLmttw8d7f_133",
+      "sort": 43
+    },
+    {
+      "category": "前端开发",
+      "name": "Vant - 轻量、可靠的移动端组件库",
+      "url": "https://vant-contrib.gitee.io/vant/#/zh-CN/",
+      "desc": "Vant",
+      "id": "NLmttw8d7f_134",
+      "sort": 44
+    },
+    {
+      "category": "前端开发",
+      "name": "Apache ECharts",
+      "url": "http://echarts.apache.org/zh/index.html",
+      "desc": "Apache ECharts",
+      "id": "NLmttw8d7f_135",
+      "sort": 45
+    },
+    {
+      "category": "前端开发",
+      "name": "Button 按钮 | uView - 多平台快速开发的UI框架 - uni-a",
+      "url": "https://www.uviewui.com/components/button.html",
+      "desc": "Button 按钮",
+      "id": "NLmttw8d7f_136",
+      "sort": 46
+    },
+    {
+      "category": "前端开发",
+      "name": "PostCSS - 是一个用 JavaScript 工具和插件来转换 CSS 代",
+      "url": "https://www.postcss.com.cn/",
+      "desc": "PostCSS",
+      "id": "NLmttw8d7f_137",
+      "sort": 47
+    },
+    {
+      "category": "前端开发",
+      "name": "nprogress的简介及使用教程 - Made with Vuejs",
+      "url": "https://madewith.cn/23",
+      "desc": "nprogress的简介及使用教程",
+      "id": "NLmttw8d7f_138",
+      "sort": 48
+    },
+    {
+      "category": "前端开发",
+      "name": "Getting Started – react-photo-view",
+      "url": "https://react-photo-view.vercel.app/docs/getting-started",
+      "desc": "Getting Started – react",
+      "id": "NLmttw8d7f_139",
+      "sort": 49
+    },
+    {
+      "category": "前端开发",
+      "name": "数据可视化技术分享-echarts热门组件 - Powered by Discu",
+      "url": "http://192.144.199.210/forum.php?mod=forumdisplay&fid=2",
+      "desc": "数据可视化技术分享",
+      "id": "NLmttw8d7f_140",
+      "sort": 50
+    },
+    {
+      "category": "前端开发",
+      "name": "DataInsight",
+      "url": "http://analysis.datains.cn/finance-admin/index.html#/chartLib/all",
+      "desc": "DataInsight",
+      "id": "NLmttw8d7f_141",
+      "sort": 51
+    },
+    {
+      "category": "前端开发",
+      "name": "npm",
+      "url": "https://www.npmjs.com/",
+      "desc": "npm",
+      "id": "NLmttw8d7f_142",
+      "sort": 52
+    },
+    {
+      "category": "前端开发",
+      "name": "DCloud 插件市场",
+      "url": "https://ext.dcloud.net.cn/?cat1=1&cat2=11&type=UpdatedDate",
+      "desc": "DCloud 插件市场",
+      "id": "NLmttw8d7f_143",
+      "sort": 53
+    },
+    {
+      "category": "前端开发",
+      "name": "首页 - ECharts Demo集,echarts gallery社区,Mak",
+      "url": "https://www.isqqw.com/#/homepage",
+      "desc": "首页",
+      "id": "NLmttw8d7f_144",
+      "sort": 54
+    },
+    {
+      "category": "前端开发",
+      "name": "组件 | Element",
+      "url": "https://element.eleme.cn/#/zh-CN/component/carousel",
+      "desc": "组件",
+      "id": "NLmttw8d7f_145",
+      "sort": 55
+    },
+    {
+      "category": "前端开发",
+      "name": "Vant 3 - Mobile UI Components built on V",
+      "url": "https://youzan.github.io/vant/#/zh-CN/tabbar",
+      "desc": "Vant 3",
+      "id": "NLmttw8d7f_146",
+      "sort": 56
+    },
+    {
+      "category": "前端开发",
+      "name": "Layui - 经典开源模块化前端 UI 框架",
+      "url": "https://layui.11dz.cn/",
+      "desc": "Layui",
+      "id": "NLmttw8d7f_147",
+      "sort": 57
+    },
+    {
+      "category": "前端开发",
+      "name": "jQuery插件库-收集最全最新最好的jQuery插件",
+      "url": "https://www.jq22.com/",
+      "desc": "jQuery插件库",
+      "id": "NLmttw8d7f_148",
+      "sort": 58
+    },
+    {
+      "category": "前端开发",
+      "name": "轮播图--ShowDoc",
+      "url": "https://www.showdoc.com.cn/128719739414963/2513235043485226",
+      "desc": "轮播图",
+      "id": "NLmttw8d7f_149",
+      "sort": 59
+    },
+    {
+      "category": "前端开发",
+      "name": "API数据接口_免费数据调用_API接口平台_API分类大全-聚合数据",
+      "url": "https://www.juhe.cn/docs?bd_vid=10230427073128106604",
+      "desc": "API数据接口",
+      "id": "NLmttw8d7f_150",
+      "sort": 60
+    },
+    {
+      "category": "前端开发",
+      "name": "PC游戏",
+      "url": "https://www.gamer520.com/pcgame",
+      "desc": "PC游戏",
+      "id": "NLmttw8d7f_151",
+      "sort": 61
+    },
+    {
+      "category": "前端开发",
+      "name": "SiliconCloud",
+      "url": "https://cloud.siliconflow.cn/models",
+      "desc": "SiliconCloud",
+      "id": "NLmttw8d7f_152",
+      "sort": 62
+    },
+    {
+      "category": "前端开发",
+      "name": "7 个少见但有用的 HTML 属性",
+      "url": "https://www.yuque.com/ergz/web/mlv4ga",
+      "desc": "7 个少见但有用的 HTML 属性",
+      "id": "NLmttw8d7f_153",
+      "sort": 63
+    },
+    {
+      "category": "前端开发",
+      "name": "PPXDM动漫视频网-海量高清动漫在线观看ଘ੭.♡pP~",
+      "url": "https://www.ppxdm.com/?1234",
+      "desc": "PPXDM动漫视频网",
+      "id": "NLmttw8d7f_154",
+      "sort": 64
+    },
+    {
+      "category": "前端开发",
+      "name": "电影先生 - 聚合全网高清影视在线观看、下载",
+      "url": "https://dyxs38.com/",
+      "desc": "电影先生",
+      "id": "NLmttw8d7f_155",
+      "sort": 65
+    },
+    {
+      "category": "前端开发",
+      "name": "真不卡影院",
+      "url": "https://www.zhenbuka34.com/?zhenbukady.com",
+      "desc": "真不卡影院",
+      "id": "NLmttw8d7f_156",
+      "sort": 66
+    },
+    {
+      "category": "前端开发",
+      "name": "《斗笑社 第三季》第20250201期免费在线播放-大陆综艺-九九电影网",
+      "url": "https://www.czzdjc.com/p/92941-2-5.html",
+      "desc": "《斗笑社 第三季》第20250201期免费在线播放",
+      "id": "NLmttw8d7f_157",
+      "sort": 67
+    },
+    {
+      "category": "前端开发",
+      "name": "永久防迷路",
+      "url": "https://sway.cloud.microsoft/u2EUFKqRndqnaDGU?ref=Link",
+      "desc": "永久防迷路",
+      "id": "NLmttw8d7f_158",
+      "sort": 68
+    },
+    {
+      "category": "前端开发",
+      "name": "FishTV-追剧平台",
+      "url": "https://tv.codebug.icu/",
+      "desc": "FishTV",
+      "id": "NLmttw8d7f_159",
+      "sort": 69
+    },
+    {
+      "category": "前端开发",
+      "name": "正在播放为美好的世界献上祝福！ 第三季第1集-为美好的世界献上祝福！ 第三季详情",
+      "url": "https://www.yingshikong1.com/play/143379-1-1.html",
+      "desc": "正在播放为美好的世界献上祝福！ 第三季第1集",
+      "id": "NLmttw8d7f_160",
+      "sort": 70
+    },
+    {
+      "category": "前端开发",
+      "name": "Web Apps by 123apps - Edit, Convert, Cre",
+      "url": "https://123apps.com/",
+      "desc": "Web Apps by 123apps",
+      "id": "NLmttw8d7f_161",
+      "sort": 71
+    },
+    {
+      "category": "前端开发",
+      "name": "油猴中文网 - 油猴脚本分享交流",
+      "url": "https://bbs.tampermonkey.net.cn/",
+      "desc": "油猴中文网",
+      "id": "NLmttw8d7f_162",
+      "sort": 72
+    },
+    {
+      "category": "前端开发",
+      "name": "论道",
+      "url": "https://www.lundao.pub/",
+      "desc": "论道",
+      "id": "NLmttw8d7f_163",
+      "sort": 73
+    },
+    {
+      "category": "前端开发",
+      "name": "NBtab 新标签页",
+      "url": "https://nbtab.com/",
+      "desc": "NBtab 新标签页",
+      "id": "NLmttw8d7f_164",
+      "sort": 74
+    },
+    {
+      "category": "前端开发",
+      "name": "摸鱼岛",
+      "url": "https://yucoder.cn/index",
+      "desc": "摸鱼岛",
+      "id": "NLmttw8d7f_165",
+      "sort": 75
+    },
+    {
+      "category": "前端开发",
+      "name": "书栈网 · BookStack_程序员IT互联网开源编程书籍免费阅读与下载，取之",
+      "url": "https://www.bookstack.cn/",
+      "desc": "书栈网",
+      "id": "NLmttw8d7f_166",
+      "sort": 76
+    },
+    {
+      "category": "前端开发",
+      "name": "菜鸟教程 - 学的不仅是技术，更是梦想！",
+      "url": "https://www.runoob.com/",
+      "desc": "菜鸟教程",
+      "id": "NLmttw8d7f_167",
+      "sort": 77
+    },
+    {
+      "category": "前端开发",
+      "name": "码云-我的工作台 - Gitee.com",
+      "url": "https://gitee.com/",
+      "desc": "码云",
+      "id": "NLmttw8d7f_168",
+      "sort": 78
+    },
+    {
+      "category": "前端开发",
+      "name": "javascript经典小游戏_专题_脚本之家",
+      "url": "https://www.jb51.net/Special/349.htm",
+      "desc": "javascript经典小游戏",
+      "id": "NLmttw8d7f_169",
+      "sort": 79
+    },
+    {
+      "category": "前端开发",
+      "name": "博客园 - 开发者的网上家园",
+      "url": "https://www.cnblogs.com/",
+      "desc": "博客园",
+      "id": "NLmttw8d7f_170",
+      "sort": 80
+    },
+    {
+      "category": "前端开发",
+      "name": "学编程太枯燥，整理11个边玩游戏边学编程网站，越学越上瘾_lland520131",
+      "url": "https://blog.csdn.net/lland5201314/article/details/117781593?utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~aggregatepage~first_rank_v2~rank_aggregation-2-117781593.pc_agg_rank_aggregation&utm_term=%E7%8E%A9%E6%B8%B8%E6%88%8F%E5%AD%A6js&spm=1000.2123.3001.4430",
+      "desc": "学编程太枯燥，整理11个边玩游戏边学编程网站，越学越上瘾",
+      "id": "NLmttw8d7f_171",
+      "sort": 81
+    },
+    {
+      "category": "前端开发",
+      "name": "jquery- jQuery 是一个高效、精简并且功能丰富的 JavaScrip",
+      "url": "https://www.bootcdn.cn/jquery/",
+      "desc": "jquery (v3.6.0)",
+      "id": "NLmttw8d7f_172",
+      "sort": 82
+    },
+    {
+      "category": "前端开发",
+      "name": "网易云课堂 - 悄悄变强大",
+      "url": "https://study.163.com/",
+      "desc": "网易云课堂",
+      "id": "NLmttw8d7f_173",
+      "sort": 83
+    },
+    {
+      "category": "前端开发",
+      "name": "优优教程网官网-免费自学软件就上优优网-PS,AI,C4D,AE,UI,Sket",
+      "url": "https://uiiiuiii.com/",
+      "desc": "优优教程网官网",
+      "id": "NLmttw8d7f_174",
+      "sort": 84
+    },
+    {
+      "category": "前端开发",
+      "name": "Three.js – JavaScript 3D Library",
+      "url": "https://threejs.org/",
+      "desc": "Three.js – JavaScript 3D Libra…",
+      "id": "NLmttw8d7f_175",
+      "sort": 85
+    },
+    {
+      "category": "前端开发",
+      "name": "开始做题_专项练习 — Web前端-趣IT",
+      "url": "https://www.funit.cn/spe/sa/pa/1457893070941925378/0",
+      "desc": "开始做题",
+      "id": "NLmttw8d7f_176",
+      "sort": 86
+    },
+    {
+      "category": "前端开发",
+      "name": "从0到1学习JavaScript编写贪吃蛇游戏_javascript技巧_脚本之",
+      "url": "https://www.jb51.net/article/191991.htm",
+      "desc": "从0到1学习JavaScript编写贪吃蛇游戏",
+      "id": "NLmttw8d7f_177",
+      "sort": 87
+    },
+    {
+      "category": "前端开发",
+      "name": "Three.js中文网",
+      "url": "http://www.webgl3d.cn/",
+      "desc": "Three.js中文网",
+      "id": "NLmttw8d7f_178",
+      "sort": 88
+    },
+    {
+      "category": "前端开发",
+      "name": "Screeps - MMO strategy sandbox game for ",
+      "url": "https://screeps.com/",
+      "desc": "Screeps",
+      "id": "NLmttw8d7f_179",
+      "sort": 89
+    },
+    {
+      "category": "前端开发",
+      "name": "创建一个场景 – three.js中文文档",
+      "url": "http://www.webgl3d.cn/threejs/docs/index.html#manual/zh/introduction/Creating-a-scene",
+      "desc": "创建一个场景 – three.js中文文档",
+      "id": "NLmttw8d7f_180",
+      "sort": 90
+    },
+    {
+      "category": "前端开发",
+      "name": "颜色表大全 颜色代码 设计配色表 网页配色表-www.5tu.cn",
+      "url": "https://www.5tu.cn/colors/yansebiao.html",
+      "desc": "颜色表大全 颜色代码 设计配色表 网页配色表",
+      "id": "NLmttw8d7f_181",
+      "sort": 91
+    },
+    {
+      "category": "前端开发",
+      "name": "文档简介 · TypeScript中文网 · TypeScript——JavaS",
+      "url": "https://www.tslang.cn/docs/home.html",
+      "desc": "文档简介",
+      "id": "NLmttw8d7f_182",
+      "sort": 92
+    },
+    {
+      "category": "前端开发",
+      "name": "docsify",
+      "url": "https://sxfad.github.io/react-admin/#/",
+      "desc": "docsify",
+      "id": "NLmttw8d7f_183",
+      "sort": 93
+    },
+    {
+      "category": "前端开发",
+      "name": "Ant Design of React - Ant Design",
+      "url": "https://ant.design/docs/react/introduce-cn",
+      "desc": "Ant Design of React",
+      "id": "NLmttw8d7f_184",
+      "sort": 94
+    },
+    {
+      "category": "前端开发",
+      "name": "antd-admin - An admin dashboard applicat",
+      "url": "https://doc.antd-admin.zuiidea.com/#/zh-cn/",
+      "desc": "antd",
+      "id": "NLmttw8d7f_185",
+      "sort": 95
+    },
+    {
+      "category": "前端开发",
+      "name": "React 路由使用 - 掘金",
+      "url": "https://juejin.cn/post/7102047013818073096#heading-10",
+      "desc": "React 路由使用",
+      "id": "NLmttw8d7f_186",
+      "sort": 96
+    },
+    {
+      "category": "前端开发",
+      "name": "BiliBili",
+      "url": "https://www.bilibili.com/?_enter_from=new_home_page",
+      "desc": "BiliBili",
+      "id": "NLmttw8d7f_187",
+      "sort": 97
+    },
+    {
+      "category": "前端开发",
+      "name": "今日头条",
+      "url": "https://www.toutiao.com/?_enter_from=new_home_page",
+      "desc": "今日头条",
+      "id": "NLmttw8d7f_188",
+      "sort": 98
+    },
+    {
+      "category": "效率工具",
+      "name": "极简插件_Chrome扩展插件商店_优质crx应用",
+      "url": "https://chrome.zzzmh.cn/",
+      "desc": "极简插件",
+      "id": "NLmttw8d7f_189",
+      "sort": 4
+    },
+    {
+      "category": "效率工具",
+      "name": "扩展迷-Chrome插件/扩展,谷歌浏览器插件,谷歌应用商店插件推荐与下载",
+      "url": "https://www.extfans.com/",
+      "desc": "扩展迷",
+      "id": "NLmttw8d7f_190",
+      "sort": 5
+    },
+    {
+      "category": "效率工具",
+      "name": "下载客户端",
+      "url": "https://app.bilibili.com/",
+      "desc": "下载客户端",
+      "id": "NLmttw8d7f_191",
+      "sort": 6
+    },
+    {
+      "category": "效率工具",
+      "name": "胖Cat",
+      "url": "https://pivotnetworkbrands.com/",
+      "desc": "胖Cat",
+      "id": "NLmttw8d7f_192",
+      "sort": 7
+    },
+    {
+      "category": "效率工具",
+      "name": "Chrome插件- 提供Chrome商店中优秀的Chrome插件推荐与下载服务",
+      "url": "https://huajiakeji.com/",
+      "desc": "Chrome插件(谷歌浏览器插件)",
+      "id": "NLmttw8d7f_193",
+      "sort": 8
+    },
+    {
+      "category": "效率工具",
+      "name": "Chrome插件,Chrome商店,谷歌浏览器插件下载,谷歌商店 - Chrom",
+      "url": "https://www.cnplugins.com/",
+      "desc": "Chrome插件,Chrome商店,谷歌浏览器插件下载,谷歌…",
+      "id": "NLmttw8d7f_194",
+      "sort": 9
+    },
+    {
+      "category": "效率工具",
+      "name": "阿枫科技神器大礼包（后续还会更新）",
+      "url": "https://www.lanzoux.com/b00e0gpqh",
+      "desc": "阿枫科技神器大礼包（后续还会更新）",
+      "id": "NLmttw8d7f_195",
+      "sort": 10
+    },
+    {
+      "category": "效率工具",
+      "name": "极简壁纸_海量电脑桌面壁纸美图_4K超高清_最潮壁纸网站",
+      "url": "https://bz.zzzmh.cn/index",
+      "desc": "极简壁纸",
+      "id": "NLmttw8d7f_196",
+      "sort": 11
+    },
+    {
+      "category": "效率工具",
+      "name": "Chrome 网上应用店 - 扩展程序",
+      "url": "https://chrome.google.com/webstore/category/extensions?hl=zh",
+      "desc": "Chrome 网上应用店",
+      "id": "NLmttw8d7f_197",
+      "sort": 12
+    },
+    {
+      "category": "效率工具",
+      "name": "iGuge Helper",
+      "url": "http://iguge.xyz/",
+      "desc": "iGuge Helper",
+      "id": "NLmttw8d7f_198",
+      "sort": 13
+    },
+    {
+      "category": "视频娱乐",
+      "name": "尚硅谷最新版JavaScript基础全套教程完整版_哔哩哔哩_bilibili",
+      "url": "https://www.bilibili.com/video/BV1YW411T7GX?p=2&spm_id_from=pageDriver",
+      "desc": "尚硅谷最新版JavaScript基础全套教程完整版(140集…",
+      "id": "NLmttw8d7f_199",
+      "sort": 50
+    },
+    {
+      "category": "视频娱乐",
+      "name": "【尚硅谷】JavaScript基础&amp;实战丨JS入门到精通全套完整版_哔哩",
+      "url": "https://www.bilibili.com/video/BV1YW411T7GX?p=58&spm_id_from=pageDriver",
+      "desc": "【尚硅谷】JavaScript基础&amp;实战丨JS入门到…",
+      "id": "NLmttw8d7f_200",
+      "sort": 51
+    },
+    {
+      "category": "视频娱乐",
+      "name": "尚硅谷Vue2.0+Vue3.0全套教程，全网最新最强vuejs从入门到精通_哔",
+      "url": "https://www.bilibili.com/video/BV1Zy4y1K7SH",
+      "desc": "尚硅谷Vue2.0+Vue3.0全套教程，全网最新最强vue…",
+      "id": "NLmttw8d7f_201",
+      "sort": 52
+    },
+    {
+      "category": "视频娱乐",
+      "name": "【计算机科学速成课】[40集全/精校] - Crash Course Compu",
+      "url": "https://www.bilibili.com/video/BV1EW411u7th?p=1&share_medium=android&share_plat=android&share_source=WEIXIN&share_tag=s_i&timestamp=1621391152&unique_k=Hrh5Dd",
+      "desc": "【计算机科学速成课】[40集全/精校]",
+      "id": "NLmttw8d7f_202",
+      "sort": 53
+    },
+    {
+      "category": "视频娱乐",
+      "name": "16款优秀的Vue UI组件库推荐_weixin_30354675的博客-CSD",
+      "url": "https://blog.csdn.net/weixin_30354675/article/details/96182096?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522163115677216780271556929%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=163115677216780271556929&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-96182096.pc_search_insert_download&utm_term=vue+ui%E6%A1%86%E6%9E%B6&spm=1018.2226.3001.4187",
+      "desc": "(1条消息) 16款优秀的Vue UI组件库推荐",
+      "id": "NLmttw8d7f_203",
+      "sort": 54
+    },
+    {
+      "category": "视频娱乐",
+      "name": "Less使用教程（容易入门）_Mount华的博客-CSDN博客_less教程",
+      "url": "https://blog.csdn.net/weixin_40811829/article/details/88763373?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522163123862216780271549476%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=163123862216780271549476&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-2-88763373.pc_search_insert_download&utm_term=less%E6%95%99%E7%A8%8B&spm=1018.2226.3001.4187",
+      "desc": "(1条消息) Less使用教程（容易入门）",
+      "id": "NLmttw8d7f_204",
+      "sort": 55
+    },
+    {
+      "category": "视频娱乐",
+      "name": "不凡乐购 - 浏览模式 - apizza",
+      "url": "https://www.apizza.net/project/14fa6a9c4a45468acf235da89ee8e1be/browse?pass=a511db3cf920386c952dd6bdfbcf42fd",
+      "desc": "不凡乐购",
+      "id": "NLmttw8d7f_205",
+      "sort": 56
+    },
+    {
+      "category": "视频娱乐",
+      "name": "网易云音乐 NodeJS 版 API",
+      "url": "https://binaryify.github.io/NeteaseCloudMusicApi/#/?id=%e8%b0%83%e7%94%a8%e5%89%8d%e9%a1%bb%e7%9f%a5",
+      "desc": "网易云音乐 NodeJS 版 API",
+      "id": "NLmttw8d7f_206",
+      "sort": 57
+    },
+    {
+      "category": "视频娱乐",
+      "name": "玩Android - wanandroid.com - 每日推荐优质文章",
+      "url": "https://www.wanandroid.com/index",
+      "desc": "玩Android",
+      "id": "NLmttw8d7f_207",
+      "sort": 58
+    },
+    {
+      "category": "视频娱乐",
+      "name": "黑马程序员React从零基础入门到react好客租房项目实战-pink老师推荐-",
+      "url": "https://www.bilibili.com/video/BV14y4y1g7M4?p=3&spm_id_from=pageDriver",
+      "desc": "黑马程序员React从零基础入门到react好客租房项目实战",
+      "id": "NLmttw8d7f_208",
+      "sort": 59
+    },
+    {
+      "category": "视频娱乐",
+      "name": "技术胖-最新视频教程列表-每年100集视频课程",
+      "url": "https://jspang.com/articlelist",
+      "desc": "技术胖",
+      "id": "NLmttw8d7f_209",
+      "sort": 60
+    },
+    {
+      "category": "视频娱乐",
+      "name": "通俗易懂的Vue +Elment-UI后台管理系统_哔哩哔哩_bilibili",
+      "url": "https://www.bilibili.com/video/BV1Si4y1M7iQ?p=5&spm_id_from=pageDriver",
+      "desc": "通俗易懂的Vue +Elment",
+      "id": "NLmttw8d7f_210",
+      "sort": 61
+    },
+    {
+      "category": "视频娱乐",
+      "name": "【Web前端】React从零搭建完整项目--手写网易云音乐实战（初中级web进阶",
+      "url": "https://www.bilibili.com/video/BV1y94y197od?spm_id_from=333.337.search-card.all.click&vd_source=20e8e4eba890ccd89c72abeb75fd7a95",
+      "desc": "【Web前端】React从零搭建完整项目",
+      "id": "NLmttw8d7f_211",
+      "sort": 62
+    },
+    {
+      "category": "代码社区",
+      "name": "湖北省农村集体“三资”信息化监管平台",
+      "url": "http://172.168.1.18:8346/backstage/login/toLogin#/",
+      "desc": "湖北省农村集体“三资”信息化监管平台",
+      "id": "NLmttw8d7f_212",
+      "sort": 27
+    },
+    {
+      "category": "代码社区",
+      "name": "Swagger3接口文档",
+      "url": "http://172.168.24.20:8280/guquan-platform/doc.html#/default/%E6%88%90%E5%91%98%E8%AF%81%E4%B9%A6%E7%AE%A1%E7%90%86/queryZsPrintDetailUsingGET",
+      "desc": "Swagger3接口文档",
+      "id": "NLmttw8d7f_213",
+      "sort": 28
+    },
+    {
+      "category": "代码社区",
+      "name": "我的地盘 - 禅道",
+      "url": "http://172.168.1.19:8458/zentao/my/",
+      "desc": "我的地盘",
+      "id": "NLmttw8d7f_214",
+      "sort": 29
+    },
+    {
+      "category": "代码社区",
+      "name": "下载中心 - Lodop和C-Lodop官网主站",
+      "url": "https://www.lodop.net/download.html",
+      "desc": "下载中心",
+      "id": "NLmttw8d7f_215",
+      "sort": 30
+    },
+    {
+      "category": "代码社区",
+      "name": "Vue3弹窗关闭不缓存数据_百度搜索",
+      "url": "https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&tn=baidu&wd=Vue3%E5%BC%B9%E7%AA%97%E5%85%B3%E9%97%AD%E4%B8%8D%E7%BC%93%E5%AD%98%E6%95%B0%E6%8D%AE&oq=DeepSeek%25E8%25AF%25BB%25E5%2593%25AA%25E5%2590%2592%25E5%258E%259F%25E8%2591%2597%25E6%25A2%25B3%25E7%2590%2586%25E5%2587%25BA%25E5%25B0%2581%25E7%25A5%259E%25E5%25AE%2587%25E5%25AE%2599&rsv_pq=f60ac9770009bb19&rsv_t=d7bbEKNOYNnDLcfltKgYgBOxGjyjk%2BBc3HNFbneRJQNm43%2F8Ae%2FDDlaTBoc&rqlang=cn&rsv_enter=1&rsv_dl=tb&rsv_sug3=67&rsv_sug1=64&rsv_sug7=101&rsv_sug2=0&rsv_btype=t&inputT=26620&rsv_sug4=29066",
+      "desc": "Vue3弹窗关闭不缓存数据",
+      "id": "NLmttw8d7f_216",
+      "sort": 31
+    },
+    {
+      "category": "代码社区",
+      "name": "Ollama",
+      "url": "https://ollama.com/",
+      "desc": "Ollama",
+      "id": "NLmttw8d7f_217",
+      "sort": 32
+    },
+    {
+      "category": "代码社区",
+      "name": "智慧工时系统",
+      "url": "http://36.134.96.160:9080/zhgs-web/index.html#/loginView",
+      "desc": "智慧工时系统",
+      "id": "NLmttw8d7f_218",
+      "sort": 33
+    },
+    {
+      "category": "代码社区",
+      "name": "el-select+el-tree实现树形分组+多选+搜索的选择器_el-sel",
+      "url": "https://blog.csdn.net/weixin_60886885/article/details/130967374",
+      "desc": "el",
+      "id": "NLmttw8d7f_219",
+      "sort": 34
+    },
+    {
+      "category": "代码社区",
+      "name": "GitHub下载加速网站 - GitHub Proxy",
+      "url": "https://git.zhike.in/",
+      "desc": "GitHub下载加速网站",
+      "id": "NLmttw8d7f_220",
+      "sort": 35
+    },
+    {
+      "category": "代码社区",
+      "name": "SiliconCloud",
+      "url": "https://cloud.siliconflow.cn/models",
+      "desc": "SiliconCloud",
+      "id": "NLmttw8d7f_221",
+      "sort": 36
+    },
+    {
+      "category": "代码社区",
+      "name": "DeepSeek",
+      "url": "https://chat.scnet.cn/#/chat?activeChatId=07778fb88eb68461eb8f1e78ed61cd690045",
+      "desc": "DeepSeek",
+      "id": "NLmttw8d7f_222",
+      "sort": 37
+    },
+    {
+      "category": "代码社区",
+      "name": "秘塔AI搜索",
+      "url": "https://metaso.cn/",
+      "desc": "秘塔AI搜索",
+      "id": "NLmttw8d7f_223",
+      "sort": 38
+    },
+    {
+      "category": "代码社区",
+      "name": "最新 - 沸点 - 掘金",
+      "url": "https://juejin.cn/pins",
+      "desc": "最新",
+      "id": "NLmttw8d7f_224",
+      "sort": 39
+    },
+    {
+      "category": "代码社区",
+      "name": "AI 编程 - 豆包",
+      "url": "https://www.doubao.com/chat/coding?channel=juejin",
+      "desc": "AI 编程",
+      "id": "NLmttw8d7f_225",
+      "sort": 40
+    },
+    {
+      "category": "学习资源",
+      "name": "新手学卡通动画制作教程-我要自学网",
+      "url": "https://www.51zxw.net/List.aspx?cid=911",
+      "desc": "新手学卡通动画制作教程",
+      "id": "NLmttw8d7f_226",
+      "sort": 4
+    },
+    {
+      "category": "学习资源",
+      "name": "在线自定义刷题神器_自动生成面试笔试题_IT自测题库-趣IT",
+      "url": "https://www.funit.cn/spe/0/0/0",
+      "desc": "在线自定义刷题神器",
+      "id": "NLmttw8d7f_227",
+      "sort": 5
+    },
+    {
+      "category": "学习资源",
+      "name": "考试酷-永久免费的电子作业与在线考试系统云平台",
+      "url": "https://www.examcoo.com/index/ku",
+      "desc": "考试酷(examcoo)",
+      "id": "NLmttw8d7f_228",
+      "sort": 6
+    },
+    {
+      "category": "学习资源",
+      "name": "全部动态_牛客网",
+      "url": "https://www.nowcoder.com/",
+      "desc": "全部动态",
+      "id": "NLmttw8d7f_229",
+      "sort": 7
+    },
+    {
+      "category": "学习资源",
+      "name": "题库 - 力扣全球极客挚爱的技术成长平台",
+      "url": "https://leetcode-cn.com/problemset/all/",
+      "desc": "题库",
+      "id": "NLmttw8d7f_230",
+      "sort": 8
+    },
+    {
+      "category": "学习资源",
+      "name": "Jiumo Search 鸠摩搜索 - 文档搜索引擎",
+      "url": "https://www.jiumodiary.com/",
+      "desc": "Jiumo Search 鸠摩搜索",
+      "id": "NLmttw8d7f_231",
+      "sort": 9
+    },
+    {
+      "category": "学习资源",
+      "name": "淘淘宝网首页_淘宝搜索",
+      "url": "https://uland.taobao.com/sem/tbsearch?bd_vid=8200915038783121515&clk1=f4751c34a369b2c3fb0f46c2103cdb35&keyword=%E6%B7%98%E6%B7%98%E5%AE%9D%E7%BD%91%E9%A6%96%E9%A1%B5&localImgKey=&page=1&q=%E6%B7%98%E6%B7%98%E5%AE%9D%E7%BD%91%E9%A6%96%E9%A1%B5&refpid=mm_26632258_3504122_32538762&tab=all&upsId=f4751c34a369b2c3fb0f46c2103cdb35",
+      "desc": "淘淘宝网首页",
+      "id": "NLmttw8d7f_232",
+      "sort": 10
+    },
+    {
+      "category": "前端开发",
+      "name": "分享一个移动端方便查看日志的js_一个大土豆的日常的博客-CSDN博客",
+      "url": "https://blog.csdn.net/wbdsr234/article/details/88537579",
+      "desc": "(5条消息) 分享一个移动端方便查看日志的js",
+      "id": "NLmttw8d7f_233",
+      "sort": 99
+    },
+    {
+      "category": "前端开发",
+      "name": "有了这25个正则表达式，代码效率提高80% - 掘金",
+      "url": "https://juejin.cn/post/7016871226899431431",
+      "desc": "有了这25个正则表达式，代码效率提高80%",
+      "id": "NLmttw8d7f_234",
+      "sort": 100
+    },
+    {
+      "category": "前端开发",
+      "name": "js 获取url 参数 中文乱码问题_失控滴原味鸡的博客-CSDN博客",
+      "url": "https://blog.csdn.net/u010485134/article/details/79066747",
+      "desc": "(5条消息) js 获取url 参数 中文乱码问题",
+      "id": "NLmttw8d7f_235",
+      "sort": 101
+    },
+    {
+      "category": "前端开发",
+      "name": "几个超火的在线编程网站，别错过_程序员鱼皮的博客-CSDN博客_在线编程",
+      "url": "https://blog.csdn.net/weixin_41701290/article/details/122178819",
+      "desc": "(5条消息) 几个超火的在线编程网站，别错过",
+      "id": "NLmttw8d7f_236",
+      "sort": 102
+    },
+    {
+      "category": "前端开发",
+      "name": "CodePen: Online Code Editor and Front En",
+      "url": "https://codepen.io/",
+      "desc": "CodePen: Online Code Editor an…",
+      "id": "NLmttw8d7f_237",
+      "sort": 103
+    },
+    {
+      "category": "前端开发",
+      "name": "ueditor（vue-ueditor-wrap）集成秀米踩坑记录vue-cli",
+      "url": "https://juejin.cn/post/6897405357329645575",
+      "desc": "ueditor（vue",
+      "id": "NLmttw8d7f_238",
+      "sort": 104
+    },
+    {
+      "category": "前端开发",
+      "name": "Vue3发布半年我不学，摸鱼爽歪歪，哎~就是玩儿 - 掘金",
+      "url": "https://juejin.cn/post/6955129410705948702",
+      "desc": "Vue3发布半年我不学，摸鱼爽歪歪，哎~就是玩儿",
+      "id": "NLmttw8d7f_239",
+      "sort": 105
+    },
+    {
+      "category": "前端开发",
+      "name": "webpack插件实现自动抽取css中的主题色样式，并一键动态切换主题色（ele",
+      "url": "https://segmentfault.com/a/1190000016061608",
+      "desc": "webpack插件实现自动抽取css中的主题色样式，并一键动…",
+      "id": "NLmttw8d7f_240",
+      "sort": 106
+    },
+    {
+      "category": "前端开发",
+      "name": "Vue3",
+      "url": "https://vue3js.cn/",
+      "desc": "Vue3",
+      "id": "NLmttw8d7f_241",
+      "sort": 107
+    },
+    {
+      "category": "前端开发",
+      "name": "Vue 高德地图组件 vue-amap－基础使用 - ITPOW",
+      "url": "http://www.cftea.com/c/2019/12/11657.asp",
+      "desc": "Vue 高德地图组件 vue",
+      "id": "NLmttw8d7f_242",
+      "sort": 108
+    },
+    {
+      "category": "前端开发",
+      "name": "Vue Baidu Map",
+      "url": "https://dafrok.github.io/vue-baidu-map/#/zh/control/geolocation",
+      "desc": "Vue Baidu Map",
+      "id": "NLmttw8d7f_243",
+      "sort": 109
+    },
+    {
+      "category": "前端开发",
+      "name": "Vue Baidu Map",
+      "url": "https://dafrok.github.io/vue-baidu-map/#/zh/start/usage",
+      "desc": "Vue Baidu Map",
+      "id": "NLmttw8d7f_244",
+      "sort": 110
+    },
+    {
+      "category": "前端开发",
+      "name": "在vue项目中引用vant组件库中的DatetimePicker组件实例_cod",
+      "url": "https://blog.csdn.net/muzili1006/article/details/105644234",
+      "desc": "(5条消息) 在vue项目中引用vant组件库中的Datet…",
+      "id": "NLmttw8d7f_245",
+      "sort": 111
+    },
+    {
+      "category": "前端开发",
+      "name": "新八一中文网手机阅读-最新更新手打TXT下载和手机免费阅读",
+      "url": "https://m.81new.net/",
+      "desc": "新八一中文网手机阅读",
+      "id": "NLmttw8d7f_246",
+      "sort": 112
+    },
+    {
+      "category": "前端开发",
+      "name": "百度一下，你就知道",
+      "url": "https://www.baidu.com/",
+      "desc": "百度一下，你就知道",
+      "id": "NLmttw8d7f_247",
+      "sort": 113
+    },
+    {
+      "category": "前端开发",
+      "name": "八一小说网-全本小说全文阅读",
+      "url": "https://www.byxs.net/",
+      "desc": "八一小说网",
+      "id": "NLmttw8d7f_248",
+      "sort": 114
+    },
+    {
+      "category": "前端开发",
+      "name": "八一中文网 - 好看的免费小说 - 免费小说在线阅读",
+      "url": "https://www.81bqg.com/",
+      "desc": "八一中文网",
+      "id": "NLmttw8d7f_249",
+      "sort": 115
+    },
+    {
+      "category": "游戏",
+      "name": "加速器兑换码大全",
+      "url": "https://www.gwjjd.com/",
+      "desc": "加速器兑换码大全",
+      "id": "NLmttw8d7f_250",
+      "sort": 1
+    },
+    {
+      "category": "游戏",
+      "name": "Switch520",
+      "url": "https://xxxxx520.cam/",
+      "desc": "Switch520",
+      "id": "NLmttw8d7f_251",
+      "sort": 0
+    },
+    {
+      "category": "游戏",
+      "name": "熊猫头资源共享平台_资源共享平台",
+      "url": "https://xmtpt.cn/",
+      "desc": "熊猫头资源共享平台",
+      "id": "NLmttw8d7f_252",
+      "sort": 2
+    },
+    {
+      "category": "游戏",
+      "name": "白嫖者联盟",
+      "url": "https://download.fourpetal.com/",
+      "desc": "白嫖者联盟",
+      "id": "NLmttw8d7f_253",
+      "sort": 3
+    },
+    {
+      "category": "游戏",
+      "name": "Игры для ПК скачать торрент",
+      "url": "https://rutor-org.games/",
+      "desc": "Игры для ПК скачать торрент",
+      "id": "NLmttw8d7f_254",
+      "sort": 4
+    },
+    {
+      "category": "游戏",
+      "name": "Cкачать игры на ПК [последние версии 202",
+      "url": "https://byrutdb.org/",
+      "desc": "Cкачать игры на ПК [последние …",
+      "id": "NLmttw8d7f_255",
+      "sort": 5
+    },
+    {
+      "category": "游戏",
+      "name": "Mad World by Jandi",
+      "url": "https://game.madworldmmo.com/",
+      "desc": "Mad World by Jandi",
+      "id": "NLmttw8d7f_256",
+      "sort": 6
+    },
+    {
+      "category": "游戏",
+      "name": "Switch520",
+      "url": "https://laoquzhang.com/",
+      "desc": "Switch520",
+      "id": "NLmttw8d7f_257",
+      "sort": 7
+    },
+    {
+      "category": "游戏",
+      "name": "Switch520",
+      "url": "https://xxxxx528.com/",
+      "desc": "Switch520",
+      "id": "NLmttw8d7f_258",
+      "sort": 8
+    },
+    {
+      "category": "游戏",
+      "name": "GoJS中文文档-CSDN博客",
+      "url": "https://blog.csdn.net/fanlc8888/article/details/124454546",
+      "desc": "GoJS中文文档",
+      "id": "NLmttw8d7f_259",
+      "sort": 9
+    },
+    {
+      "category": "游戏",
+      "name": "gojs插件使用教程 - Donner - 博客园",
+      "url": "https://www.cnblogs.com/bowendown/p/12720687.html",
+      "desc": "gojs插件使用教程",
+      "id": "NLmttw8d7f_260",
+      "sort": 10
+    },
+    {
+      "category": "游戏",
+      "name": "GitHub: Where the world builds software ",
+      "url": "https://github.com/",
+      "desc": "GitHub: Where the world builds…",
+      "id": "NLmttw8d7f_261",
+      "sort": 11
+    },
+    {
+      "category": "游戏",
+      "name": "神奇商店 - Vving.vip",
+      "url": "https://sq.vving.vip/",
+      "desc": "神奇商店",
+      "id": "NLmttw8d7f_262",
+      "sort": 12
+    },
+    {
+      "category": "游戏",
+      "name": "熔炉密林|官方中文|Build.14788048-天神之怒-光耀审判|解压即撸|",
+      "url": "https://www.gamer520.com/75764.html",
+      "desc": "熔炉密林",
+      "id": "NLmttw8d7f_263",
+      "sort": 13
+    },
+    {
+      "category": "游戏",
+      "name": "好玩的游戏排行榜_新游戏开服表_不花钱免费折扣网络游戏人气排行榜前十名-搜游记云",
+      "url": "https://www.evewan.com/?id=289&lg=12899207&s=31047&c=78461&z=8483",
+      "desc": "好玩的游戏排行榜",
+      "id": "NLmttw8d7f_264",
+      "sort": 14
+    },
+    {
+      "category": "游戏",
+      "name": "free61 - YUNVXJ - 所有文档",
+      "url": "https://5vz43f.sharepoint.com/sites/free61/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Ffree61%2FShared%20Documents%2F2024%E5%B9%B4%2D7%E6%9C%88%2DGAME%2FYUNVXJ&p=true&ga=1",
+      "desc": "free61",
+      "id": "NLmttw8d7f_265",
+      "sort": 15
+    },
+    {
+      "category": "游戏",
+      "name": "taptap.cn",
+      "url": "https://www.taptap.cn/",
+      "desc": "taptap.cn",
+      "id": "NLmttw8d7f_266",
+      "sort": 16
+    },
+    {
+      "category": "游戏",
+      "name": "奥德彪计划",
+      "url": "https://2468c.com/",
+      "desc": "奥德彪计划",
+      "id": "NLmttw8d7f_267",
+      "sort": 17
+    },
+    {
+      "category": "游戏",
+      "name": "艾尔登法环|豪华中文|V1.14.1+黄金树幽影DLC-黑焰刀魂-魅影断弦+预购",
+      "url": "https://www.gamer520.com/79389.html",
+      "desc": "艾尔登法环",
+      "id": "NLmttw8d7f_268",
+      "sort": 18
+    },
+    {
+      "category": "游戏",
+      "name": "燧石枪 黎明之围|豪华中文|Build.15268594+全DLC+预购奖励|解",
+      "url": "https://www.gamer520.com/79533.html",
+      "desc": "燧石枪 黎明之围",
+      "id": "NLmttw8d7f_269",
+      "sort": 19
+    },
+    {
+      "category": "游戏",
+      "name": "咸鱼单机-单机游戏交流分享平台-咸鱼单机官网",
+      "url": "https://www.xianyudanji.cc/",
+      "desc": "咸鱼单机",
+      "id": "NLmttw8d7f_270",
+      "sort": 20
+    },
+    {
+      "category": "游戏",
+      "name": "咸鱼单机-电脑单机游戏下载-switch游戏下载-免费单机下载-咸鱼单机官网",
+      "url": "https://www.xianyudanji.net/",
+      "desc": "咸鱼单机",
+      "id": "NLmttw8d7f_271",
+      "sort": 21
+    },
+    {
+      "category": "游戏",
+      "name": "歪片星球.com - 聚合全网高清影视在线观看、下载",
+      "url": "https://waipian30.com/",
+      "desc": "歪片星球.com",
+      "id": "NLmttw8d7f_272",
+      "sort": 22
+    },
+    {
+      "category": "游戏",
+      "name": "Switch520",
+      "url": "https://www.gamer520.com/",
+      "desc": "Switch520",
+      "id": "NLmttw8d7f_273",
+      "sort": 23
+    },
+    {
+      "category": "游戏",
+      "name": "仪表盘 | 蓝海云",
+      "url": "https://123.cxepny.com:8888/#/dashboard",
+      "desc": "仪表盘",
+      "id": "NLmttw8d7f_274",
+      "sort": 24
+    },
+    {
+      "category": "游戏",
+      "name": "电影先生最新地址、最新网址",
+      "url": "http://dyxs6.xyz/doc/dizhi/",
+      "desc": "电影先生最新地址、最新网址",
+      "id": "NLmttw8d7f_275",
+      "sort": 25
+    },
+    {
+      "category": "游戏",
+      "name": "永久白嫖加速器，这五款才是真正的免费！_哔哩哔哩_bilibili",
+      "url": "https://www.bilibili.com/video/BV1n84y1z7Fw/?spm_id_from=333.337.search-card.all.click&vd_source=20e8e4eba890ccd89c72abeb75fd7a95",
+      "desc": "永久白嫖加速器，这五款才是真正的免费！",
+      "id": "NLmttw8d7f_276",
+      "sort": 26
+    },
+    {
+      "category": "游戏",
+      "name": "樱花动漫－专注动漫的门户网站",
+      "url": "https://www.yhdmz.org/",
+      "desc": "樱花动漫－专注动漫的门户网站",
+      "id": "NLmttw8d7f_277",
+      "sort": 27
+    },
+    {
+      "category": "游戏",
+      "name": "首页 | Userscript.Zone",
+      "url": "https://www.userscript.zone/?utm_source=tm.net&utm_medium=index",
+      "desc": "首页",
+      "id": "NLmttw8d7f_278",
+      "sort": 28
+    },
+    {
+      "category": "游戏",
+      "name": "从零起步基础教学_免费高速下载|百度网盘-分享无限制",
+      "url": "https://pan.baidu.com/s/1IvgqW1BUvKO_6U6UqZfi3A#list/path=%2Fsharelink3271973110-721070582124954%2F%E4%BB%8E%E9%9B%B6%E8%B5%B7%E6%AD%A5%E5%9F%BA%E7%A1%80%E6%95%99%E5%AD%A6%2F%E7%AC%AC%E4%BA%94%E6%9C%9F&parentPath=%2Fsharelink3271973110-721070582124954",
+      "desc": "从零起步基础教学",
+      "id": "NLmttw8d7f_279",
+      "sort": 29
+    },
+    {
+      "category": "游戏",
+      "name": "恭喜！，访问嘻嘻动漫成功，2024年，一定要好好学习哦！",
+      "url": "https://123.xixidm.com/",
+      "desc": "恭喜！(#^.^#)，访问嘻嘻动漫成功，2024年，一定要好…",
+      "id": "NLmttw8d7f_280",
+      "sort": 30
+    },
+    {
+      "category": "游戏",
+      "name": "XvideoS中文版|xvDiZhi.com",
+      "url": "https://xindizhi.github.io/xv/?dh_public_header",
+      "desc": "XvideoS中文版",
+      "id": "NLmttw8d7f_281",
+      "sort": 31
+    },
+    {
+      "category": "游戏",
+      "name": "Swiper中文网-轮播图幻灯片js插件,H5页面前端开发",
+      "url": "https://www.swiper.com.cn/",
+      "desc": "Swiper中文网",
+      "id": "NLmttw8d7f_282",
+      "sort": 32
+    },
+    {
+      "category": "游戏",
+      "name": "中文api - Swiper中文网",
+      "url": "https://www.swiper.com.cn/api/index.html",
+      "desc": "中文api",
+      "id": "NLmttw8d7f_283",
+      "sort": 33
+    },
+    {
+      "category": "游戏",
+      "name": "Tabs | Components | BootstrapVue",
+      "url": "https://bootstrap-vue.org/docs/components/tabs",
+      "desc": "Tabs",
+      "id": "NLmttw8d7f_284",
+      "sort": 34
+    },
+    {
+      "category": "游戏",
+      "name": "注册 | 奇云加速",
+      "url": "https://xy848hwn.qyjs.pro/#/register?code=GIhrTds3",
+      "desc": "注册",
+      "id": "NLmttw8d7f_285",
+      "sort": 35
+    },
+    {
+      "category": "游戏",
+      "name": "简介 - PrimeVue - PrimeVue 组件库",
+      "url": "https://primevue.cn/introduction/",
+      "desc": "简介",
+      "id": "NLmttw8d7f_286",
+      "sort": 36
+    },
+    {
+      "category": "游戏",
+      "name": "家庭/学校免费 – NetSarang Website",
+      "url": "https://www.xshell.com/zh/free-for-home-school/",
+      "desc": "家庭/学校免费 – NetSarang Website",
+      "id": "NLmttw8d7f_287",
+      "sort": 37
+    },
+    {
+      "category": "游戏",
+      "name": "遠雄人壽",
+      "url": "http://goupcn.ddns.net:8888/",
+      "desc": "遠雄人壽",
+      "id": "NLmttw8d7f_288",
+      "sort": 38
+    },
+    {
+      "category": "游戏",
+      "name": "冲上云霄",
+      "url": "https://999865.xyz/dashboard",
+      "desc": "冲上云霄",
+      "id": "NLmttw8d7f_289",
+      "sort": 39
+    },
+    {
+      "category": "游戏",
+      "name": "GitHub - TG-NAV/nodeshare: 🚀 每天更新最新免费节点",
+      "url": "https://github.com/TG-NAV/nodeshare/",
+      "desc": "GitHub",
+      "id": "NLmttw8d7f_290",
+      "sort": 40
+    },
+    {
+      "category": "游戏",
+      "name": "项目 - 主页",
+      "url": "http://gouptfs.gouptech.com.tw:8080/tfs/Winner2024",
+      "desc": "项目",
+      "id": "NLmttw8d7f_291",
+      "sort": 41
+    },
+    {
+      "category": "游戏",
+      "name": "轻便匣 - 日常生活在线工具箱，快速提升效率",
+      "url": "https://tools.puchedu.cn/",
+      "desc": "轻便匣",
+      "id": "NLmttw8d7f_292",
+      "sort": 42
+    },
+    {
+      "category": "游戏",
+      "name": "Swagger UI",
+      "url": "https://wnrapi_dev.gouptech.com.tw/swagger/index.html",
+      "desc": "Swagger UI",
+      "id": "NLmttw8d7f_293",
+      "sort": 43
+    },
+    {
+      "category": "游戏",
+      "name": "中國 假期、國定假日 2026年節日表",
+      "url": "https://holidays-calendar.net/2026/calendar_zh_tw/china_zh_tw.html",
+      "desc": "中國 假期、國定假日 2026年節日表",
+      "id": "NLmttw8d7f_294",
+      "sort": 44
+    },
+    {
+      "category": "游戏",
+      "name": "Microsoft Teams",
+      "url": "https://teams.live.com/v2/#/?launchAgent=gather&correlationId=15f4cc52-37c5-422e-9f87-5ec86390e91c",
+      "desc": "Microsoft Teams",
+      "id": "NLmttw8d7f_295",
+      "sort": 45
+    },
+    {
+      "category": "游戏",
+      "name": "三分机场订阅入口-三分机场节点入口",
+      "url": "http://www.afwck.cn/",
+      "desc": "三分机场订阅入口",
+      "id": "NLmttw8d7f_296",
+      "sort": 46
+    },
+    {
+      "category": "游戏",
+      "name": "新发现节点",
+      "url": "https://trojannode.github.io/newly-discovered-nodes/index.html?date=2026-2-3",
+      "desc": "新发现节点",
+      "id": "NLmttw8d7f_297",
+      "sort": 47
+    },
+    {
+      "category": "游戏",
+      "name": "Typecho Official Site",
+      "url": "https://typecho.org/",
+      "desc": "Typecho Official Site",
+      "id": "NLmttw8d7f_298",
+      "sort": 48
+    },
+    {
+      "category": "游戏",
+      "name": "cdnjs - The #1 free and open source CDN ",
+      "url": "https://cdnjs.com/",
+      "desc": "cdnjs",
+      "id": "NLmttw8d7f_299",
+      "sort": 49
+    },
+    {
+      "category": "游戏",
+      "name": "Vue3开发遇难题？10个超实用技巧来助力_vue3开发技巧-CSDN博客",
+      "url": "https://blog.csdn.net/qq_37212162/article/details/147711513?ops_request_misc=elastic_search_misc&request_id=e706a43a0999c49206605753b0c75a86&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-147711513-null-null.142^v102^pc_search_result_base5&utm_term=vue3%E9%96%8B%E7%99%BC%E6%8A%80%E5%B7%A7&spm=1018.2226.3001.4187",
+      "desc": "Vue3开发遇难题？10个超实用技巧来助力",
+      "id": "NLmttw8d7f_300",
+      "sort": 50
+    },
+    {
+      "category": "游戏",
+      "name": "Vue 3 高效开发技巧总结_vue3 开发技巧-CSDN博客",
+      "url": "https://blog.csdn.net/unicrom/article/details/156085343?ops_request_misc=elastic_search_misc&request_id=c1ff7589b6e38a16c8f2f2bf51b53c3a&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-2-156085343-null-null.142^v102^pc_search_result_base5&utm_term=vue3%E9%96%8B%E7%99%BC%E6%8A%80%E5%B7%A7&spm=1018.2226.3001.4187",
+      "desc": "Vue 3 高效开发技巧总结",
+      "id": "NLmttw8d7f_301",
+      "sort": 51
+    },
+    {
+      "category": "游戏",
+      "name": "Vibe Coding指南Vibe Coding 指南 目录 什么是 Vibe ",
+      "url": "https://juejin.cn/post/7594832320030244907",
+      "desc": "Vibe Coding指南Vibe Coding 指南 目录…",
+      "id": "NLmttw8d7f_302",
+      "sort": 52
+    },
+    {
+      "category": "游戏",
+      "name": "Agent Skills Marketplace - Claude, Codex",
+      "url": "https://skillsmp.com/",
+      "desc": "Agent Skills Marketplace",
+      "id": "NLmttw8d7f_303",
+      "sort": 53
+    },
+    {
+      "category": "游戏",
+      "name": "Inspira UI - Inspira UI",
+      "url": "https://inspira-ui.com/docs/cn",
+      "desc": "Inspira UI",
+      "id": "NLmttw8d7f_304",
+      "sort": 54
+    },
+    {
+      "category": "游戏",
+      "name": "OpenClaw Exposure Watchboard",
+      "url": "https://openclaw.allegro.earth/",
+      "desc": "OpenClaw Exposure Watchboard",
+      "id": "NLmttw8d7f_305",
+      "sort": 55
+    },
+    {
+      "category": "游戏",
+      "name": "智谱AI开放平台",
+      "url": "https://open.bigmodel.cn/",
+      "desc": "智谱AI开放平台",
+      "id": "NLmttw8d7f_306",
+      "sort": 56
+    },
+    {
+      "category": "游戏",
+      "name": "一份教程通吃！OpenClaw Windows/Linux 安装：避坑 + 配置",
+      "url": "https://zhuanlan.zhihu.com/p/2012188558635598413",
+      "desc": "一份教程通吃！OpenClaw Windows/Linux …",
+      "id": "NLmttw8d7f_307",
+      "sort": 57
+    },
+    {
+      "category": "游戏",
+      "name": "Google Gemini",
+      "url": "https://gemini.google.com/app",
+      "desc": "Google Gemini",
+      "id": "NLmttw8d7f_308",
+      "sort": 58
+    },
+    {
+      "category": "游戏",
+      "name": "随便聊聊 · XSimple",
+      "url": "https://xsimplechat.com/chat",
+      "desc": "随便聊聊",
+      "id": "NLmttw8d7f_309",
+      "sort": 59
+    },
+    {
+      "category": "游戏",
+      "name": "OpenClaw - OpenClaw",
+      "url": "https://docs.openclaw.ai/zh-CN",
+      "desc": "OpenClaw",
+      "id": "NLmttw8d7f_310",
+      "sort": 60
+    },
+    {
+      "category": "游戏",
+      "name": "RPG Text — ClawHub",
+      "url": "https://clawhub.ai/beancookie/rpg-text",
+      "desc": "RPG Text",
+      "id": "NLmttw8d7f_311",
+      "sort": 61
+    },
+    {
+      "category": "游戏",
+      "name": "在线接收带有验证码的短信 | 来自 180 多个国家的临时号码",
+      "url": "https://hero-sms.com/cn",
+      "desc": "在线接收带有验证码的短信",
+      "id": "NLmttw8d7f_312",
+      "sort": 62
+    },
+    {
+      "category": "游戏",
+      "name": "现代 JavaScript 教程",
+      "url": "https://zh.javascript.info/",
+      "desc": "现代 JavaScript 教程",
+      "id": "NLmttw8d7f_313",
+      "sort": 63
+    },
+    {
+      "category": "游戏",
+      "name": "虾评Skill - 精品优质 Skill 分享评测平台，支持 OpenClaw",
+      "url": "https://xiaping.coze.site/",
+      "desc": "虾评Skill",
+      "id": "NLmttw8d7f_314",
+      "sort": 64
+    },
+    {
+      "category": "游戏",
+      "name": "📚 学习与资源 | Hello-AI",
+      "url": "https://hello-ai.anzz.site/home/learning.html",
+      "desc": "📚 学习与资源",
+      "id": "NLmttw8d7f_315",
+      "sort": 65
+    },
+    {
+      "category": "游戏",
+      "name": "Rename.Tools | 在线批量文件重命名工具 - 免费、快速、隐私安全",
+      "url": "https://rename.tools/zh/app",
+      "desc": "Rename.Tools",
+      "id": "NLmttw8d7f_316",
+      "sort": 66
+    },
+    {
+      "category": "游戏",
+      "name": "AI Agent Skills Directory | Skills.lc",
+      "url": "https://skills.lc/skills",
+      "desc": "AI Agent Skills Directory",
+      "id": "NLmttw8d7f_317",
+      "sort": 67
+    },
+    {
+      "category": "游戏",
+      "name": "👉（6.16-7.15必看）TRAE AI 创造力大赛报名指南——0门槛助你报",
+      "url": "https://forum.trae.cn/t/topic/22548/18",
+      "desc": "👉（6.16",
+      "id": "NLmttw8d7f_318",
+      "sort": 68
+    },
+    {
+      "category": "游戏",
+      "name": "Petdex: Animated companions for Codex",
+      "url": "https://petdex.dev/",
+      "desc": "Petdex: Animated companions fo…",
+      "id": "NLmttw8d7f_319",
+      "sort": 69
+    },
+    {
+      "category": "游戏",
+      "name": "Codex Pets",
+      "url": "https://codex-pet-share.pages.dev/",
+      "desc": "Codex Pets",
+      "id": "NLmttw8d7f_320",
+      "sort": 70
+    },
+    {
+      "category": "游戏",
+      "name": "WorkBuddy - 个人中心",
+      "url": "https://www.workbuddy.cn/profile/growth-center?utm_medium=cpc&utm_id=gwzcw.15291245.15291245.15291245",
+      "desc": "WorkBuddy",
+      "id": "NLmttw8d7f_321",
+      "sort": 71
+    },
+    {
+      "category": "游戏",
+      "name": "Switch520-Gamer520",
+      "url": "https://www.gamers520.com/",
+      "desc": "Switch520",
+      "id": "NLmttw8d7f_322",
+      "sort": 72
+    },
+    {
+      "category": "游戏",
+      "name": "Microsoft Teams",
+      "url": "https://teams.microsoft.com/v2/?culture=zh-cn&country=cn",
+      "desc": "Microsoft Teams",
+      "id": "NLmttw8d7f_323",
+      "sort": 73
+    },
+    {
+      "category": "游戏",
+      "name": "Popular Mods - ModDB",
+      "url": "https://www.moddb.com/mods/top",
+      "desc": "Popular Mods",
+      "id": "NLmttw8d7f_324",
+      "sort": 74
+    },
+    {
+      "category": "游戏",
+      "name": "Modrinth",
+      "url": "https://modrinth.com/",
+      "desc": "Modrinth",
+      "id": "NLmttw8d7f_325",
+      "sort": 75
+    },
+    {
+      "category": "游戏",
+      "name": "Communities | Thunderstore",
+      "url": "https://thunderstore.io/",
+      "desc": "Communities",
+      "id": "NLmttw8d7f_326",
+      "sort": 76
+    },
+    {
+      "category": "游戏",
+      "name": "ModDrop",
+      "url": "https://www.moddrop.com/app/",
+      "desc": "ModDrop",
+      "id": "NLmttw8d7f_327",
+      "sort": 77
+    },
+    {
+      "category": "游戏",
+      "name": "Modrinth",
+      "url": "https://modrinth.com/discover/mods",
+      "desc": "Modrinth",
+      "id": "NLmttw8d7f_328",
+      "sort": 78
+    },
+    {
+      "category": "游戏",
+      "name": "GameBanana | The Game Modding Community ",
+      "url": "https://gamebanana.com/",
+      "desc": "GameBanana",
+      "id": "NLmttw8d7f_329",
+      "sort": 79
+    },
+    {
+      "category": "游戏",
+      "name": "Cкачать игры на ПК [последние версии 202",
+      "url": "https://byrutgame.org/?ref=biemoyu.com",
+      "desc": "Cкачать игры на ПК [последние …",
+      "id": "NLmttw8d7f_330",
+      "sort": 80
+    },
+    {
+      "category": "游戏",
+      "name": "游戏MOD_最新游戏MOD下载_游戏MOD大全_模组菜鸟网",
+      "url": "https://www.modmod.cn/index.html",
+      "desc": "游戏MOD",
+      "id": "NLmttw8d7f_331",
+      "sort": 81
+    },
+    {
+      "category": "游戏",
+      "name": "Mods | ModWorkshop",
+      "url": "https://modworkshop.net/mods",
+      "desc": "Mods",
+      "id": "NLmttw8d7f_332",
+      "sort": 82
+    },
+    {
+      "category": "游戏",
+      "name": "BT单机_BTDJ_BT单机游戏库，全球单机游戏试玩下载中心",
+      "url": "https://www.btdj.net/",
+      "desc": "BT单机",
+      "id": "NLmttw8d7f_333",
+      "sort": 83
+    },
+    {
+      "category": "游戏",
+      "name": "探索 PC 游戏 MOD，尽在 Xmod",
+      "url": "https://www.xmodhub.cn/game-mods/",
+      "desc": "探索 PC 游戏 MOD，尽在 Xmod",
+      "id": "NLmttw8d7f_334",
+      "sort": 84
+    },
+    {
+      "category": "游戏",
+      "name": "2025 年 PC 游戏 MOD 库 | Xmod 的热门、最新及最佳 MOD",
+      "url": "https://www.xmodhub.cn/game-mods/game-list/",
+      "desc": "2025 年 PC 游戏 MOD 库",
+      "id": "NLmttw8d7f_335",
+      "sort": 85
+    },
+    {
+      "category": "游戏",
+      "name": "聊天 | 🦀 𝓜𝓲𝓻𝓪𝓰𝓮 | Echo | Microsoft ",
+      "url": "https://teams.live.com/v2/",
+      "desc": "聊天",
+      "id": "NLmttw8d7f_336",
+      "sort": 86
+    },
+    {
+      "category": "游戏",
+      "name": "中国灵异网 _ 记录真实灵异事件_最具影响力的灵异网站",
+      "url": "https://www.lingyiwang.cn/",
+      "desc": "中国灵异网",
+      "id": "NLmttw8d7f_337",
+      "sort": 87
+    },
+    {
+      "category": "游戏",
+      "name": "游戏时光机｜经典复古怀旧老游戏免费在线玩",
+      "url": "https://youxisgj.com/",
+      "desc": "游戏时光机｜经典复古怀旧老游戏免费在线玩",
+      "id": "NLmttw8d7f_338",
+      "sort": 88
+    },
+    {
+      "category": "游戏",
+      "name": "免费AI抠图-在线抠图-批量AI自动去背景-透明底图片制作-抠抠图",
+      "url": "https://www.koukoutu.com/removebgtool/all?v=xhpt.AI",
+      "desc": "免费AI抠图",
+      "id": "NLmttw8d7f_339",
+      "sort": 89
+    },
+    {
+      "category": "游戏",
+      "name": "网友最佳软件夯榜 - HapNex",
+      "url": "https://hapnext.cn/hang.php",
+      "desc": "网友最佳软件夯榜",
+      "id": "NLmttw8d7f_340",
+      "sort": 90
+    },
+    {
+      "category": "游戏",
+      "name": "周末自驾逃离计划",
+      "url": "https://drive-escape.pomodiary.com/",
+      "desc": "周末自驾逃离计划",
+      "id": "NLmttw8d7f_341",
+      "sort": 91
+    }
+  ],
+  "map": {
+    "lat": 32.060255,
+    "lng": 118.796877,
+    "name": "江苏 · 南京",
+    "address": "江苏省南京市",
+    "zoom": 12
+  },
+  "adminPassword": "yang1126@",
+  "banners": [
+    {
+      "id": "b1",
+      "title": "我是k",
+      "subtitle": "",
+      "desc": "",
+      "to": "/blog/p1",
+      "image": "/uploads/test.jpg",
+      "gradient": "from-cyan-700 via-sky-800 to-blue-900",
+      "kind": "custom",
+      "sort": 0,
+      "visible": true,
+      "showTitle": true,
+      "showSubtitle": true,
+      "showDesc": false,
+      "titleSize": 48,
+      "titleWeight": "bold",
+      "titleColor": "#ffffff",
+      "subtitleSize": 16,
+      "subtitleColor": "rgba(255,255,255,0.85)",
+      "descSize": 14,
+      "descColor": "rgba(255,255,255,0.7)",
+      "textPosition": "left",
+      "textAlign": "left",
+      "textOffsetY": 0,
+      "video": "",
+      "showKind": true
+    },
+    {
+      "id": "b2",
+      "title": "Vue3 企业级后台管理系统",
+      "subtitle": "基于 Vue 3 + TypeScript 的中后台解决方案，内置动态路由、RBAC 权限",
+      "desc": "",
+      "to": "/projects",
+      "image": "/api/uploads/mu0zjsnt-ee29hb.jpg",
+      "gradient": "from-violet-700 via-purple-800 to-indigo-900",
+      "kind": "project",
+      "sort": 2,
+      "visible": true,
+      "showTitle": true,
+      "showSubtitle": true,
+      "showDesc": true,
+      "titleSize": 48,
+      "titleWeight": "bold",
+      "titleColor": "#ffffff",
+      "subtitleSize": 16,
+      "subtitleColor": "rgba(255,255,255,0.85)",
+      "descSize": 14,
+      "descColor": "rgba(255,255,255,0.75)",
+      "textPosition": "left",
+      "textAlign": "left",
+      "textOffsetY": 0
+    },
+    {
+      "id": "b3",
+      "title": "南京的秋天，从一杯手冲开始",
+      "subtitle": "九月一到，南京的风就有了秋天的味道",
+      "to": "/essay/p5",
+      "image": "",
+      "gradient": "from-amber-700 via-orange-800 to-rose-900",
+      "kind": "essay",
+      "sort": 3,
+      "visible": true
+    },
+    {
+      "id": "b4",
+      "title": "全栈博客引擎",
+      "subtitle": "前后端分离的个人博客系统：Node 提供 REST API，前端渲染结构化内容",
+      "to": "/projects",
+      "image": "",
+      "gradient": "from-emerald-700 via-teal-800 to-cyan-900",
+      "kind": "project",
+      "sort": 4,
+      "visible": true
+    },
+    {
+      "id": "b5",
+      "title": "把 UI 做得炫酷的 5 个 CSS 技巧",
+      "subtitle": "渐变文字、毛玻璃、极光背景、Spotlight 悬停、打字机效果",
+      "to": "/blog/p4",
+      "image": "",
+      "gradient": "from-rose-700 via-pink-800 to-fuchsia-900",
+      "kind": "blog",
+      "sort": 5,
+      "visible": true
+    }
+  ],
+  "settings": {
+    "fancyButtons": false,
+    "showCarousel": true,
+    "carouselPaginate": false,
+    "carouselInterval": 5000,
+    "clickEffect": "hearts",
+    "customClickImage": "",
+    "musicEnabled": false,
+    "musicSkin": "frosted",
+    "musicSkinBg": "",
+    "backgroundType": "interactive-grid",
+    "companionSkin": "default",
+    "companionIdleAnim": "bob",
+    "siteFont": "default",
+    "companionEnabled": false,
+    "navItems": [
+      {
+        "to": "/",
+        "label": "首",
+        "icon": "",
+        "hidden": false
+      },
+      {
+        "to": "/about",
+        "label": "吾",
+        "icon": "",
+        "hidden": false
+      },
+      {
+        "to": "/projects",
+        "label": "作",
+        "icon": "",
+        "hidden": false
+      },
+      {
+        "to": "/blog",
+        "label": "文",
+        "icon": "",
+        "hidden": false
+      },
+      {
+        "to": "/essay",
+        "label": "思",
+        "icon": "",
+        "hidden": false
+      },
+      {
+        "to": "/notes",
+        "label": "影",
+        "icon": "",
+        "hidden": false
+      },
+      {
+        "to": "/album",
+        "label": "忆",
+        "icon": "",
+        "hidden": false
+      },
+      {
+        "to": "/nav",
+        "label": "趣",
+        "icon": "",
+        "hidden": false
+      },
+      {
+        "to": "/guestbook",
+        "label": "言",
+        "icon": "",
+        "hidden": false
+      },
+      {
+        "to": "/verse",
+        "label": "詩",
+        "icon": "",
+        "hidden": true
+      },
+      {
+        "to": "/plans",
+        "label": "計",
+        "icon": "",
+        "hidden": false
+      }
+    ],
+    "musicSkinOpacity": 85,
+    "musicSkinBlur": 12,
+    "clickEffectSize": 0.95,
+    "clickEffectGlow": "soft",
+    "clickEffectGlowIntensity": 30,
+    "clickEffectMulticolor": true,
+    "companionSays": [],
+    "clickEffectEnabled": true,
+    "siteLanguage": "zh-Hans",
+    "albumLayout": {
+      "wall": {
+        "layout": "tilt",
+        "columns": "auto",
+        "size": "md",
+        "tilt": 4,
+        "showCount": true,
+        "showDesc": true
+      },
+      "photos": {
+        "layout": "masonry",
+        "columns": "auto",
+        "gap": "md",
+        "ratio": "original",
+        "rounded": true
+      }
+    }
+  },
+  "albumCategories": [
+    {
+      "id": "ACmttk1kvyvacl",
+      "title": "Q版",
+      "cover": "",
+      "desc": "",
+      "sort": 0
+    }
+  ],
+  "albumPhotos": [
+    {
+      "id": "APmttk1rjrnrur",
+      "categoryId": "ACmttk1kvyvacl",
+      "url": "/uploads/mttk1re9-vzvl9z.jpg",
+      "caption": "",
+      "sort": 1788925491639
+    },
+    {
+      "id": "APmttk1v5oxuff",
+      "categoryId": "ACmttk1kvyvacl",
+      "url": "/uploads/mttk1v1z-x11zef.jpg",
+      "caption": "",
+      "sort": 1788925496316
+    },
+    {
+      "id": "APmttk1yoaotu6",
+      "categoryId": "ACmttk1kvyvacl",
+      "url": "/uploads/mttk1yk9-kqu3ku.jpg",
+      "caption": "",
+      "sort": 1788925500874
+    },
+    {
+      "id": "APmtvbl588qk2u",
+      "categoryId": "ACmttk1kvyvacl",
+      "url": "/uploads/mtvbl577-r61ted.png",
+      "caption": "",
+      "sort": 1789032211640
+    }
+  ],
+  "plans": [
+    {
+      "id": "liaocheng-qingdao",
+      "title": "聊城音乐节 × 青岛看海",
+      "subtitle": "从摇滚现场到渤海之滨 · 一份可以照搬的攻略",
+      "category": "travel",
+      "emoji": "🎸",
+      "gradient": "from-cyan-600 via-sky-700 to-blue-800",
+      "tags": [
+        "音乐节",
+        "看海",
+        "古城"
+      ],
+      "summary": "从摇滚现场的燃到渤海湾的盐汽水，这条路线是节日的最佳化学反应。",
+      "meta": [
+        {
+          "label": "日期",
+          "value": "10.1 – 10.6"
+        },
+        {
+          "label": "时长",
+          "value": "6 天"
+        },
+        {
+          "label": "预算",
+          "value": "¥6,500±"
+        },
+        {
+          "label": "出行",
+          "value": "2 人"
+        }
+      ],
+      "sections": [
+        {
+          "icon": "sparkle",
+          "title": "行程亮点",
+          "kind": "cards",
+          "cards": [
+            {
+              "title": "新青年音乐节",
+              "desc": "痛仰 / 万青 / 盘尼西林 / 张蔷",
+              "emoji": "🎸"
+            },
+            {
+              "title": "青岛看海",
+              "desc": "八大关 · 栈桥 · 五四广场",
+              "emoji": "🌊"
+            },
+            {
+              "title": "水上古城",
+              "desc": "光岳楼 · 山陕会馆 · 东昌湖",
+              "emoji": "🏛️"
+            },
+            {
+              "title": "啤酒与海鲜",
+              "desc": "原浆 + 辣炒蛤蜊 + 鲅鱼水饺",
+              "emoji": "🍺"
+            }
+          ]
+        },
+        {
+          "icon": "calendar",
+          "title": "逐日行程",
+          "kind": "timeline",
+          "desc": "按青岛方案排，选威海只需替换 Day 3 之后交通",
+          "nodes": [
+            {
+              "badge": "1",
+              "title": "奔赴聊城",
+              "meta": "10.1 周四",
+              "emoji": "🚄",
+              "tags": [
+                "高铁",
+                "古城"
+              ],
+              "desc": "下午抵达聊城，先逛水上古城，晚上坐画舫夜游东昌湖，让身体和心情都进入假期模式。",
+              "items": [
+                {
+                  "label": "G1706 南京南 → 聊城西 19:08",
+                  "time": "14:54",
+                  "note": "二等座 ¥396 · 4h14min"
+                },
+                {
+                  "label": "D204 夜车",
+                  "time": "备选",
+                  "note": "二等卧 ¥133"
+                },
+                {
+                  "label": "光岳楼 → 山陕会馆 → 运河文化博物馆",
+                  "time": "下午"
+                },
+                {
+                  "label": "米市街晚餐：沙镇呱嗒、孙家烧鸽",
+                  "time": "晚上"
+                },
+                {
+                  "label": "东昌湖夜游画舫",
+                  "time": "20:00"
+                }
+              ],
+              "footer": [
+                {
+                  "icon": "home",
+                  "label": "住宿",
+                  "value": "聊城（九州洼附近）· 约 ¥300–500/晚"
+                }
+              ]
+            },
+            {
+              "badge": "2",
+              "title": "新青年音乐节 DAY 2",
+              "meta": "10.2 周五",
+              "emoji": "🎸",
+              "tags": [
+                "高潮日",
+                "必蹦"
+              ],
+              "desc": "这是你最想要的那天——痛仰 / 万能青年旅店 / 盘尼西林 / 张蔷都在。",
+              "items": [
+                {
+                  "label": "预售票 ¥338 / 单日，双日通票 ¥588",
+                  "time": "票价",
+                  "note": "早鸟 ¥198 已售罄"
+                },
+                {
+                  "label": "提前到场，可领手环 / 周边",
+                  "time": "14:00"
+                },
+                {
+                  "label": "暖场：羽果 / 野肆 / 沉舟",
+                  "time": "15–18"
+                },
+                {
+                  "label": "压轴：盘尼西林 → 痛仰",
+                  "time": "19–21:30"
+                },
+                {
+                  "label": "万青收尾，泪奔现场",
+                  "time": "22–23"
+                }
+              ],
+              "footer": [
+                {
+                  "icon": "lightbulb",
+                  "label": "购票",
+                  "value": "大麦 / 秀动 / 猫眼 / 票星球。10.1 DAY1 许巍 + 二手玫瑰也很炸，双日通票更值。",
+                  "warn": true
+                },
+                {
+                  "icon": "home",
+                  "label": "住宿",
+                  "value": "聊城 · 约 ¥300–500/晚"
+                }
+              ]
+            },
+            {
+              "badge": "3",
+              "title": "转场看海",
+              "meta": "10.3 周六",
+              "emoji": "🌊",
+              "tags": [
+                "聊城→青岛",
+                "初见大海"
+              ],
+              "desc": "上午睡到自然醒，中午退房去聊城西站。下午到青岛，先到栈桥吹海风、看夕阳。",
+              "items": [
+                {
+                  "label": "G3212 聊城西 → 青岛北 14:40",
+                  "time": "11:24",
+                  "note": "二等座 ¥233 · 3h16min"
+                },
+                {
+                  "label": "G5594 08:27 → 11:16",
+                  "time": "备选",
+                  "note": "¥214 早班车"
+                },
+                {
+                  "label": "酒店寄存 → 栈桥喂海鸥",
+                  "time": "下午",
+                  "note": "傍晚最浪漫"
+                },
+                {
+                  "label": "劈柴院海鲜锅贴 → 台东夜市",
+                  "time": "晚上"
+                }
+              ],
+              "footer": [
+                {
+                  "icon": "home",
+                  "label": "住宿",
+                  "value": "市南区海景房 ¥400–800/晚"
+                }
+              ]
+            },
+            {
+              "badge": "4",
+              "title": "青岛浪漫日",
+              "meta": "10.4 周日",
+              "emoji": "💑",
+              "tags": [
+                "情侣专属",
+                "出片日"
+              ],
+              "desc": "这一天专门给 TA：慢游八大关、咖啡馆、海边日落，晚上啤酒街配海鲜。",
+              "items": [
+                {
+                  "label": "八大关：公主楼 / 花石楼 / 西班牙风情馆",
+                  "time": "上午",
+                  "note": "10 月初秋色正当时"
+                },
+                {
+                  "label": "大学路咖啡街 + 船歌鱼水饺",
+                  "time": "中午",
+                  "note": "必点墨鱼饺子"
+                },
+                {
+                  "label": "五四广场 → 奥帆中心",
+                  "time": "下午",
+                  "note": "双人自行车 ¥20/h"
+                },
+                {
+                  "label": "啤酒街 / 营口路：原浆 + 辣炒蛤蜊",
+                  "time": "晚上"
+                }
+              ],
+              "footer": [
+                {
+                  "icon": "home",
+                  "label": "住宿",
+                  "value": "青岛 · 市南 / 八大关"
+                }
+              ]
+            },
+            {
+              "badge": "5",
+              "title": "崂山 或 黄岛",
+              "meta": "10.5 周一",
+              "emoji": "🏔️",
+              "tags": [
+                "二选一",
+                "一日游"
+              ],
+              "desc": "崂山看海，或黄岛金沙滩慢游，按体力选一个。",
+              "items": [
+                {
+                  "label": "崂山仰口景区「海上仙山」",
+                  "time": "A",
+                  "note": "门票 ¥90 · 缆车 ¥60 单程"
+                },
+                {
+                  "label": "黄岛金沙滩，亚洲最大金色海滩",
+                  "time": "B",
+                  "note": "免费 · 轻松休闲"
+                },
+                {
+                  "label": "青啤原浆礼盒、海产干货",
+                  "time": "购物",
+                  "note": "建议大型超市买，避免景区被宰"
+                }
+              ],
+              "footer": [
+                {
+                  "icon": "home",
+                  "label": "住宿",
+                  "value": "青岛 · 市南区"
+                }
+              ]
+            },
+            {
+              "badge": "6",
+              "title": "回宁",
+              "meta": "10.6 周二",
+              "emoji": "🚄",
+              "tags": [
+                "返程"
+              ],
+              "desc": "最后再吃一次青岛早餐，买好伴手礼，从容上高铁。",
+              "items": [
+                {
+                  "label": "G248 青岛 → 南京南 14:30",
+                  "time": "09:43",
+                  "note": "二等座约 ¥315 · 4h47min"
+                },
+                {
+                  "label": "青岛胶东机场 ✈️ 南京禄口",
+                  "time": "备选",
+                  "note": "飞行 1.5h，¥400–800"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "icon": "chart",
+          "title": "预算明细",
+          "kind": "budget",
+          "desc": "舒适档（推荐）分项",
+          "budget": [
+            {
+              "label": "高铁往返",
+              "amount": "¥1,900",
+              "note": "南京-聊城-青岛-南京"
+            },
+            {
+              "label": "音乐节门票",
+              "amount": "¥676",
+              "note": "2 张单日 ¥338"
+            },
+            {
+              "label": "住宿 5 晚",
+              "amount": "¥2,800",
+              "note": "聊城 1 晚 + 青岛 4 晚海景"
+            },
+            {
+              "label": "餐饮",
+              "amount": "¥1,500",
+              "note": "6 天 × 约 ¥250/天"
+            },
+            {
+              "label": "当地交通",
+              "amount": "¥500",
+              "note": "地铁 + 打车 + 共享单车"
+            },
+            {
+              "label": "景点门票",
+              "amount": "¥300",
+              "note": "崂山 + 咖啡馆 + 杂项"
+            },
+            {
+              "label": "伴手礼 + 应急",
+              "amount": "¥300",
+              "note": "青啤礼盒 + 海产"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "icon": "🎫",
+          "title": "订票与抢票",
+          "items": [
+            "音乐节门票 9.2 已开售，现在去大麦 / 秀动抢 ¥338 预售",
+            "高铁票国庆前 15 天开售（约 9.20），务必定 9:00 闹钟",
+            "酒店至少提前 1 个月订，聊城 1 晚 + 青岛 4 晚",
+            "主推班次售罄时设置候补，成功率较高"
+          ]
+        },
+        {
+          "icon": "🎒",
+          "title": "行前打包清单",
+          "items": [
+            "身份证 + 备用证件（订票 / 入住都要）",
+            "防晒霜 SPF50、墨镜、帽子（海边紫外线强）",
+            "雨衣 + 雨伞（音乐节户外、海边天气多变）",
+            "充电宝 20000mAh、自拍杆、相机",
+            "轻便运动鞋 + 拖鞋 + 薄外套",
+            "常用药：感冒、肠胃、晕车、创可贴"
+          ]
+        },
+        {
+          "icon": "🎸",
+          "title": "音乐节现场",
+          "items": [
+            "入场刷身份证，务必随身携带",
+            "不允许带：专业相机、长柄雨伞、玻璃瓶",
+            "场地可能泥泞，雨鞋 / 防水鞋很重要",
+            "贵重物品放酒店或防水袋",
+            "散场人流大，提前订好回酒店的车"
+          ]
+        },
+        {
+          "icon": "🌊",
+          "title": "海边注意事项",
+          "items": [
+            "10 月青岛海水开始凉，下水慎重，以沙滩散步为主",
+            "不要独自去野海滩，认准有救生员的海水浴场",
+            "海鲜要选活的、称重看秤，去明档餐厅",
+            "青岛啤酒度数比一般高，别喝太猛",
+            "看日落提前查时间，10 月约 17:30"
+          ]
+        }
+      ],
+      "visible": true,
+      "sort": 0,
+      "updatedAt": "2026-09-15T02:50:03.656Z",
+      "route": [
+        "南京",
+        "聊城",
+        "青岛",
+        "南京"
+      ]
+    },
+    {
+      "id": "sichuan-easy",
+      "title": "慢游四川 · 国庆轻松版",
+      "subtitle": "合肥出发 × 熊猫 × 银河左岸 · 每天 1 个重点",
+      "category": "travel",
+      "emoji": "🐼",
+      "gradient": "from-emerald-600 via-teal-700 to-cyan-800",
+      "tags": [
+        "熊猫",
+        "音乐节",
+        "慢游"
+      ],
+      "summary": "一条线走完，不回成都绕路——重庆离泸州更近，省时省钱省体力，全程只住 2 家酒店。",
+      "meta": [
+        {
+          "label": "日期",
+          "value": "10.1 – 10.6"
+        },
+        {
+          "label": "时长",
+          "value": "6 天"
+        },
+        {
+          "label": "预算",
+          "value": "¥4,450"
+        },
+        {
+          "label": "出行",
+          "value": "人均"
+        }
+      ],
+      "sections": [
+        {
+          "icon": "sparkle",
+          "title": "行程亮点",
+          "kind": "cards",
+          "cards": [
+            {
+              "title": "大熊猫基地",
+              "desc": "月亮产房看幼崽，唯一早起的一天",
+              "emoji": "🐼"
+            },
+            {
+              "title": "银河左岸",
+              "desc": "许巍 / 痛仰 / 新裤子 / 逃跑计划",
+              "emoji": "🎸"
+            },
+            {
+              "title": "武侯祠锦里",
+              "desc": "三国文化 + 鹤鸣茶社盖碗茶",
+              "emoji": "🏛️"
+            },
+            {
+              "title": "都江堰青城山",
+              "desc": "世界双遗产一日游",
+              "emoji": "⛰️"
+            }
+          ]
+        },
+        {
+          "icon": "calendar",
+          "title": "逐日行程",
+          "kind": "timeline",
+          "desc": "轻松版 · 每天 1 个重点，其他时间随意",
+          "nodes": [
+            {
+              "badge": "1",
+              "title": "合肥 ✈️ 成都",
+              "meta": "10.1 周四",
+              "emoji": "✈️",
+              "tags": [
+                "晚飞",
+                "避峰省钱"
+              ],
+              "desc": "白天南京去合肥，晚上飞成都。晚班机比白天便宜 40%+。",
+              "items": [
+                {
+                  "label": "南京 → 合肥 高铁 1h",
+                  "time": "白天",
+                  "note": "¥60–80"
+                },
+                {
+                  "label": "合肥新桥 ✈️ 成都天府 / 双流",
+                  "time": "19:00",
+                  "note": "选 19–21 点起飞"
+                },
+                {
+                  "label": "抵达成都，住春熙路 · 太古里",
+                  "time": "22:00"
+                },
+                {
+                  "label": "宵夜：串串香 或 老妈蹄花",
+                  "time": "23:00"
+                }
+              ],
+              "footer": [
+                {
+                  "icon": "lightbulb",
+                  "label": "为什么",
+                  "value": "10.1 出行最贵，但合肥航线比南京便宜 30–50%，省下的钱远超高铁票。",
+                  "warn": true
+                },
+                {
+                  "icon": "home",
+                  "label": "住宿",
+                  "value": "成都（第 1 晚）"
+                }
+              ]
+            },
+            {
+              "badge": "2",
+              "title": "成都慢慢逛",
+              "meta": "10.2 周五",
+              "emoji": "😴",
+              "tags": [
+                "慢游",
+                "不设闹钟"
+              ],
+              "desc": "睡到自然醒，武侯祠锦里慢慢逛，人民公园喝茶掏耳朵。",
+              "items": [
+                {
+                  "label": "睡到自然醒",
+                  "time": "10:00"
+                },
+                {
+                  "label": "brunch：钟水饺、龙抄手、甜水面、肥肠粉",
+                  "time": "11:00"
+                },
+                {
+                  "label": "武侯祠 ¥50 + 锦里古街（免费）",
+                  "time": "14:00"
+                },
+                {
+                  "label": "人民公园鹤鸣茶社，盖碗茶掏耳朵",
+                  "time": "17:00"
+                },
+                {
+                  "label": "宽窄巷子晚餐 + 玉林路小酒馆",
+                  "time": "19:00"
+                }
+              ],
+              "footer": [
+                {
+                  "icon": "home",
+                  "label": "住宿",
+                  "value": "成都（第 2 晚，行李不动）"
+                }
+              ]
+            },
+            {
+              "badge": "3",
+              "title": "看熊猫日",
+              "meta": "10.3 周六",
+              "emoji": "🐼",
+              "tags": [
+                "核心",
+                "唯一早起"
+              ],
+              "desc": "全程唯一需要早起的一天——熊猫上午最活跃。",
+              "items": [
+                {
+                  "label": "起床出发",
+                  "time": "06:40"
+                },
+                {
+                  "label": "大熊猫基地开门即入 → 月亮产房 → 太阳产房",
+                  "time": "07:30"
+                },
+                {
+                  "label": "文创店买周边（熊猫背包挂件必入）",
+                  "time": "11:00"
+                },
+                {
+                  "label": "午餐后回酒店午休 1 小时",
+                  "time": "12:30"
+                },
+                {
+                  "label": "杜甫草堂 ¥50 或 人民公园发呆",
+                  "time": "15:00"
+                },
+                {
+                  "label": "春熙路 · 太古里裸眼 3D + 正经火锅",
+                  "time": "18:00"
+                }
+              ],
+              "footer": [
+                {
+                  "icon": "lightbulb",
+                  "label": "预约",
+                  "value": "公众号「成都大熊猫繁育研究基地」提前 3 天 0 点抢预约，9/30 0 点抢 10/3 的票，国庆秒空！",
+                  "warn": true
+                },
+                {
+                  "icon": "home",
+                  "label": "住宿",
+                  "value": "成都（第 3 晚）"
+                }
+              ]
+            },
+            {
+              "badge": "4",
+              "title": "都江堰 + 青城山",
+              "meta": "10.4 周日",
+              "emoji": "🚄",
+              "tags": [
+                "世界遗产",
+                "20min"
+              ],
+              "desc": "犀浦站坐城际列车，20 分钟就到，跟坐地铁一样。",
+              "items": [
+                {
+                  "label": "犀浦站城际 → 都江堰（20 分钟）",
+                  "time": "08:00"
+                },
+                {
+                  "label": "都江堰景区：宝瓶口 → 飞沙堰 → 鱼嘴",
+                  "time": "09:00"
+                },
+                {
+                  "label": "午餐：尤兔头、渣渣面、白果炖鸡",
+                  "time": "12:00"
+                },
+                {
+                  "label": "青城前山 ¥80（可坐缆车）",
+                  "time": "14:00"
+                },
+                {
+                  "label": "回成都，建设路小吃街：蛋烘糕、冰粉、三大炮",
+                  "time": "17:30"
+                }
+              ],
+              "footer": [
+                {
+                  "icon": "lightbulb",
+                  "label": "备选",
+                  "value": "太累可以砍掉青城山，都江堰逛完直接回成都泡茶馆。",
+                  "warn": true
+                },
+                {
+                  "icon": "home",
+                  "label": "住宿",
+                  "value": "成都（第 4 晚，行李不动）"
+                }
+              ]
+            },
+            {
+              "badge": "5",
+              "title": "银河左岸音乐节",
+              "meta": "10.5 周一",
+              "emoji": "🎸",
+              "tags": [
+                "重头戏",
+                "摇滚一整天"
+              ],
+              "desc": "成都高铁去泸州，下午入场，摇滚一整天。",
+              "items": [
+                {
+                  "label": "成都东 / 南 → 泸州（约 2 小时）",
+                  "time": "08:30"
+                },
+                {
+                  "label": "抵泸州，酒店放行李",
+                  "time": "11:00",
+                  "note": "住场地周边或万达商圈"
+                },
+                {
+                  "label": "午餐 + 补给：水、雨衣、充电宝",
+                  "time": "12:00",
+                  "note": "场内贵"
+                },
+                {
+                  "label": "入场！下午场热身，傍晚压轴轮番轰炸",
+                  "time": "14:00"
+                },
+                {
+                  "label": "散场跟人流回酒店",
+                  "time": "深夜",
+                  "note": "提前叫车 / 看接驳车"
+                }
+              ],
+              "footer": [
+                {
+                  "icon": "lightbulb",
+                  "label": "购票",
+                  "value": "大麦 / 票牛搜「银河左岸」，买 10/5 单日票即可，¥300–600 档位按预算选。",
+                  "warn": true
+                },
+                {
+                  "icon": "home",
+                  "label": "住宿",
+                  "value": "泸州（唯一一晚）"
+                }
+              ]
+            },
+            {
+              "badge": "6",
+              "title": "泸州 → 重庆 ✈️ 南京",
+              "meta": "10.6 周二",
+              "emoji": "🏠",
+              "tags": [
+                "返程",
+                "不走回头路"
+              ],
+              "desc": "睡到自然醒，上午逛泸州老窖，下午从重庆飞回南京。",
+              "items": [
+                {
+                  "label": "泸州早餐：白糕、黄粑、猪儿粑、豆汤面",
+                  "time": "09:30"
+                },
+                {
+                  "label": "泸州老窖旅游区（国窖 1573）¥50",
+                  "time": "10:30"
+                },
+                {
+                  "label": "退房 → 重庆江北机场（约 2h）",
+                  "time": "12:30"
+                },
+                {
+                  "label": "重庆江北 ✈️ 南京禄口",
+                  "time": "15:00",
+                  "note": "选 15–17 点起飞"
+                },
+                {
+                  "label": "抵南京，老门东一碗鸭血粉丝汤接风",
+                  "time": "17:30"
+                }
+              ],
+              "footer": [
+                {
+                  "icon": "lightbulb",
+                  "label": "为什么",
+                  "value": "泸州到重庆只有 2h，重庆飞南京航班多；回成都要再坐 2h 高铁 + 去机场，绕一大圈。",
+                  "warn": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "icon": "chart",
+          "title": "预算明细",
+          "kind": "budget",
+          "desc": "人均 · 合肥出发 + 重庆返程",
+          "budget": [
+            {
+              "label": "南京 → 合肥 高铁",
+              "amount": "¥75"
+            },
+            {
+              "label": "合肥 → 成都 机票",
+              "amount": "¥650",
+              "note": "10/1 晚班机"
+            },
+            {
+              "label": "成都 → 泸州 高铁",
+              "amount": "¥110"
+            },
+            {
+              "label": "泸州 → 重庆",
+              "amount": "¥80",
+              "note": "大巴 / 网约车"
+            },
+            {
+              "label": "重庆 → 南京 机票",
+              "amount": "¥750",
+              "note": "10/6 下午"
+            },
+            {
+              "label": "成都 → 都江堰 城际往返",
+              "amount": "¥40"
+            },
+            {
+              "label": "住宿 5 晚",
+              "amount": "¥975",
+              "note": "成都 4 晚 + 泸州 1 晚，双人分摊"
+            },
+            {
+              "label": "门票",
+              "amount": "¥365",
+              "note": "熊猫 + 武侯祠 + 都江堰 + 青城山 + 草堂 + 老窖"
+            },
+            {
+              "label": "音乐节单日票",
+              "amount": "¥450"
+            },
+            {
+              "label": "餐饮 5.5 天",
+              "amount": "¥605",
+              "note": "¥110/天"
+            },
+            {
+              "label": "市内交通 + 杂项",
+              "amount": "¥350"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "icon": "🎯",
+          "title": "现在就订",
+          "items": [
+            "音乐节单日票（大麦 / 票牛搜「银河左岸」）",
+            "合肥 → 成都 10/1 晚班机，越早越便宜",
+            "重庆 → 南京 10/6 下午机票"
+          ]
+        },
+        {
+          "icon": "🏨",
+          "title": "提前 1 个月",
+          "items": [
+            "订酒店：成都春熙路 4 晚 + 泸州音乐节周边 1 晚",
+            "音乐节当天泸州房价暴涨，别等"
+          ]
+        },
+        {
+          "icon": "🐼",
+          "title": "提前 3–7 天",
+          "items": [
+            "熊猫基地公众号 0 点抢预约（9/30 抢 10/3）",
+            "武侯祠 / 都江堰 / 草堂公众号预约"
+          ]
+        },
+        {
+          "icon": "🎒",
+          "title": "音乐节当天",
+          "items": [
+            "充电宝、雨衣（四川 10 月多雨）、舒服的鞋",
+            "散场提前 10 分钟走能抢到车"
+          ]
+        }
+      ],
+      "visible": true,
+      "sort": 2,
+      "updatedAt": "2026-09-15T02:50:03.656Z",
+      "route": [
+        "南京",
+        "合肥",
+        "成都",
+        "泸州",
+        "重庆",
+        "南京"
+      ]
+    },
+    {
+      "id": "yun-gu-chuan",
+      "title": "银河左岸 · 云贵川音乐节之旅",
+      "subtitle": "云贵川 × 摇滚 × 萌神熊猫 · 7 天 6 晚",
+      "category": "travel",
+      "emoji": "🌌",
+      "gradient": "from-violet-600 via-purple-700 to-fuchsia-800",
+      "tags": [
+        "三省",
+        "音乐节",
+        "熊猫"
+      ],
+      "summary": "7 天 6 晚，总里程约 1800 km，一次走完云贵川三省，重头戏是 10/5 泸州银河左岸。",
+      "meta": [
+        {
+          "label": "日期",
+          "value": "10.1 – 10.7"
+        },
+        {
+          "label": "时长",
+          "value": "7 天 6 晚"
+        },
+        {
+          "label": "预算",
+          "value": "¥6,635"
+        },
+        {
+          "label": "出行",
+          "value": "单人"
+        }
+      ],
+      "sections": [
+        {
+          "icon": "sparkle",
+          "title": "行程亮点",
+          "kind": "cards",
+          "cards": [
+            {
+              "title": "银河左岸全阵容",
+              "desc": "许巍 / 痛仰 / 新裤子 / 逃跑计划 / 二手玫瑰",
+              "emoji": "🎸"
+            },
+            {
+              "title": "大熊猫基地",
+              "desc": "早上 7 点前到，看最活跃的熊猫",
+              "emoji": "🐼"
+            },
+            {
+              "title": "自贡恐龙博物馆",
+              "desc": "世界三大恐龙遗址博物馆",
+              "emoji": "🦖"
+            },
+            {
+              "title": "赤水大瀑布",
+              "desc": "顺路打卡贵州",
+              "emoji": "🌊"
+            }
+          ]
+        },
+        {
+          "icon": "calendar",
+          "title": "逐日行程",
+          "kind": "timeline",
+          "desc": "细到每小时，跟着走不慌",
+          "nodes": [
+            {
+              "badge": "1",
+              "title": "南京 ✈️ 成都",
+              "meta": "10.1 周四",
+              "emoji": "✈️",
+              "tags": [
+                "初遇蓉城",
+                "飞行 3h"
+              ],
+              "desc": "建议早班机，到成都正好午饭后开始逛。",
+              "items": [
+                {
+                  "label": "南京禄口机场出发",
+                  "time": "07:00"
+                },
+                {
+                  "label": "抵达双流 / 天府，地铁 18 号线进市区",
+                  "time": "10:00"
+                },
+                {
+                  "label": "入住春熙路 / 太古里 / 宽窄巷子附近",
+                  "time": "11:30"
+                },
+                {
+                  "label": "武侯祠 ¥50 + 锦里古街（免费）",
+                  "time": "13:30",
+                  "note": "公众号预约"
+                },
+                {
+                  "label": "玉林路晚餐：火锅 / 串串 / 夫妻肺片",
+                  "time": "18:00"
+                },
+                {
+                  "label": "锦江夜色 / 九眼桥酒吧街",
+                  "time": "20:30"
+                }
+              ],
+              "footer": [
+                {
+                  "icon": "home",
+                  "label": "住宿",
+                  "value": "成都 · ¥320/晚"
+                }
+              ]
+            },
+            {
+              "badge": "2",
+              "title": "成都 · 看熊猫",
+              "meta": "10.2 周五",
+              "emoji": "🐼",
+              "tags": [
+                "必看",
+                "顶流萌神"
+              ],
+              "desc": "国庆游客爆炸，早上 7:00 前到是真理，下午只能看睡着的熊猫。",
+              "items": [
+                {
+                  "label": "起床，7:00 前到达基地",
+                  "time": "06:30"
+                },
+                {
+                  "label": "月亮产房 → 太阳产房 → 小熊猫散步道",
+                  "time": "07:30"
+                },
+                {
+                  "label": "基地出口新博物馆 + 商店",
+                  "time": "11:00"
+                },
+                {
+                  "label": "回市区午餐：肥肠粉 / 甜水面 / 抄手",
+                  "time": "12:30"
+                },
+                {
+                  "label": "杜甫草堂 ¥50 + 四川博物院（免费）",
+                  "time": "14:30"
+                },
+                {
+                  "label": "建设路小吃街 / 奎星楼街逛吃",
+                  "time": "18:30"
+                },
+                {
+                  "label": "九眼桥 or 兰桂坊小酌",
+                  "time": "21:00"
+                }
+              ],
+              "footer": [
+                {
+                  "icon": "lightbulb",
+                  "label": "提醒",
+                  "value": "必提前 1–3 天预约！建议买观光车票 ¥10 省腿。",
+                  "warn": true
+                },
+                {
+                  "icon": "home",
+                  "label": "住宿",
+                  "value": "成都 · ¥320/晚"
+                }
+              ]
+            },
+            {
+              "badge": "3",
+              "title": "都江堰 + 青城山",
+              "meta": "10.3 周六",
+              "emoji": "⛰️",
+              "tags": [
+                "世界遗产",
+                "一日游"
+              ],
+              "desc": "青城天下幽，全山道教宫观，索道上步行下约 3h。",
+              "items": [
+                {
+                  "label": "成都站 / 犀浦站 → 都江堰（约 30min）",
+                  "time": "07:00"
+                },
+                {
+                  "label": "都江堰景区 ¥80：鱼嘴 · 飞沙堰 · 宝瓶口 · 安澜索桥",
+                  "time": "09:00"
+                },
+                {
+                  "label": "午餐：渣渣面、青城泡菜、白果炖鸡",
+                  "time": "12:00"
+                },
+                {
+                  "label": "青城山前山 ¥90，月城湖索道 ¥60 双程",
+                  "time": "13:30"
+                },
+                {
+                  "label": "回成都，小龙坎 / 电台巷火锅",
+                  "time": "17:30"
+                }
+              ],
+              "footer": [
+                {
+                  "icon": "lightbulb",
+                  "label": "备选",
+                  "value": "离堆公园 16:00 后光线最棒；青城山徒步量大，也可换成三星堆。",
+                  "warn": true
+                },
+                {
+                  "icon": "home",
+                  "label": "住宿",
+                  "value": "成都 · ¥320/晚"
+                }
+              ]
+            },
+            {
+              "badge": "4",
+              "title": "成都 → 自贡 → 泸州",
+              "meta": "10.4 周日",
+              "emoji": "🦖",
+              "tags": [
+                "盐都",
+                "转场日"
+              ],
+              "desc": "自贡看恐龙和千年古盐井，吃盐帮菜，晚上到泸州。",
+              "items": [
+                {
+                  "label": "成都东 → 自贡（约 1h15）",
+                  "time": "08:30"
+                },
+                {
+                  "label": "自贡恐龙博物馆 ¥40 或 燊海井",
+                  "time": "10:00"
+                },
+                {
+                  "label": "盐帮菜：鲜锅兔 / 冷吃兔 / 跳水蛙 / 火边子牛肉",
+                  "time": "12:30"
+                },
+                {
+                  "label": "自贡 → 泸州高铁（约 1h）",
+                  "time": "14:30"
+                },
+                {
+                  "label": "泸州老窖 1573 国宝窖池 ¥30 + 报恩塔",
+                  "time": "17:30"
+                },
+                {
+                  "label": "晚餐：泸州白烧、合江烤鱼、黄粑、猪儿粑",
+                  "time": "19:30"
+                }
+              ],
+              "footer": [
+                {
+                  "icon": "home",
+                  "label": "住宿",
+                  "value": "泸州 · ¥280/晚"
+                }
+              ]
+            },
+            {
+              "badge": "5",
+              "title": "银河左岸音乐节",
+              "meta": "10.5 周一",
+              "emoji": "🎸",
+              "tags": [
+                "HIGHLIGHT",
+                "主舞台日"
+              ],
+              "desc": "许巍 / 痛仰 / 新裤子 / 逃跑计划 / 二手玫瑰 / 夏日入侵企划 / 告五人 / 陈粒……",
+              "items": [
+                {
+                  "label": "睡个懒觉，元气满满",
+                  "time": "09:00"
+                },
+                {
+                  "label": "张坝桂圆林（免费），散步拍照",
+                  "time": "10:30"
+                },
+                {
+                  "label": "午餐：泸州豆花、肥儿粉",
+                  "time": "12:30"
+                },
+                {
+                  "label": "回酒店午休、整理装备",
+                  "time": "14:00"
+                },
+                {
+                  "label": "出发去场地，预留安检时间",
+                  "time": "16:30"
+                },
+                {
+                  "label": "安检入场，寄存大件包",
+                  "time": "17:00",
+                  "note": "尽早站前排"
+                },
+                {
+                  "label": "开演！一般 21:30 之后压轴",
+                  "time": "17:30"
+                },
+                {
+                  "label": "预计散场",
+                  "time": "23:30"
+                }
+              ],
+              "footer": [
+                {
+                  "icon": "lightbulb",
+                  "label": "购票",
+                  "value": "早鸟单日票性价比最高；关注公众号确认场地；可拼车提前订返程。",
+                  "warn": true
+                },
+                {
+                  "icon": "home",
+                  "label": "住宿",
+                  "value": "泸州 · ¥280/晚"
+                }
+              ]
+            },
+            {
+              "badge": "6",
+              "title": "泸州 → 赤水 → 重庆",
+              "meta": "10.6 周二",
+              "emoji": "🌊",
+              "tags": [
+                "打卡贵州",
+                "返程"
+              ],
+              "desc": "赤水大瀑布顺路打卡贵州，然后从重庆飞回南京。",
+              "items": [
+                {
+                  "label": "退房，豆花早餐",
+                  "time": "07:00"
+                },
+                {
+                  "label": "包车 / 拼车去赤水（约 1.5–2h）",
+                  "time": "08:00"
+                },
+                {
+                  "label": "赤水大瀑布 ¥90 + 四洞沟 / 燕子岩 ¥80",
+                  "time": "10:00"
+                },
+                {
+                  "label": "午餐：赤水腊肉、桶桶笋、豆花面",
+                  "time": "13:00"
+                },
+                {
+                  "label": "赤水→泸州→重庆→飞南京（推荐）",
+                  "time": "方案 B"
+                },
+                {
+                  "label": "泸州云龙机场直飞（紧凑，班次少）",
+                  "time": "方案 A"
+                },
+                {
+                  "label": "高铁 + 顺风车（便宜但可能多一晚）",
+                  "time": "方案 C"
+                }
+              ],
+              "footer": [
+                {
+                  "icon": "lightbulb",
+                  "label": "推荐",
+                  "value": "方案 B：赤水→泸州 1.5h ¥80 → 泸州高铁→重庆 1.5h ¥110 → 重庆飞南京 2h ¥800。",
+                  "warn": true
+                }
+              ]
+            },
+            {
+              "badge": "7",
+              "title": "回到南京",
+              "meta": "10.7 周三",
+              "emoji": "🏠",
+              "tags": [
+                "缓冲日",
+                "回血"
+              ],
+              "desc": "整理照片视频，下午老门东逛逛，晚上鸭血粉丝汤收尾。",
+              "items": [
+                {
+                  "label": "睡到自然醒，整理行李、照片、视频",
+                  "time": "上午"
+                },
+                {
+                  "label": "南京老门东 / 夫子庙，把遗憾留给下次",
+                  "time": "下午"
+                },
+                {
+                  "label": "鸭血粉丝汤、盐水鸭，结束完美假期",
+                  "time": "晚上"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "icon": "chart",
+          "title": "预算明细",
+          "kind": "budget",
+          "desc": "单人 · 中等标准 · 旺季参考价",
+          "budget": [
+            {
+              "label": "机票 南京 → 成都",
+              "amount": "¥900"
+            },
+            {
+              "label": "成都 → 自贡 高铁",
+              "amount": "¥120"
+            },
+            {
+              "label": "自贡 → 泸州 高铁",
+              "amount": "¥80"
+            },
+            {
+              "label": "泸州 → 重庆 高铁",
+              "amount": "¥110"
+            },
+            {
+              "label": "机票 重庆 → 南京",
+              "amount": "¥800"
+            },
+            {
+              "label": "成都住宿 3 晚",
+              "amount": "¥960",
+              "note": "¥320/晚"
+            },
+            {
+              "label": "泸州住宿 2 晚",
+              "amount": "¥560",
+              "note": "¥280/晚"
+            },
+            {
+              "label": "门票合计",
+              "amount": "¥385",
+              "note": "熊猫 55 + 都江堰青城山 170 + 恐龙馆 40 + 瀑布 90 + 窖池 30"
+            },
+            {
+              "label": "银河左岸音乐节",
+              "amount": "¥580",
+              "note": "¥480–680"
+            },
+            {
+              "label": "餐饮 7 天",
+              "amount": "¥840",
+              "note": "¥120/天"
+            },
+            {
+              "label": "市内交通 / 包车",
+              "amount": "¥500"
+            },
+            {
+              "label": "纪念品 / 零食",
+              "amount": "¥300"
+            },
+            {
+              "label": "应急预备金",
+              "amount": "¥500"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "icon": "🎫",
+          "title": "必看提醒",
+          "items": [
+            "熊猫基地关注公众号，提前 3 天 0 点放票，国庆非常抢手",
+            "音乐节票：大麦 / 票牛 / 摩天轮搜「银河左岸」，建议买 10/5 单日票"
+          ]
+        },
+        {
+          "icon": "🌂",
+          "title": "天气与装备",
+          "items": [
+            "10 月川渝多雨，雨衣必备，不要带长柄伞进音乐节",
+            "山区温差大，外套不可少",
+            "舒适步行鞋（青城山要走 8km+）"
+          ]
+        },
+        {
+          "icon": "🚖",
+          "title": "交通与住宿",
+          "items": [
+            "国庆打车难，提前一天预约机场接送和赤水拼车",
+            "泸州音乐节期间一房难求，至少提前 1 个月订"
+          ]
+        },
+        {
+          "icon": "📷",
+          "title": "音乐节拍摄",
+          "items": [
+            "场内禁止单反 / 长焦 / 直播杆",
+            "手机自拍没关系，想拍 vlog 用稳定器没问题",
+            "建议买带返程大巴的套餐"
+          ]
+        }
+      ],
+      "visible": true,
+      "sort": 1,
+      "updatedAt": "2026-09-15T02:50:03.656Z",
+      "route": [
+        "南京",
+        "成都",
+        "自贡",
+        "泸州",
+        "赤水",
+        "重庆",
+        "南京"
+      ]
+    },
+    {
+      "id": "pc-upgrade-ue5",
+      "title": "电脑升级方案 · UE5 优化",
+      "subtitle": "R5 3600 + GTX 1660S → 只升 CPU 和显卡就够",
+      "category": "tech",
+      "emoji": "🖥️",
+      "gradient": "from-violet-600 via-indigo-700 to-blue-900",
+      "tags": [
+        "装机",
+        "UE5",
+        "性价比"
+      ],
+      "summary": "SSD、双通道内存、金牌电源、塔散都已到位，真正要动的只有 CPU + 显卡，第一步先开 XMP。",
+      "meta": [
+        {
+          "label": "预算",
+          "value": "¥2,800±"
+        },
+        {
+          "label": "平台",
+          "value": "AM4"
+        },
+        {
+          "label": "目标",
+          "value": "UE5 流畅"
+        },
+        {
+          "label": "已投入",
+          "value": "¥5,122"
+        }
+      ],
+      "sections": [
+        {
+          "icon": "layers",
+          "title": "现有配置速览",
+          "kind": "cards",
+          "desc": "这套机器搭得不错，不用全部重买",
+          "cards": [
+            {
+              "title": "CPU · R5 3600",
+              "desc": "当年主流，现偏弱 · 最大瓶颈",
+              "emoji": "🧠",
+              "badge": "待升"
+            },
+            {
+              "title": "显卡 · GTX 1660 SUPER 6G",
+              "desc": "无光追 / DLSS · 升级重点",
+              "emoji": "🎮",
+              "badge": "待升"
+            },
+            {
+              "title": "内存 · 16GB DDR4 3200",
+              "desc": "8G×2 双通道已 OK · 记得开 XMP",
+              "emoji": "🧩",
+              "badge": "够用"
+            },
+            {
+              "title": "主板 · B450M MORTAR MAX",
+              "desc": "可升级 Ryzen 5000 系列",
+              "emoji": "🔌",
+              "badge": "可留"
+            },
+            {
+              "title": "SSD · WD SN750 500G",
+              "desc": "高速 NVMe · 不用换",
+              "emoji": "💾",
+              "badge": "可留"
+            },
+            {
+              "title": "电源 / 散热 · 500W + 玄冰400",
+              "desc": "金牌电源 + 四热管 · 已合格",
+              "emoji": "🔋",
+              "badge": "可留"
+            }
+          ]
+        },
+        {
+          "icon": "rocket",
+          "title": "升级优先级（建议顺序）",
+          "kind": "timeline",
+          "desc": "先免费后花钱，循序渐进最划算",
+          "nodes": [
+            {
+              "badge": "0",
+              "title": "BIOS 开 XMP / DOCP",
+              "meta": "零成本 · 立刻做",
+              "emoji": "⚡",
+              "tags": [
+                "免费",
+                "立刻提升"
+              ],
+              "desc": "海盗船 3200 套条目前可能跑在 2133 JEDEC，必须进 BIOS 开 XMP 才会到 3200。开机按 DEL 进 BIOS → OC / 内存设定 → 开 XMP 或 DOCP → 储存重开。",
+              "items": [
+                {
+                  "label": "对 Ryzen 帧数影响明显，且完全免费"
+                }
+              ]
+            },
+            {
+              "badge": "1",
+              "title": "更换显卡（性能提升核心）",
+              "meta": "性价比 ★★★★★",
+              "emoji": "🎮",
+              "tags": [
+                "核心",
+                "必做"
+              ],
+              "desc": "UE5 的 Lumen / Nanite 很吃显卡与显存，建议 12GB 以上显存 + 支持 DLSS / FSR。",
+              "items": [
+                {
+                  "label": "500W 金牌电源可轻松带 RTX 4060 / 4060 Ti / RX 6750 GRE"
+                },
+                {
+                  "label": "要上 4070 SUPER / 7700 XT 建议同步升 650W 电源"
+                }
+              ]
+            },
+            {
+              "badge": "2",
+              "title": "CPU 升级 Ryzen 5 5600 / 5700X3D",
+              "meta": "性价比 ★★★★☆",
+              "emoji": "🧠",
+              "tags": [
+                "换 BIOS 后直插"
+              ],
+              "desc": "更新 BIOS 后直接换，不需换主板、不需重买散热（玄冰400 压 5700X3D 没问题）。",
+              "items": [
+                {
+                  "label": "5600 性价比高，配 4060 级别刚刚好"
+                },
+                {
+                  "label": "5700X3D 对游戏低帧提升巨大，是 AM4 平台的终极游戏 U"
+                }
+              ]
+            },
+            {
+              "badge": "3",
+              "title": "内存扩到 32GB（选配）",
+              "meta": "选配 · 依需求再升",
+              "emoji": "🧩",
+              "desc": "16GB 玩 UE5 还够，但《黑神话》《艾尔登法环》开高材质会偏紧。建议直接买 2×16GB 全新套装，别在旧条上叠加。"
+            },
+            {
+              "badge": "4",
+              "title": "存储扩充（选配）",
+              "meta": "选配 · 空间不够再说",
+              "emoji": "💾",
+              "desc": "500G 系统盘 + 1~2 个 UE5 大作就满了。可加一条 1~2T NVMe 当游戏盘（2.5\" SATA SSD 也很便宜，¥300~400 / 1T）。"
+            }
+          ]
+        },
+        {
+          "icon": "chart",
+          "title": "显卡选购参考",
+          "kind": "table",
+          "desc": "按预算挑，UE5 建议显存 ≥ 12GB",
+          "table": {
+            "headers": [
+              "型号",
+              "显存",
+              "适合场景",
+              "参考价",
+              "评价"
+            ],
+            "rows": [
+              [
+                "RTX 3060 12G",
+                "12GB",
+                "1080p 中高画质",
+                "¥1,600~1,900",
+                "预算入门"
+              ],
+              [
+                "RX 6650 XT 8G",
+                "8GB",
+                "1080p 高画质",
+                "¥1,500~1,700",
+                "预算入门"
+              ],
+              [
+                "RTX 4060 8G",
+                "8GB",
+                "1080p 高画质流畅 / 2K 中画质",
+                "¥2,100~2,400",
+                "主流首选 · 有 DLSS3"
+              ],
+              [
+                "RX 6750 GRE 12G",
+                "12GB",
+                "1080p 全高 / 2K 中高",
+                "¥2,000~2,300",
+                "性价比高 · 显存足"
+              ],
+              [
+                "RTX 4060 Ti 16G",
+                "16GB",
+                "2K 中高画质",
+                "¥3,100~3,500",
+                "2K 均衡"
+              ],
+              [
+                "RX 7700 XT 12G",
+                "12GB",
+                "2K 高画质",
+                "¥2,900~3,300",
+                "2K 性价比"
+              ],
+              [
+                "RTX 4070 SUPER 12G",
+                "12GB",
+                "2K 全高 / 4K 入门",
+                "¥4,300~4,800",
+                "高阶"
+              ],
+              [
+                "RX 7800 XT 16G",
+                "16GB",
+                "2K 全高 / 4K 中高",
+                "¥3,800~4,300",
+                "高阶"
+              ]
+            ]
+          }
+        },
+        {
+          "icon": "tool",
+          "title": "CPU 选购参考",
+          "kind": "table",
+          "desc": "先到 MSI 官网更新 BIOS，再换 CPU",
+          "table": {
+            "headers": [
+              "型号",
+              "核心/线程",
+              "适合场景",
+              "参考价",
+              "评价"
+            ],
+            "rows": [
+              [
+                "Ryzen 5 5600（散片）",
+                "6C/12T",
+                "配 4060 / 6750GRE 级别",
+                "¥650~750",
+                "性价比之王"
+              ],
+              [
+                "Ryzen 5 5600（盒装）",
+                "6C/12T",
+                "同上，附散热器",
+                "¥800~900",
+                "省事之选"
+              ],
+              [
+                "Ryzen 5 5600X",
+                "6C/12T",
+                "与 5600 差异很小",
+                "¥850~950",
+                "可略过"
+              ],
+              [
+                "Ryzen 7 5700X",
+                "8C/16T",
+                "游戏 + 生产力兼顾",
+                "¥1,000~1,200",
+                "均衡"
+              ],
+              [
+                "Ryzen 7 5700X3D",
+                "8C/16T",
+                "游戏低帧提升巨大",
+                "¥1,400~1,600",
+                "AM4 游戏首选"
+              ],
+              [
+                "Ryzen 7 5800X3D",
+                "8C/16T",
+                "AM4 最强游戏 U",
+                "¥1,800~2,200",
+                "预算充足才考虑"
+              ]
+            ]
+          }
+        },
+        {
+          "icon": "box",
+          "title": "其他零件参考",
+          "kind": "table",
+          "desc": "内存 / SSD / 电源 / 散热，按需再动",
+          "table": {
+            "headers": [
+              "类别",
+              "型号举例",
+              "规格 / 说明",
+              "参考价"
+            ],
+            "rows": [
+              [
+                "内存",
+                "金百达 银爵 32GB (16×2) DDR4 3200",
+                "预算首选 · 建议直接买全新套装",
+                "¥300~360"
+              ],
+              [
+                "内存",
+                "芝奇 焰光戟 32GB (16×2) DDR4 3600",
+                "RGB 颜值 + 高频",
+                "¥450~550"
+              ],
+              [
+                "SSD",
+                "铠侠 RC20 1TB",
+                "NVMe Gen3 · 性价比高",
+                "¥380~450"
+              ],
+              [
+                "SSD",
+                "致态 TiPlus 7100 1TB",
+                "NVMe Gen4 · 旗舰级",
+                "¥500~580"
+              ],
+              [
+                "电源",
+                "550W 金牌全模组",
+                "4060 / 6750GRE 安全选择",
+                "¥280~350"
+              ],
+              [
+                "电源",
+                "650W 金牌全模组",
+                "4060Ti / 7700XT / 7800XT",
+                "¥350~450"
+              ],
+              [
+                "散热",
+                "利民 AX120 R SE",
+                "单塔风冷 · 5600 标配",
+                "¥60~80"
+              ],
+              [
+                "散热",
+                "利民 PA120",
+                "双塔风冷 · X3D 推荐",
+                "¥130~180"
+              ]
+            ]
+          }
+        },
+        {
+          "icon": "sparkle",
+          "title": "推荐组合方案",
+          "kind": "cards",
+          "desc": "依预算选一套，直接照抄",
+          "cards": [
+            {
+              "title": "方案 A · 显卡优先",
+              "desc": "约 ¥2,100~2,400 · RTX 4060 / RX 6750 GRE，沿用原 CPU + 500W · 1080p 高画质 60+ FPS",
+              "emoji": "🅰️"
+            },
+            {
+              "title": "方案 B · 显卡 + CPU",
+              "desc": "约 ¥2,800~3,200 · R5 5600 + RTX 4060 / 6750GRE，沿用 500W + 玄冰400 · 1080p 全高 80+ FPS",
+              "emoji": "🅱️",
+              "badge": "★ 推荐"
+            },
+            {
+              "title": "方案 C · 2K 进阶",
+              "desc": "约 ¥4,500~5,200 · R7 5700X3D + 4060 Ti 16G / 7700 XT，电源升 650W · 2K 中高 60+ FPS",
+              "emoji": "🅲"
+            },
+            {
+              "title": "方案 D · 旗舰 2K",
+              "desc": "约 ¥6,300~7,200 · 5800X3D + 4070 SUPER / 7800 XT，升 750W · 2K 全高 90+ FPS",
+              "emoji": "🅳"
+            }
+          ]
+        },
+        {
+          "icon": "check",
+          "title": "动手前检查清单",
+          "kind": "list",
+          "list": [
+            {
+              "items": [
+                "BIOS 开 XMP：DEL 进 BIOS → OC / Tweaker → 开 XMP（华硕叫 DOCP）→ 储存退出，内存从 2133 升到 3200",
+                "更新 BIOS：到 MSI 官网 B450M MORTAR MAX 页面下载最新版（支援 Ryzen 5000）",
+                "检查 GPU 供电线：航嘉 500W 金牌有 8pin PCIe，4060 / 4060Ti / 6750GRE 都能直接接"
+              ],
+              "icon": "✅",
+              "title": "立刻做"
+            },
+            {
+              "items": [
+                "量机箱显卡位深度，高阶卡（如 4070S）通常 30cm 上下",
+                "内存插在第 2、4 槽（A2/B2）就是双通道，开了 XMP 会跑 3200",
+                "换卡后用 DDU 卸载旧驱动再装新驱动，避免冲突",
+                "CPU 重装要重涂硅脂，检查扣具别压太紧"
+              ],
+              "icon": "📏",
+              "title": "装机前确认"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "icon": "💰",
+          "title": "省钱贴士",
+          "items": [
+            "SSD / RAM / 电源 / 散热都到位，不用再花钱",
+            "只需升 CPU + 显卡；闲鱼 / 京东拍拍的 R5 5600 散片很保值，约 ¥650",
+            "显卡建议买全新，避开矿卡"
+          ]
+        },
+        {
+          "icon": "⚠️",
+          "title": "顺序提醒",
+          "items": [
+            "先开 XMP → 升显卡 → 升 CPU，循序渐进最划算",
+            "以上价格为 2026 年市场参考价，实际以京东 / 淘宝 / 拼多多当日行情为准"
+          ]
+        }
+      ],
+      "visible": true,
+      "sort": 3,
+      "updatedAt": "2026-09-15T02:50:03.656Z"
+    },
+    {
+      "id": "game-mods",
+      "title": "热门 MOD 游戏推荐",
+      "subtitle": "一个游戏变 N 个游戏 · 2026 整理",
+      "category": "game",
+      "emoji": "🎮",
+      "gradient": "from-rose-500 via-fuchsia-600 to-purple-800",
+      "tags": [
+        "MOD",
+        "大型扩展",
+        "单机"
+      ],
+      "summary": "15 年的 MOD 生态能把一个游戏变成 N 个游戏。按五个梯队整理，从零成本老游戏焕新到独立体量的大型扩展。",
+      "meta": [
+        {
+          "label": "分类",
+          "value": "5 个梯队"
+        },
+        {
+          "label": "平台",
+          "value": "Steam / 工坊"
+        },
+        {
+          "label": "成本",
+          "value": "多数免费"
+        },
+        {
+          "label": "更新",
+          "value": "2026"
+        }
+      ],
+      "sections": [
+        {
+          "icon": "gamepad",
+          "title": "第一梯队 · 一个游戏变 N 个游戏",
+          "kind": "cards",
+          "desc": "MOD 生态足够撑起独立作品",
+          "cards": [
+            {
+              "title": "上古卷轴 5：天际",
+              "desc": "Enderal / Beyond Skyrim，15 年 MOD 生态六位数起步，Enderal 已是独立体量新游戏；还能整成「少女卷轴」、加生存系统、现代武器载具",
+              "emoji": "🗡️",
+              "badge": "MOD 之王"
+            },
+            {
+              "title": "盖瑞模组",
+              "desc": "本身就是数字乐高，造计算机、沙盒、RP 服务器，什么都能玩",
+              "emoji": "🧱"
+            },
+            {
+              "title": "博德之门 3",
+              "desc": "官方支持 MOD，职业体系、遭遇战、UI 全面重做",
+              "emoji": "🎲",
+              "badge": "官方支持"
+            },
+            {
+              "title": "辐射 4",
+              "desc": "联邦重建、新势力 MOD，和天际同门，废土玩法彻底重铸",
+              "emoji": "☢️"
+            }
+          ]
+        },
+        {
+          "icon": "layers",
+          "title": "第二梯队 · 大型扩展 ≈ 官方 DLC",
+          "kind": "cards",
+          "desc": "装上去等于白送一个新游戏",
+          "cards": [
+            {
+              "title": "环世界 RimWorld",
+              "desc": "工坊 4 万+ MOD，Combat Extended 重做战斗、中世纪化模组把科幻殖民地变成奇幻大陆，装 150 个 MOD 再开局是常态",
+              "emoji": "🌍"
+            },
+            {
+              "title": "泰拉瑞亚",
+              "desc": "灾厄（Calamity）和瑟银（Thorium）等于白送两个新游戏，几十小时的新 Boss、新职业、新事件",
+              "emoji": "⚔️"
+            },
+            {
+              "title": "星露谷物语",
+              "desc": "星露谷扩展（SVE）新增一整片地图和几十个新 NPC，原版玩腻了必备",
+              "emoji": "🌾",
+              "badge": "必备"
+            },
+            {
+              "title": "我的世界",
+              "desc": "GTNH、RLCraft 等大型整合包，核心玩法完全不同",
+              "emoji": "⛏️"
+            },
+            {
+              "title": "杀戮尖塔 / 雨中冒险 2 / 以撒的结合",
+              "desc": "Downfall（扮演 Boss）、Starstorm 2 等大型扩展，肉鸽内容无限叠加",
+              "emoji": "🃏"
+            }
+          ]
+        },
+        {
+          "icon": "grid",
+          "title": "第三梯队 · 策略 / 模拟类",
+          "kind": "cards",
+          "desc": "一套机制换一套玩法",
+          "cards": [
+            {
+              "title": "文明 6",
+              "desc": "「和而不同」平衡大包、「城市之光」每城独立经济、「超级大国」加全球变暖 / 瘟疫 / 贸易垄断",
+              "emoji": "🏛️"
+            },
+            {
+              "title": "三国志 11",
+              "desc": "血色衣冠——中文策略圈神作级剧本，武将数值、单挑机制、地图剧本全部重构，十几年生态依然活跃",
+              "emoji": "🐉",
+              "badge": "中文必玩"
+            },
+            {
+              "title": "全面战争：三国",
+              "desc": "武将合集（上百历史人物 + 独立技能树）、MTU（立绘事件重做）、分久必明（官职 + 经济重做）",
+              "emoji": "🗡️"
+            },
+            {
+              "title": "群星 / 十字军之王 3",
+              "desc": "Gigastructural Engineering 宇宙玩法翻倍、AGOT 冰与火之歌等全世界观替换",
+              "emoji": "🌌"
+            },
+            {
+              "title": "异星工厂 Factorio",
+              "desc": "Krastorio 2、Space Exploration、Bob's & Angel's——40 小时的游戏拉成 400 小时的执念",
+              "emoji": "🏭"
+            },
+            {
+              "title": "城市：天际线",
+              "desc": "30 万+ 工坊资产，真实交通、真实人口，模拟城市玩家的最终归宿",
+              "emoji": "🏙️"
+            }
+          ]
+        },
+        {
+          "icon": "star",
+          "title": "第四梯队 · 开放世界与经典焕新",
+          "kind": "cards",
+          "desc": "整活与低成本高回报",
+          "cards": [
+            {
+              "title": "GTA5",
+              "desc": "FiveM RP 服务器——从单机变成完全不同的联机角色扮演世界，玩法跟本体毫无关系",
+              "emoji": "🚗",
+              "badge": "整活"
+            },
+            {
+              "title": "艾尔登法环",
+              "desc": "无缝联机 MOD 把单机魂系变成合作开荒游戏，还有各种随机化 MOD",
+              "emoji": "💍"
+            },
+            {
+              "title": "赛博朋克 2077",
+              "desc": "大型 MOD 生态成熟，V 的身份故事、义体系统重制",
+              "emoji": "🌃"
+            },
+            {
+              "title": "魔兽争霸 3",
+              "desc": "海量 RPG 地图（军团 TD、各种肉鸽地图），现在依然天天有新图",
+              "emoji": "🐺"
+            },
+            {
+              "title": "暗黑破坏神 2 重制版",
+              "desc": "PD2（Project Diablo 2）重做技能与赛季玩法，老玩家公认最耐玩版本",
+              "emoji": "😈"
+            },
+            {
+              "title": "求生之路 2",
+              "desc": "官方停止更新的游戏，靠 MOD 活到 2026 年",
+              "emoji": "🧟"
+            },
+            {
+              "title": "宝可梦",
+              "desc": "Radical Red、Emerald Kaizo 等 ROM hack，难度和机制完全重构",
+              "emoji": "⚡",
+              "badge": "零成本"
+            }
+          ]
+        },
+        {
+          "icon": "lightbulb",
+          "title": "针对性建议",
+          "kind": "list",
+          "desc": "按当下想玩什么来挑",
+          "list": [
+            {
+              "items": [
+                "泰拉瑞亚灾厄、环世界"
+              ],
+              "icon": "🔥",
+              "title": "想肝"
+            },
+            {
+              "items": [
+                "三国志 11 血色衣冠（免费 MOD，中文圈子最成熟）"
+              ],
+              "icon": "♟️",
+              "title": "想搞策略"
+            },
+            {
+              "items": [
+                "艾尔登法环无缝联机、GTA5 的 FiveM"
+              ],
+              "icon": "🎪",
+              "title": "想整活"
+            },
+            {
+              "items": [
+                "魔兽争霸 3 老图、宝可梦 ROM hack 都是零成本"
+              ],
+              "icon": "💰",
+              "title": "想省钱"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "icon": "🛡️",
+          "title": "打 Mod 通用黄金法则",
+          "items": [
+            "备份存档——任何大型 Mod 都有炸档风险，先复制存档文件夹",
+            "一次别装太多——大型 Mod 之间数值冲突严重，控制数量",
+            "前置框架必装——很多 Mod 需要公共前置（如天际的 SKSE、鬼谷的 Fatury 框架）",
+            "注意排序——框架 → 修复 → 功能 → 剧情 → 大型综合，加载顺序决定成败",
+            "首选创意工坊 / 官方平台——第三方整合包很多夹带私货，安全性差",
+            "开新档——大型 Mod 基本都推荐新档游玩，老档容易属性错乱"
+          ]
+        }
+      ],
+      "visible": true,
+      "sort": 4,
+      "updatedAt": "2026-09-15T02:50:03.656Z"
+    },
+    {
+      "id": "lean-plan",
+      "title": "轻盈计划 · 减脂健身",
+      "subtitle": "Leah 的减脂追踪台 · 按自己的节奏来",
+      "category": "health",
+      "emoji": "💪",
+      "gradient": "from-emerald-500 via-teal-600 to-cyan-700",
+      "tags": [
+        "减脂",
+        "力量训练",
+        "习惯"
+      ],
+      "summary": "用连续趋势理解变化，不被单日数字影响。65.0 kg → 58.0 kg，温和可持续的能量缺口。",
+      "meta": [
+        {
+          "label": "当前",
+          "value": "65.0 kg"
+        },
+        {
+          "label": "目标",
+          "value": "58.0 kg"
+        },
+        {
+          "label": "每日",
+          "value": "1700 kcal"
+        },
+        {
+          "label": "步数",
+          "value": "8000"
+        }
+      ],
+      "sections": [
+        {
+          "icon": "zap",
+          "title": "每日能量预算",
+          "kind": "cards",
+          "desc": "营养值用于日常估算，生重熟重按食物状态记录",
+          "cards": [
+            {
+              "title": "每日总热量",
+              "desc": "1700 kcal 预算 · 温和缺口，可持续优先",
+              "emoji": "🔥",
+              "badge": "目标"
+            },
+            {
+              "title": "蛋白质 110g",
+              "desc": "按体重约 1.7g/kg，减脂期保护肌肉",
+              "emoji": "🥩"
+            },
+            {
+              "title": "碳水 190g",
+              "desc": "优先全谷物、薯类，训练日可略高",
+              "emoji": "🍚"
+            },
+            {
+              "title": "脂肪 55g",
+              "desc": "坚果、橄榄油、深海鱼为主，不低于 0.8g/kg",
+              "emoji": "🥑"
+            }
+          ]
+        },
+        {
+          "icon": "calendar",
+          "title": "每周训练安排",
+          "kind": "timeline",
+          "desc": "力量、有氧都可记录；完成质量比堆叠数字更重要",
+          "nodes": [
+            {
+              "badge": "一",
+              "title": "力量 · 推",
+              "meta": "上肢推",
+              "emoji": "🏋️",
+              "tags": [
+                "胸 / 肩 / 三头"
+              ],
+              "desc": "每个动作 4 组 × 8-12 次，留 1-2 次余力",
+              "items": [
+                {
+                  "label": "卧推 / 哑铃卧推"
+                },
+                {
+                  "label": "站姿推举"
+                },
+                {
+                  "label": "双杠臂屈伸 / 绳索下压"
+                }
+              ]
+            },
+            {
+              "badge": "二",
+              "title": "有氧 · 轻量",
+              "meta": "恢复日",
+              "emoji": "🚶",
+              "tags": [
+                "快走 / 慢跑"
+              ],
+              "desc": "30-40 分钟中低强度，心率保持在能说话的区间"
+            },
+            {
+              "badge": "三",
+              "title": "力量 · 拉",
+              "meta": "下肢 + 背",
+              "emoji": "🦵",
+              "tags": [
+                "腿 / 背 / 二头"
+              ],
+              "desc": "深蹲 + 硬拉为主，动作标准优先于重量",
+              "items": [
+                {
+                  "label": "深蹲 / 高脚杯深蹲"
+                },
+                {
+                  "label": "罗马尼亚硬拉"
+                },
+                {
+                  "label": "划船 / 引体"
+                }
+              ]
+            },
+            {
+              "badge": "六",
+              "title": "有氧 + 复盘",
+              "meta": "周末",
+              "emoji": "📊",
+              "tags": [
+                "周报"
+              ],
+              "desc": "一次较长有氧，然后打印周报，看本周稳定度而不是单日数字"
+            },
+            {
+              "badge": "日",
+              "title": "休息",
+              "meta": "同样是计划的一部分",
+              "emoji": "😴",
+              "desc": "睡够 7-8 小时，恢复不足会拉高食欲，减脂效率反而下降"
+            }
+          ]
+        },
+        {
+          "icon": "chart",
+          "title": "能量与宏量目标",
+          "kind": "table",
+          "table": {
+            "headers": [
+              "项目",
+              "目标",
+              "说明"
+            ],
+            "rows": [
+              [
+                "每日热量",
+                "1700 kcal",
+                "温和缺口，可持续优先"
+              ],
+              [
+                "蛋白质",
+                "110 g",
+                "约 1.7g/kg，保护肌肉"
+              ],
+              [
+                "碳水",
+                "190 g",
+                "训练日可上调 20-30g"
+              ],
+              [
+                "脂肪",
+                "55 g",
+                "不低于 0.8g/kg"
+              ],
+              [
+                "步数",
+                "8,000 步",
+                "NEAT 是减脂的隐形主力"
+              ],
+              [
+                "睡眠",
+                "7-8 h",
+                "恢复不足会拉高食欲"
+              ]
+            ]
+          }
+        },
+        {
+          "icon": "heart",
+          "title": "习惯与恢复",
+          "kind": "list",
+          "desc": "低摩擦记录活动、恢复和每天想坚持的小事",
+          "list": [
+            {
+              "items": [
+                "目标 7-8 小时，尽量固定作息"
+              ],
+              "icon": "😴",
+              "title": "睡眠"
+            },
+            {
+              "items": [
+                "每天 2000ml 以上，训练日再加 500ml"
+              ],
+              "icon": "💧",
+              "title": "饮水"
+            },
+            {
+              "items": [
+                "1 很低 / 5 很高，每天主观打分"
+              ],
+              "icon": "🔋",
+              "title": "精力"
+            },
+            {
+              "items": [
+                "1 很低 / 5 很高，持续高于 4 就降量"
+              ],
+              "icon": "💪",
+              "title": "酸痛"
+            }
+          ]
+        },
+        {
+          "icon": "sparkle",
+          "title": "温和洞察",
+          "kind": "text",
+          "desc": "只基于已记录数据",
+          "text": "记录仍在积累。完成今天的饮食、活动和恢复记录后，洞察会更贴近你。用连续趋势理解变化，不被单日数字影响。"
+        },
+        {
+          "icon": "shield",
+          "title": "免责声明",
+          "kind": "text",
+          "text": "本工具用于个人趋势记录，不作医疗诊断。疾病、孕哺期、未成年人、饮食障碍风险或明显不适时，请优先咨询医生或注册营养师。建议采用温和、可持续的能量缺口。"
+        }
+      ],
+      "tips": [
+        {
+          "icon": "🌱",
+          "title": "温和减脂原则",
+          "items": [
+            "用连续趋势理解变化，不被单日数字影响",
+            "力量训练 + 足够蛋白，减脂不减肌",
+            "每周体重下降 0.5%–1% 体重为宜",
+            "允许弹性，别追求完美"
+          ]
+        },
+        {
+          "icon": "📊",
+          "title": "记录建议",
+          "items": [
+            "体重固定晨起空腹称，看 7 日均值",
+            "饮食记录生重熟重按实际状态",
+            "每周打印一次周报做复盘"
+          ]
+        }
+      ],
+      "visible": true,
+      "sort": 5,
+      "updatedAt": "2026-09-15T02:50:03.657Z"
+    },
+    {
+      "id": "cooking-3-dishes",
+      "title": "今晚下厨指南",
+      "subtitle": "玉米排骨汤 · 木耳炒瘦肉 · 清炒西兰花",
+      "category": "life",
+      "emoji": "🍳",
+      "gradient": "from-amber-500 via-orange-600 to-red-700",
+      "tags": [
+        "家常菜",
+        "两人份",
+        "电饭煲"
+      ],
+      "summary": "三菜一汤两人份，照时间顺序来不慌：进门先泡木耳，排骨入锅再炒菜，最后 5 分钟炒西兰花。",
+      "meta": [
+        {
+          "label": "菜品",
+          "value": "3 道"
+        },
+        {
+          "label": "份量",
+          "value": "2 人"
+        },
+        {
+          "label": "耗时",
+          "value": "约 1.5h"
+        },
+        {
+          "label": "难度",
+          "value": "新手友好"
+        }
+      ],
+      "sections": [
+        {
+          "icon": "grid",
+          "title": "菜市场买菜清单（两人份）",
+          "kind": "table",
+          "desc": "照着买就行，挑选要点都在备注里",
+          "table": {
+            "headers": [
+              "食材",
+              "用量",
+              "挑选要点"
+            ],
+            "rows": [
+              [
+                "排骨（肋排）",
+                "约 400 克 / 8 两",
+                "骨头细、肉多、嫩；让摊主剁成 3-4 厘米小块，避开大棒骨"
+              ],
+              [
+                "甜玉米",
+                "1 根（大的）或 2 小根",
+                "选黄甜玉米，颗粒饱满；别买老糯玉米，煲汤不甜"
+              ],
+              [
+                "瘦肉（里脊/后腿）",
+                "约 150 克 / 3 两",
+                "里脊最嫩无筋膜，颜色淡红、纹理细腻、不粘手"
+              ],
+              [
+                "干木耳",
+                "约 15 克（一小把）",
+                "泡发膨胀 8-10 倍；或直接买鲜木耳约 150 克"
+              ],
+              [
+                "西兰花",
+                "1 个（约 350 克）",
+                "花球紧密、深绿、没开花，手感沉甸甸"
+              ],
+              [
+                "配料：姜 / 蒜 / 葱",
+                "小份即可",
+                "姜煲汤 + 爆香、蒜两道菜都要、葱撒花"
+              ],
+              [
+                "枸杞（可选）",
+                "一小包",
+                "汤里放点补血养眼"
+              ]
+            ]
+          }
+        },
+        {
+          "icon": "coffee",
+          "title": "电饭煲煲汤关键提醒",
+          "kind": "list",
+          "desc": "汤清不腥的六个要点",
+          "list": [
+            {
+              "items": [
+                "排骨必须先焯水：冷水下锅 + 几片姜 + 一勺料酒，大火煮开撇浮沫，再煮 2 分钟，捞出用温水冲洗",
+                "水量一次性加足（没过食材再多 3-4 厘米），中途别开盖加水，否则汤不鲜",
+                "选「煲汤」或「煮粥」功能，没有就选「煮饭」跑两轮，时间约 1~1.5 小时",
+                "盐最后 5 分钟再放，提前放盐肉会发柴、汤也不鲜",
+                "玉米切 3-4 厘米小段更容易入味，对半劈开也行",
+                "内胆放稳妥，加热盘擦干净再通电"
+              ],
+              "icon": "🍲",
+              "title": "煲汤关键"
+            }
+          ]
+        },
+        {
+          "icon": "calendar",
+          "title": "三道菜详细步骤",
+          "kind": "timeline",
+          "desc": "按顺序做，汤煲着的时候正好炒菜",
+          "nodes": [
+            {
+              "badge": "一",
+              "title": "玉米排骨汤（电饭煲）",
+              "meta": "先做 · 煲 1~1.5 小时",
+              "emoji": "🍲",
+              "tags": [
+                "电饭煲"
+              ],
+              "desc": "先做这个，煲着的时候再去炒菜。",
+              "items": [
+                {
+                  "label": "排骨冷水下锅，加 3 片姜 + 1 勺料酒，大火烧开撇去浮沫，再煮 2 分钟，捞出用温水冲净",
+                  "note": "别用冷水冲，肉会缩"
+                },
+                {
+                  "label": "玉米洗净切 3-4 厘米小段，姜切 2-3 片，葱打结备用"
+                },
+                {
+                  "label": "内胆放入焯好的排骨、玉米、姜片、葱结，加热水没过食材再多 3-4 厘米，不超最高水位线"
+                },
+                {
+                  "label": "盖上盖，选「煲汤」功能，时间设 1~1.5 小时，启动"
+                },
+                {
+                  "label": "出锅前 5 分钟开盖加盐调味，撒一把枸杞，再盖盖焖 5 分钟"
+                },
+                {
+                  "label": "盛碗时撒点葱花，完成"
+                }
+              ],
+              "footer": [
+                {
+                  "icon": "alert-circle",
+                  "label": "注意",
+                  "value": "焯水必须冷水下锅才能逼出血水；中途别开盖；盐务必最后放",
+                  "warn": true
+                }
+              ]
+            },
+            {
+              "badge": "二",
+              "title": "木耳炒瘦肉",
+              "meta": "汤煲上后做 · 约 20 分钟",
+              "emoji": "🥘",
+              "desc": "汤煲上之后做这个，前后约 20 分钟。",
+              "items": [
+                {
+                  "label": "提前泡木耳：干木耳冷水泡 2-3 小时（赶时间用温水 40-50 分钟），泡发后撕小朵，去掉根部硬蒂，反复洗净泥沙"
+                },
+                {
+                  "label": "瘦肉切薄片，加半勺生抽 + 半勺料酒 + 半勺淀粉，抓匀腌 10 分钟",
+                  "note": "肉片嫩的关键"
+                },
+                {
+                  "label": "蒜切末；烧一锅水，水开下木耳焯 1-2 分钟捞出沥干",
+                  "note": "焯过口感脆、不易爆锅"
+                },
+                {
+                  "label": "热锅凉油，下腌好的肉片快速滑炒，变色立即盛出备用"
+                },
+                {
+                  "label": "锅中留底油，下蒜末爆香，倒入木耳翻炒 1 分钟，加少许盐"
+                },
+                {
+                  "label": "倒回肉片，加半勺生抽翻匀，出锅"
+                }
+              ],
+              "footer": [
+                {
+                  "icon": "alert-circle",
+                  "label": "注意",
+                  "value": "肉片要腌才嫩；热锅凉油防粘；木耳一定焯水，否则下锅容易溅油爆响；干木耳现泡现吃，泡过夜别吃",
+                  "warn": true
+                }
+              ]
+            },
+            {
+              "badge": "三",
+              "title": "清炒西兰花",
+              "meta": "最后做 · 5 分钟",
+              "emoji": "🥦",
+              "desc": "最后做，5 分钟搞定，趁绿上桌。",
+              "items": [
+                {
+                  "label": "西兰花掰成小朵（别用刀切，手掰更规整），茎部去皮切片也能吃"
+                },
+                {
+                  "label": "用淡盐水浸泡 10 分钟去小虫和农残，再冲洗干净沥干"
+                },
+                {
+                  "label": "烧水，水开下西兰花焯 1 分钟，水里加少许盐 + 几滴油",
+                  "note": "保持翠绿"
+                },
+                {
+                  "label": "热锅下油，蒜末爆香，下西兰花大火快炒 1-2 分钟"
+                },
+                {
+                  "label": "加盐调味，翻匀出锅"
+                }
+              ],
+              "footer": [
+                {
+                  "icon": "alert-circle",
+                  "label": "注意",
+                  "value": "焯水是保持翠绿脆嫩的关键，别省；大火快炒时间要短，炒久会发黄变软",
+                  "warn": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "icon": "home",
+          "title": "今晚时间线（照这个顺序不慌）",
+          "kind": "timeline",
+          "nodes": [
+            {
+              "badge": "0",
+              "title": "进门先泡木耳",
+              "meta": "第 0 分钟",
+              "emoji": "⏱️",
+              "desc": "冷水泡上，顺手把米淘好（如果吃米饭）"
+            },
+            {
+              "badge": "5",
+              "title": "处理排骨焯水",
+              "meta": "第 5 分钟",
+              "emoji": "🥩",
+              "desc": "玉米切块，准备煲汤料"
+            },
+            {
+              "badge": "15",
+              "title": "排骨入电饭煲",
+              "meta": "第 15 分钟",
+              "emoji": "🍲",
+              "desc": "加水启动煲汤，1~1.5 小时倒计时开始"
+            },
+            {
+              "badge": "⏳",
+              "title": "煲汤期间备菜",
+              "meta": "20-70 分钟",
+              "emoji": "🔪",
+              "desc": "腌瘦肉、切蒜、焯木耳，把木耳炒瘦肉做好装盘"
+            },
+            {
+              "badge": "🥦",
+              "title": "做清炒西兰花",
+              "meta": "汤好前 15 分钟",
+              "emoji": "🥦",
+              "desc": "5 分钟搞定，三菜就齐了"
+            },
+            {
+              "badge": "🍽️",
+              "title": "全部上桌",
+              "meta": "开饭",
+              "emoji": "🍽️",
+              "desc": "汤加盐调味，撒葱花和枸杞"
+            }
+          ]
+        }
+      ],
+      "tips": [
+        {
+          "icon": "⚠️",
+          "title": "关键要点",
+          "items": [
+            "焯水一定冷水下锅才能逼出血水，别省这一步",
+            "木耳一定焯水，否则下锅容易溅油爆响",
+            "西兰花焯水是保持翠绿脆嫩的关键",
+            "干木耳现泡现吃，泡过夜别吃"
+          ]
+        }
+      ],
+      "visible": true,
+      "sort": 6,
+      "updatedAt": "2026-09-15T02:50:03.657Z"
+    }
+  ]
+}
