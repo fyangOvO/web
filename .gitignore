@@ -17,4 +17,5 @@ cookie.txt
 .tmp/
 .trae/
 .workbuddy-ai/
+.workbuddy/
 .DS_Store
